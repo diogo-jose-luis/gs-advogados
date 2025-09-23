@@ -1,0 +1,203 @@
+{
+  "top": { "help": "Como podemos ajudar ?" },
+
+  "nav": {
+    "home": "Início",
+    "about": "Quem somos",
+    "practices": "Competências",
+    "team": "Equipa",
+    "podcast": "Podcast",
+    "legal": {
+      "label": "Informações jurídicas",
+      "articles": "Artigos & Relatórios",
+      "guides": "Orientações práticas",
+      "docs": "Documentos"
+    }
+  },
+
+  "cta": { "join": "Junte-se a nós" },
+
+  "hero": {
+    "welcome": "Bem-vindo a",
+    "title": "GS ADVOGADOS",
+    "lead": "Lideramos a advocacia nos setores financeiro e empresarial.",
+    "exp": "Temos mais de 20 anos de experiência.",
+    "contact": "Contacte-nos"
+  },
+  "practice": {
+    "empresarial": {
+      "title": "EMPRESARIAL & CONTRATOS",
+      "desc": "Constituição de sociedades, revisão/negociação de contratos e governação. Atuamos do arranque à expansão, reduzindo riscos e acelerando decisões."
+    },
+    "contencioso": {
+      "title": "CONTENCIOSO & ARBITRAGEM",
+      "desc": "Planeamento processual, medidas cautelares e execução. Experiência em litígios cíveis e comerciais e em arbitragens nacionais, com foco em solução rápida e eficaz."
+    },
+    "laboral": {
+      "title": "LABORAR E MIGRAÇÃO",
+      "desc": "Políticas internas, contratos, disciplinares e cessação. Vistos e mobilização de expatriados, garantindo conformidade com a legislação laboral angolana."
+    }
+  },
+  "about": {
+    "title": "Quem Somos",
+    "lead": "A GS ADVOGADOS é a primeira sociedade de advogados constituída em Angola, e está organizada de forma a dar resposta rápida e eficaz às necessidades de assistência jurídica dos seus constituintes.",
+    "cta": "Saiba mais"
+  },
+
+  "practices": {
+    "heading": "Áreas Práticas Legais",
+    "subheading": "NO QUE SOMOS ESPECIALISTAS",
+    "more": "Ver mais",
+    "items": {
+      "publico": {
+        "title": "PÚBLICO & ADMINISTRATIVO",
+        "desc": "Assessoria e litígios envolvendo o Estado, atos administrativos e parcerias com o setor público."
+      },
+      "civil": {
+        "title": "CIVIL, COMERCIAL & CONSUMIDOR",
+        "desc": "Defesa em conflitos entre particulares e empresas, relações de consumo e cobrança de créditos."
+      },
+      "energiaRecursos": {
+        "title": "ENERGIA & RECURSOS NATURAIS",
+        "desc": "Consultoria regulatória e contratual em setores extrativos e de utilidade pública."
+      },
+      "familia": {
+        "title": "FAMÍLIA & SUCESSÕES",
+        "desc": "Planeamento familiar e resolução de conflitos pessoais e patrimoniais."
+      },
+      "saude": {
+        "title": "SAÚDE & RESPONSABILIDADE MÉDICA",
+        "desc": "Atuação em erros médicos e responsabilidades civil e penal no âmbito da saúde."
+      },
+      "laboralSegSocial": {
+        "title": "LABORAL & SEGURANÇA SOCIAL",
+        "desc": "Representação em litígios de trabalho e matérias previdenciárias."
+      }
+    }
+  },
+
+  "why": {
+    "heading": {
+      "line1": "Porque Nossos Clientes",
+      "line2": "Nos Escolhem"
+    },
+    "stats": {
+      "clients": "Consultado por clientes",
+      "recovered": "Custos recuperados para clientes",
+      "professionals": "Profissionais da GS Advogados",
+      "successRate": "Casos de sucesso"
+    },
+    "kicker": "NO QUE SOMOS EXPERTS"
+  },
+  "cases": {
+    "kicker": "Casos mais recentes",
+    "heading": "Nossos Casos de Estudo",
+    "more": "Ver todos",
+    "items": {
+      "case1": "Redução de Multa Aduaneira e Liberação de Carga",
+      "case2": "Licenciamento e Conteúdo Local para Prestador Petrolífero",
+      "case3": "PPP de Iluminação Pública: Da Modelagem ao Closing"
+    }
+  },
+  "consult": {
+    "heading": "Consulta grátis",
+    "lede": "A lei é um assunto complexo. Pode causar-lhe sérios problemas. Deixa-nos ajudar!",
+    "fields": {
+      "name": "Nome*",
+      "phone": "Telefone*",
+      "topic": "Assunto",
+      "email": "Email*",
+      "message": "Mensagem*"
+    },
+    "topics": {
+      "corporate": "Lei corporativa",
+      "litigation": "Contencioso",
+      "labour": "Laboral",
+      "migration": "Migração",
+      "tax": "Fiscal",
+      "other": "Outro"
+    },
+    "submit": "Submeter agora",
+    "sending": "A enviar…",
+    "success": "Obrigado! Recebemos a sua mensagem.",
+    "error": "Preencha os campos obrigatórios ou tente novamente."
+  },
+  "alerts": {
+    "heading": "Alertas legais",
+    "all": "Ler todos os artigos",
+    "items": {
+      "a1": "Uma forma de perceber Direito, a ciência do Direito",
+      "a2": "Regime jurídico das sociedades unipessoais de direito angolano",
+      "a3": "Breves notas sobre a exclusão de sócios nas sociedades por quotas"
+    }
+  },
+  "map": {
+    "heading": "Onde estamos",
+    "lede": "Visite-nos ou trace a sua rota até ao nosso escritório.",
+    "iframeTitle": "Mapa do escritório GS Advogados",
+    "address": {
+      "label": "Morada",
+      "line1": "GS Advogados",
+      "line2": "Luanda, Angola"
+    },
+    "directions": "Traçar rota",
+    "directionsHref": "https://maps.google.com/?q=GS%20Advogados%20Luanda"
+  },
+
+  "footer": {
+    "about": "Defendemos os seus interesses com estratégia, transparência e resultados.",
+    "contact": {
+      "title": "Contacto Info",
+      "addr1": "1. Luanda – Rua Amílcar Cabral nº 29/ RC",
+      "addr2": "2. Huíla – Lubango, Rua Capelo & Ivens, apartamento H, 2.º Andar, Bairro Catorze de Abril.",
+      "addr3": "3. Benguela, Catumbela",
+      "phone": "(+244) 949 370 338"
+    },
+    "practices": {
+      "title": "Áreas de atuação",
+      "items": [
+        "Redução de Multa Aduaneira e Liberação de Carga",
+        "Licenciamento e Conteúdo Local para Prestador Petrolífero",
+        "PPP de Iluminação Pública: Da Modelagem ao Closing"
+      ]
+    },
+    "nav": {
+      "home": "Início",
+      "cases": "Casos",
+      "about": "Sobre nós",
+      "legal": "Legal",
+      "privacy": "Política de privacidade"
+    },
+    "footerNavAria": "Links do rodapé",
+    "copyright": "Direitos de cópia 2025 GS ADVOGADOS, Todos os direitos reservados."
+  },
+  "join": {
+    "heroTitle": "Submissão de candidatura",
+    "heroSubtitle": "Junte-se à GS Advogados. Envie o seu currículo e entraremos em contacto.",
+    "name": "Seu nome",
+    "email": "Seu e-mail",
+    "cv": "Carregue o seu CV",
+    "submit": "Submeter",
+    "sending": "A enviar…",
+    "ok": "Recebemos a sua candidatura. Obrigado!",
+    "error": "Não foi possível enviar agora. Tente novamente."
+  },
+
+  "team": {
+    "heading": "A nossa equipa",
+    "lede": "Conheça os profissionais que estão por trás dos nossos resultados."
+  },
+
+  "notFound": {
+    "title": "Página não encontrada",
+    "subtitle": "Parece que este endereço não existe.",
+    "lede": "O link pode ter sido removido, renomeado ou estar temporariamente indisponível.",
+    "goHome": "Voltar ao início",
+    "seeAll": "Ver páginas em construção"
+  },
+  "underConstruction": {
+    "title": "Página em construção",
+    "subtitle": "Estamos a preparar esta secção para si.",
+    "lede": "Enquanto finalizamos os conteúdos, pode regressar à página inicial ou navegar pelas áreas já disponíveis."
+  }
+}

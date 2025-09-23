@@ -1,26 +1,36 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Base */
+@layer base {
+  :root { --radius: 12px; }
+  html, body { height: 100%; }
+  body { @apply bg-white text-gs-ink antialiased font-sans; } /* mantém */
+
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Components */
+@layer components {
+  /* container padrão do site */
+  .container-gs { @apply mx-auto max-w-container px-4 lg:px-6; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  /* BOTÕES GS (cantos retos) */
+  .btn-gs {
+    @apply inline-flex items-center justify-center
+           bg-gs-red hover:bg-gs-redDark text-white font-semibold
+           px-5 py-2 rounded-none transition;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .btn-gs-sm {
+    @apply inline-flex items-center justify-center
+           bg-gs-red hover:bg-gs-redDark text-white font-semibold
+           px-4 py-2 rounded-none transition;
+  }
+   .btn-gs-outline {
+    @apply inline-flex items-center justify-center
+           border border-gs-red text-gs-ink
+           px-4 py-2 rounded-none text-sm transition
+           hover:border-gs-redDark;
+  }
 }

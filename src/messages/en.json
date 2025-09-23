@@ -1,0 +1,201 @@
+{
+  "top": { "help": "How can we help?" },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "practices": "Practices",
+    "team": "Team",
+    "podcast": "Podcast",
+    "legal": {
+      "label": "Legal Information",
+      "articles": "Articles & Reports",
+      "guides": "Practical Guidelines",
+      "docs": "Documents"
+    }
+  },
+
+  "cta": { "join": "Join us" },
+
+  "hero": {
+    "welcome": "Welcome to",
+    "title": "GS ADVOGADOS",
+    "lead": "We lead advocacy in financial and business industries.",
+    "exp": "Over 20 years of experience.",
+    "contact": "Contact us"
+  },
+  "practice": {
+    "empresarial": {
+      "title": "CORPORATE & CONTRACTS",
+      "desc": "Company formation, contract review/negotiation and governance. We support from kickoff to scale, reducing risk and accelerating decisions."
+    },
+    "contencioso": {
+      "title": "LITIGATION & ARBITRATION",
+      "desc": "Procedural planning, interim measures and enforcement. Civil and commercial disputes and national arbitrations, with fast, effective outcomes."
+    },
+    "laboral": {
+      "title": "EMPLOYMENT & IMMIGRATION",
+      "desc": "Internal policies, contracts, disciplinary matters and termination. Visas and expatriate mobility, ensuring compliance with Angolan labor law."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "lead": "GS ADVOGADOS is the first law firm established in Angola, structured to deliver fast and effective responses to our clients’ legal needs.",
+    "cta": "Learn more"
+  },
+  "practices": {
+    "heading": "Legal Practice Areas",
+    "subheading": "WHAT WE SPECIALISE IN",
+    "more": "See more",
+    "items": {
+      "publico": {
+        "title": "PUBLIC & ADMINISTRATIVE",
+        "desc": "Advisory and disputes involving the State, administrative acts and partnerships with the public sector."
+      },
+      "civil": {
+        "title": "CIVIL, COMMERCIAL & CONSUMER",
+        "desc": "Representation in disputes between individuals and companies, consumer relations and debt collection."
+      },
+      "energiaRecursos": {
+        "title": "ENERGY & NATURAL RESOURCES",
+        "desc": "Regulatory and contractual advice for extractive industries and public utility sectors."
+      },
+      "familia": {
+        "title": "FAMILY & SUCCESSION",
+        "desc": "Family planning and resolution of personal and property disputes."
+      },
+      "saude": {
+        "title": "HEALTH & MEDICAL LIABILITY",
+        "desc": "Medical malpractice matters and civil/criminal liability in the healthcare context."
+      },
+      "laboralSegSocial": {
+        "title": "EMPLOYMENT & SOCIAL SECURITY",
+        "desc": "Representation in labour disputes and social security matters."
+      }
+    }
+  },
+  "why": {
+    "heading": {
+      "line1": "Why Our Clients",
+      "line2": "Choose Us"
+    },
+    "stats": {
+      "clients": "Clients consulted",
+      "recovered": "Costs recovered for clients",
+      "professionals": "GS Advogados professionals",
+      "successRate": "Success rate"
+    },
+    "kicker": "WHAT WE ARE EXPERTS IN"
+  },
+  "cases": {
+    "kicker": "Most recent cases",
+    "heading": "Our Case Studies",
+    "more": "View all",
+    "items": {
+      "case1": "Reduction of Customs Fine and Cargo Release",
+      "case2": "Licensing and Local Content for an Oilfield Service Provider",
+      "case3": "Public Lighting PPP: From Structuring to Closing"
+    }
+  },
+  "consult": {
+    "heading": "Free consultation",
+    "lede": "Law is complex and can cause serious problems. Let us help.",
+    "fields": {
+      "name": "Name*",
+      "phone": "Phone*",
+      "topic": "Topic",
+      "email": "Email*",
+      "message": "Message*"
+    },
+    "topics": {
+      "corporate": "Corporate law",
+      "litigation": "Litigation",
+      "labour": "Employment",
+      "migration": "Migration",
+      "tax": "Tax",
+      "other": "Other"
+    },
+    "submit": "Submit now",
+    "sending": "Sending…",
+    "success": "Thank you! We have received your message.",
+    "error": "Please fill the required fields or try again."
+  },
+  "alerts": {
+    "heading": "Legal alerts",
+    "all": "Read all articles",
+    "items": {
+      "a1": "A way to understand Law, the science of Law",
+      "a2": "Legal regime of single-member companies under Angolan law",
+      "a3": "Brief notes on the exclusion of partners in limited liability companies"
+    }
+  },
+
+  "map": {
+    "heading": "Where to find us",
+    "lede": "Visit us or get directions to our office.",
+    "iframeTitle": "GS Advogados office map",
+    "address": {
+      "label": "Address",
+      "line1": "GS Advogados",
+      "line2": "Luanda, Angola"
+    },
+    "directions": "Get directions",
+    "directionsHref": "https://maps.google.com/?q=GS%20Advogados%20Luanda"
+  },
+
+  "footer": {
+    "about": "We defend your interests with strategy, transparency and results.",
+    "contact": {
+      "title": "Contact Info",
+      "addr1": "1. Luanda – Rua Amílcar Cabral No. 29/RC",
+      "addr2": "2. Huíla – Lubango, Rua Capelo & Ivens, apt. H, 2nd floor, Bairro Catorze de Abril.",
+      "addr3": "3. Benguela, Catumbela",
+      "phone": "(+244) 949 370 338"
+    },
+    "practices": {
+      "title": "Practice areas",
+      "items": [
+        "Reduction of Customs Fine & Cargo Release",
+        "Licensing & Local Content for Oilfield Service Provider",
+        "Public Lighting PPP: From Structuring to Closing"
+      ]
+    },
+    "nav": {
+      "home": "Home",
+      "cases": "Cases",
+      "about": "About us",
+      "legal": "Legal",
+      "privacy": "Privacy policy"
+    },
+    "footerNavAria": "Footer links",
+    "copyright": "Copyright 2025 GS ADVOGADOS, All rights reserved."
+  },
+  "join": {
+    "heroTitle": "Application submission",
+    "heroSubtitle": "Join GS Advogados. Send us your résumé and we will get back to you.",
+    "name": "Your name",
+    "email": "Your e-mail",
+    "cv": "Upload your CV",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "ok": "We have received your application. Thank you!",
+    "error": "Could not send now. Please try again."
+  },
+  "team": {
+    "heading": "Our Team",
+    "lede": "Meet the professionals behind our results."
+  },
+
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "It looks like this address doesn’t exist.",
+    "lede": "The link may have been removed, renamed or is temporarily unavailable.",
+    "goHome": "Back to home",
+    "seeAll": "See pages under construction"
+  },
+  "underConstruction": {
+    "title": "Page under construction",
+    "subtitle": "We’re preparing this section for you.",
+    "lede": "While we finalize the content, you can go back to the homepage or browse the sections already available."
+  }
+}
