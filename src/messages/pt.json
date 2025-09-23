@@ -10,6 +10,7 @@
       "sectors": "Setores de jurisdição"
     },
     "team": "Equipa",
+    "contact": "contactos",
     "podcast": "Podcast",
     "legal": {
       "label": "Informações jurídicas",
@@ -315,6 +316,119 @@
           "desc": "Planeamento sucessório, inventários, partilhas e gestão de heranças com foco na preservação do património."
         }
       }
+    }
+  },
+  "competenciasSetores": {
+    "heroTitle": "Setores de jurisdição",
+    "heroSubtitle": "As áreas onde atuamos com profundidade técnica e visão setorial.",
+    "grid": {
+      "comercialSocietario": {
+        "title": "Direito Comercial & Societário",
+        "desc": "Constituição de empresas, fusões e aquisições, contratos comerciais."
+      },
+      "laboralSegSocial": {
+        "title": "Direito Laboral & Segurança Social",
+        "desc": "Relações de trabalho, contratos, litígios laborais e previdência."
+      },
+      "fiscalAduaneiro": {
+        "title": "Direito Fiscal & Aduaneiro",
+        "desc": "Planeamento fiscal, contencioso tributário e questões alfandegárias."
+      },
+      "civilContratos": {
+        "title": "Direito Civil & Contratos",
+        "desc": "Obrigações, responsabilidade civil, arrendamento, compra e venda."
+      },
+      "penalContraordenacional": {
+        "title": "Direito Penal & Contraordenacional",
+        "desc": "Defesa criminal e processos sancionatórios."
+      },
+      "administrativoRegulatorio": {
+        "title": "Direito Administrativo & Regulatório",
+        "desc": "Licenciamento, contratação pública e regulação setorial."
+      },
+      "imobiliarioUrbanistico": {
+        "title": "Direito Imobiliário & Urbanístico",
+        "desc": "Transações imobiliárias, registo predial, loteamentos."
+      },
+      "familiaSucessoes": {
+        "title": "Direito da Família & Sucessões",
+        "desc": "Casamento, divórcio, heranças e partilhas."
+      },
+      "arbitragemRal": {
+        "title": "Arbitragem & Resolução Alternativa de Litígios",
+        "desc": "Mediação e arbitragem nacional/internacional."
+      },
+      "propriedadeIntelectualTec": {
+        "title": "Propriedade Intelectual & Tecnologias",
+        "desc": "Marcas, patentes, direitos de autor e proteção de dados."
+      }
+    }
+  },
+  "podcastPage": {
+    "heroTitle": "Podcast GS Advogados",
+    "heroSubtitle": "Cortes e conversas sobre Direito, negócios e sociedade.",
+    "watch": "Assistir no YouTube",
+    "more": "Ver mais",
+    "items": {
+      "ep1": {
+        "title": "Corte - Cultura no Processo Migratório Brasileiro",
+        "desc": "Exploramos como a cultura se manifesta e se transforma no processo migratório brasileiro — das raízes que os migrantes trazem às adaptações no novo território."
+      },
+      "ep2": {
+        "title": "Corte - Código de Conduta vs Realidade Factual",
+        "desc": "A distância entre o que está escrito nos códigos de conduta e o que acontece no dia a dia, refletindo sobre ética, prática e contradições."
+      },
+      "ep3": {
+        "title": "Medidas de Coação – Convidado: Dr. Sérgio Raimundo",
+        "desc": "Análise clara sobre medidas de coação: objetivo, aplicação prática e impacto na proteção da justiça."
+      }
+    }
+  },
+  "legalArticles": {
+    "heroTitle": "Artigos & Relatórios",
+    "heroSubtitle": "Análises técnicas e reflexões práticas sobre temas jurídicos.",
+    "meta": {
+      "authors": {
+        "diogo": "diogo"
+      }
+    },
+    "items": {
+      "a1": {
+        "title": "Uma forma de perceber Direito, a Ciência do Direito",
+        "excerpt": "O presente Relatório trata de uma abordagem que se consubstancia como sendo um dos caminhos que leva ao crescimento académico-científico e à excelência profissional..."
+      },
+      "a2": {
+        "title": "Regime Jurídico das Sociedades Unipessoais de Direito Angolano",
+        "excerpt": "Este relatório aborda o regime jurídico das sociedades unipessoais no ordenamento jurídico angolano, destacando fundamentos, características e implicações práticas..."
+      },
+      "a3": {
+        "title": "Breves notas sobre a exclusão de sócios nas sociedades por quotas",
+        "excerpt": "Brevíssima abordagem sobre a evolução do instituto da exclusão de sócios nas sociedades comerciais, com foco especial nas sociedades por quotas..."
+      }
+    }
+  },
+  "contactPage": {
+    "heroTitle": "Contacte-nos",
+    "heroSubtitle": "Em caso de dúvida, entre em contacto, por favor.",
+    "info": {
+      "heading": "Informações de contacto",
+      "contacts": "Contactos",
+      "phonesLabel": "Telefones:",
+      "provLabel": "Huíla / Benguela —",
+      "provPhone": "Telefone: (+244) 948 555 516",
+      "offices": "Escritórios",
+      "social": "Redes sociais"
+    },
+    "form": {
+      "heading": "Preencha o formulário",
+      "name": "Nome completo",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar",
+      "sending": "A enviar…",
+      "ok": "Obrigado! A sua mensagem foi enviada.",
+      "error": "Não foi possível enviar agora. Tente novamente."
     }
   }
 }

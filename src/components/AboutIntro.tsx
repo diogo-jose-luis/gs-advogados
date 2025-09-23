@@ -32,7 +32,7 @@ export default function AboutIntro() {
             {t("about.lead")}
           </p>
 
-          <Link href="/quem-somos" className="mt-8 inline-flex btn-gs">
+          <Link href="/pt/quem-somos" className="mt-8 inline-flex btn-gs">
             {t("about.cta")}
           </Link>
         </div>

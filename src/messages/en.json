@@ -10,6 +10,7 @@
       "sectors": "Jurisdiction sectors"
     },
     "team": "Team",
+    "contact": "contacts",
     "podcast": "Podcast",
     "legal": {
       "label": "Legal Information",
@@ -313,6 +314,119 @@
           "desc": "Estate planning, probate, partition and inheritance management focused on asset preservation."
         }
       }
+    }
+  },
+  "competenciasSetores": {
+    "heroTitle": "Jurisdiction Sectors",
+    "heroSubtitle": "Sectors where we operate with deep expertise and industry insight.",
+    "grid": {
+      "comercialSocietario": {
+        "title": "Commercial & Corporate Law",
+        "desc": "Company incorporation, mergers & acquisitions, commercial contracts."
+      },
+      "laboralSegSocial": {
+        "title": "Employment & Social Security Law",
+        "desc": "Employment relations, contracts, labour disputes and social security."
+      },
+      "fiscalAduaneiro": {
+        "title": "Tax & Customs Law",
+        "desc": "Tax planning, tax litigation and customs matters."
+      },
+      "civilContratos": {
+        "title": "Civil Law & Contracts",
+        "desc": "Obligations, civil liability, leases, purchase and sale."
+      },
+      "penalContraordenacional": {
+        "title": "Criminal & Administrative Offences",
+        "desc": "Criminal defence and sanctioning proceedings."
+      },
+      "administrativoRegulatorio": {
+        "title": "Administrative & Regulatory Law",
+        "desc": "Licensing, public procurement and sectoral regulation."
+      },
+      "imobiliarioUrbanistico": {
+        "title": "Real Estate & Urban Planning",
+        "desc": "Real estate transactions, land registry, land development."
+      },
+      "familiaSucessoes": {
+        "title": "Family & Succession Law",
+        "desc": "Marriage, divorce, inheritance and partition."
+      },
+      "arbitragemRal": {
+        "title": "Arbitration & ADR",
+        "desc": "Mediation and arbitration, domestic and international."
+      },
+      "propriedadeIntelectualTec": {
+        "title": "Intellectual Property & Technology",
+        "desc": "Trademarks, patents, copyright and data protection."
+      }
+    }
+  },
+  "podcastPage": {
+    "heroTitle": "GS Advogados Podcast",
+    "heroSubtitle": "Clips and conversations on Law, business and society.",
+    "watch": "Watch on YouTube",
+    "more": "See more",
+    "items": {
+      "ep1": {
+        "title": "Clip – Culture in the Brazilian Migration Process",
+        "desc": "How culture manifests and transforms in the Brazilian migration process — from migrants’ roots to adaptations in the new territory."
+      },
+      "ep2": {
+        "title": "Clip – Code of Conduct vs. Reality",
+        "desc": "The gap between what is written in codes of conduct and what happens in practice, reflecting on ethics and contradictions."
+      },
+      "ep3": {
+        "title": "Coercive Measures – Guest: Dr. Sérgio Raimundo",
+        "desc": "A clear overview of coercive measures: purpose, practical application and impact on justice."
+      }
+    }
+  },
+  "legalArticles": {
+    "heroTitle": "Articles & Reports",
+    "heroSubtitle": "Technical analyses and practical reflections on legal topics.",
+    "meta": {
+      "authors": {
+        "diogo": "diogo"
+      }
+    },
+    "items": {
+      "a1": {
+        "title": "A Way to Understand Law, the Science of Law",
+        "excerpt": "This report presents an approach that contributes to academic growth and professional excellence in legal studies..."
+      },
+      "a2": {
+        "title": "Legal Regime of Single-Member Companies under Angolan Law",
+        "excerpt": "An overview of the legal framework governing single-member companies in Angola, highlighting foundations, features and practical implications..."
+      },
+      "a3": {
+        "title": "Brief Notes on the Exclusion of Partners in Limited Liability Companies",
+        "excerpt": "A short review of the evolution of partner exclusion in commercial companies, with special focus on limited liability companies..."
+      }
+    }
+  },
+  "contactPage": {
+    "heroTitle": "Contact us",
+    "heroSubtitle": "If you have any question, please get in touch.",
+    "info": {
+      "heading": "Contact information",
+      "contacts": "Contacts",
+      "phonesLabel": "Phones:",
+      "provLabel": "Huíla / Benguela —",
+      "provPhone": "Phone: (+244) 948 555 516",
+      "offices": "Offices",
+      "social": "Social media"
+    },
+    "form": {
+      "heading": "Fill the form",
+      "name": "Full name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending…",
+      "ok": "Thank you! Your message has been sent.",
+      "error": "We couldn’t send now. Please try again."
     }
   }
 }

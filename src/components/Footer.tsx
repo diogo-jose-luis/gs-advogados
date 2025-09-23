@@ -3,8 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "./Container";
-import {useTranslations} from "next-intl";
-import {Facebook, Linkedin, Instagram} from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Facebook, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -13,6 +13,8 @@ export default function Footer() {
     { href: "/", label: t("nav.home") },
     { href: "/casos", label: t("nav.cases") },
     { href: "/quem-somos", label: t("nav.about") },
+    // ✅ novo link para Contactos
+    { href: "/pt/contactos", label: t("contacto") },
     { href: "/legal", label: t("nav.legal") },
     { href: "/politica-de-privacidade", label: t("nav.privacy") }
   ];
@@ -98,7 +100,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Coluna 3: áreas de atuação (mesma cor do texto, sem vermelho) */}
+          {/* Coluna 3: áreas de atuação */}
           <div>
             <h3 className="font-heading text-2xl tracking-tight">
               {t("practices.title")}

@@ -51,7 +51,7 @@ export default function AreasPractices() {
                 {t(`practices.items.${it.key}.desc`)}
               </p>
 
-              <Link href={it.href} className="mt-4 inline-flex btn-gs-outline">
+              <Link href="#" className="mt-4 inline-flex btn-gs-outline">
                 {t("about.cta")}
               </Link>
             </article>
@@ -59,7 +59,7 @@ export default function AreasPractices() {
         </div>
 
         <div className="mt-8 md:mt-12 flex justify-end">
-          <Link href="/competencias" className="text-sm text-gs-ink/70 hover:text-gs-ink underline underline-offset-4">
+          <Link href="/pt/competencias" className="text-sm text-gs-ink/70 hover:text-gs-ink underline underline-offset-4">
             {t("practices.more")}
           </Link>
         </div>

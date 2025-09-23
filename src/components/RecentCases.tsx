@@ -53,7 +53,7 @@ export default function RecentCases() {
               className="rounded-xl bg-white shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden transition-transform hover:-translate-y-0.5"
             >
               <Link
-                href={`/casos/${c.slug}`}
+                href="#"
                 className="group block focus:outline-none focus-visible:ring-2 focus-visible:ring-gs-red"
               >
                 <div className="relative h-52 md:h-56">
@@ -79,7 +79,7 @@ export default function RecentCases() {
         {/* Link “ver todos” opcional */}
         <div className="mt-8 flex justify-end">
           <Link
-            href="/casos"
+            href="#"
             className="text-sm underline underline-offset-4 text-gs-ink/70 hover:text-gs-ink"
           >
             {t("more")}

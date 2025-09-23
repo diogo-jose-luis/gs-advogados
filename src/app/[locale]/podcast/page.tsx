@@ -2,23 +2,25 @@ import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 import StickyMenu from "@/components/StickyMenu";
 import HeaderTop from "@/components/HeaderTop";
-import SectorsGrid from "@/components/practices/SectorsGrid";
+import PodcastList from "@/components/podcast/PodcastList";
 import { getTranslations } from "next-intl/server";
 
-export default async function SetoresPage() {
-  const t = await getTranslations("competenciasSetores");
+export default async function PodcastPage() {
+  const t = await getTranslations("podcastPage");
 
   return (
     <>
       <StickyMenu />
       <HeaderTop />
+
       <PageHero
-        image="/banners/competencias.png" // coloque em public/banners/
+        image="/banners/banner_youtube.jpg"
         title={t("heroTitle")}
         subtitle={t("heroSubtitle")}
-        heightClass="h-[28vh] md:h-[34vh]"
+        heightClass="h-[30vh] md:h-[36vh]"
       />
-      <SectorsGrid />
+
+      <PodcastList channelUrl="https://www.youtube.com/@SEU_CANAL" />
       <Footer />
     </>
   );

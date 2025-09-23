@@ -183,7 +183,7 @@ export default function FreeConsult() {
 
                   <div className="min-w-0">
                     <Link
-                      href={`/artigos/${a.slug}`}
+                      href="#"
                       className="font-semibold text-gs-red hover:underline"
                     >
                       {tl(`items.${a.titleKey}`)}
@@ -205,7 +205,7 @@ export default function FreeConsult() {
 
             <div className="mt-8">
               <Link
-                href="/artigos"
+                href="/pt/informacoes-juridicas/artigos"
                 className="text-sm tracking-wide text-gs-ink/80 hover:text-gs-ink inline-flex items-center gap-2"
               >
                 {tl("all")} <span aria-hidden>→</span>

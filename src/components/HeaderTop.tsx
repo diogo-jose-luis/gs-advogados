@@ -30,7 +30,7 @@ export default function HeaderTop() {
       <header className="bg-white">
         <Container className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/logo-gs.png" alt="GS Advogados" width={44} height={44} />
+            <Image src="/logo-gs.png" alt="GS Advogados" width={120} height={44} />
             <span className="sr-only">GS Advogados</span>
           </Link>
 
