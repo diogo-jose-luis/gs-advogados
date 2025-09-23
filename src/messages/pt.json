@@ -4,7 +4,11 @@
   "nav": {
     "home": "Início",
     "about": "Quem somos",
-    "practices": "Competências",
+    "practices": {
+      "label": "Competências",
+      "areas": "Áreas de atuação",
+      "sectors": "Setores de jurisdição"
+    },
     "team": "Equipa",
     "podcast": "Podcast",
     "legal": {
@@ -199,5 +203,118 @@
     "title": "Página em construção",
     "subtitle": "Estamos a preparar esta secção para si.",
     "lede": "Enquanto finalizamos os conteúdos, pode regressar à página inicial ou navegar pelas áreas já disponíveis."
+  },
+  "aboutPage": {
+    "heroTitle": "Sobre A GS ADVOGADOS",
+    "heroSubtitle": "Conheça a nossa historia.",
+    "aboutIntro": {
+      "kicker": "SOBRE A GS ADVOGADOS",
+      "heading": "Nossa História",
+      "p1": "<b>A GS ADVOGADOS</b> é a primeira sociedade de advogados constituída em Angola, e está organizada de forma a dar resposta rápida e eficaz às necessidades de assistência jurídica dos seus constituintes.",
+      "p2": "<b>A GS ADVOGADOS</b> tem uma vasta equipa de experientes advogados, que exercendo advocacia com vocação, se propõe a cuidar dos interesses dos constituintes, com empenho, perspicácia e muito profissionalismo.",
+      "p3": "Na <b>GS ADVOGADOS</b> dedicamos a cada cliente uma atenção integral, individualizada e de alto nível. Com escopo de melhor servir os interesses dos nossos clientes, investimos na formação contínua e atualização constante da nossa equipa de advogados.",
+      "signature": "GUIMARÃES SILVA – CEO & FOUNDER",
+      "playAria": "Reproduzir vídeo de apresentação",
+      "close": "Fechar",
+      "videoTitle": "Apresentação GS Advogados"
+    },
+    "values": {
+      "kicker": "Nossos valores",
+      "heading": "Valores",
+      "lead": "A GS ADVOGADOS preza pelos princípios de negócios padronizados, inovação no controle de qualidade, celeridade, sigilo/confidencialidade, dinamismo, resiliência, integridade, harmonia, honestidade, excelência, orientação para o constituinte, a competitividade dos membros da equipa, que opera como factor de unificação dos colaboradores, tendo em vista a maximização dos resultados, que faz da GS ADVOGADOS o parceiro ideal para os seus constituintes. Destacamos entre os nossos valores:",
+      "bullets": [
+        "Integridade e transparência",
+        "Excelência e celeridade",
+        "Confidencialidade",
+        "Orientação ao cliente",
+        "Trabalho em equipa e competitividade"
+      ]
+    },
+    "recogSustain": {
+      "kicker": "O que nos sustenta",
+      "heading": "Reconhecimento e sustentabilidade",
+      "intro": "Ao longo dos anos, a GS Advogados consolidou a sua reputação pela confiança dos clientes, pelo rigor jurídico e pela dedicação da equipa. Esse reconhecimento reflete a qualidade dos serviços prestados e o compromisso com soluções jurídicas eficazes e inovadoras, sempre alinhadas com a responsabilidade social e ambiental.",
+      "recognition": {
+        "title": "Reconhecimento",
+        "body": "O reconhecimento alcançado é resultado da confiança dos clientes, da consistência técnica e do compromisso ético da nossa equipa. Trabalhamos para entregar resultados com celeridade, precisão e transparência."
+      },
+      "sustainability": {
+        "title": "Sustentabilidade",
+        "body": "Promovemos práticas responsáveis que contribuem para a comunidade e para o meio ambiente. Incentivamos iniciativas sustentáveis no dia a dia e em projetos que geram impacto positivo."
+      }
+    }
+  },
+  "competenciasPage": {
+    "heroTitle": "Áreas de atuação",
+    "heroSubtitle": "Conheça onde atuamos com experiência e resultados.",
+    "practices": {
+      "grid": {
+        "fiscalAduaneiro": {
+          "title": "Direito Fiscal e Aduaneiro",
+          "desc": "Impugnações e reclamações na AGT/Alfândegas, reclassificação pautal, redução de coimas e liberação de mercadorias."
+        },
+        "consumidor": {
+          "title": "Defesa do Consumidor",
+          "desc": "Atuação contra práticas abusivas, cláusulas inválidas e falhas de garantia, visando restituição e indemnização."
+        },
+        "civilComercial": {
+          "title": "Direito Civil, Contencioso Civil e Comercial",
+          "desc": "Elaboração de contratos e patrocínio em litígios empresariais e de responsabilidade civil em todas as instâncias."
+        },
+        "cobranca": {
+          "title": "Contencioso de Cobrança",
+          "desc": "Acordos, execuções e penhoras para recuperação célere e segura de créditos."
+        },
+        "penal": {
+          "title": "Contencioso Penal",
+          "desc": "Defesa técnica em investigações e processos criminais, com foco em crimes económicos e compliance penal."
+        },
+        "administrativo": {
+          "title": "Contratação Pública, PPP e Contencioso Administrativo",
+          "desc": "Assessoria em concursos, impugnações, execução contratual e modelagem de PPPs perante a Administração."
+        },
+        "recursosNaturais": {
+          "title": "Direito dos Recursos Naturais",
+          "desc": "Licenciamento, conteúdo local, contratos operacionais e compliance regulatório setorial."
+        },
+        "familia": {
+          "title": "Direito da Família",
+          "desc": "Soluções céleres em divórcio, alimentos, regulação parental e formalização de adoções."
+        },
+        "medico": {
+          "title": "Direito Médico",
+          "desc": "Perícia e patrocínio em ações por negligência, com apuração cível e penal."
+        },
+
+        "desporto": {
+          "title": "Direito do Desporto",
+          "desc": "Regulamentação desportiva, contratos de atletas e clubes, publicity rights e resolução de litígios em órgãos federativos."
+        },
+        "contenciosoAdministrativo": {
+          "title": "Contencioso Administrativo",
+          "desc": "Impugnação de atos administrativos, ações e recursos perante a Administração e tribunais administrativos."
+        },
+        "condominiarioImobiliario": {
+          "title": "Direito Condominial e Imobiliário",
+          "desc": "Condomínios, arrendamento, compra e venda, due diligence e regularização registral de imóveis."
+        },
+        "societario": {
+          "title": "Direito Societário",
+          "desc": "Constituição, governo societário, acordos de sócios, reorganizações e operações de M&A."
+        },
+        "trabalhoSegSocial": {
+          "title": "Direito do Trabalho e Segurança Social",
+          "desc": "Contratos, políticas internas, disciplinares e contencioso laboral. Atuação em contribuições e benefícios da segurança social."
+        },
+        "financeiroBancario": {
+          "title": "Direito Financeiro e Bancário",
+          "desc": "Regulação financeira, contratos bancários, garantias, meios de pagamento e compliance do sistema financeiro."
+        },
+        "sucessorio": {
+          "title": "Direito Sucessório",
+          "desc": "Planeamento sucessório, inventários, partilhas e gestão de heranças com foco na preservação do património."
+        }
+      }
+    }
   }
 }

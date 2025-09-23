@@ -2,12 +2,12 @@
 "use client";
 
 import Link from "next/link";
-import {useLocale, useTranslations} from "next-intl";
-import {X} from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { X } from "lucide-react";
 
 export default function MobileDrawer({
   open,
-  onClose
+  onClose,
 }: {
   open: boolean;
   onClose: () => void;
@@ -65,13 +65,27 @@ export default function MobileDrawer({
               </Link>
             </li>
             <li>
-              <Link
-                onClick={onClose}
-                href={withLocale("/competencias")}
-                className="block rounded-lg px-3 py-2 hover:bg-gray-100"
-              >
-                {t("nav.practices")}
-              </Link>
+              <details className="group">
+                <summary className="cursor-pointer rounded-lg px-3 py-2 hover:bg-gray-100 list-none">
+                  {t("nav.practices.label")}
+                </summary>
+                <div className="ml-2 mt-1 space-y-1">
+                  <Link
+                    onClick={onClose}
+                    href={withLocale("/competencias")}
+                    className="block rounded-lg px-3 py-2 hover:bg-gray-100"
+                  >
+                    {t("nav.practices.areas")}
+                  </Link>
+                  <Link
+                    onClick={onClose}
+                    href={withLocale("/competencias/setores")}
+                    className="block rounded-lg px-3 py-2 hover:bg-gray-100"
+                  >
+                    {t("nav.practices.sectors")}
+                  </Link>
+                </div>
+              </details>
             </li>
             <li>
               <Link

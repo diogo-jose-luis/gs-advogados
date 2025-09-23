@@ -30,7 +30,7 @@ export default function PageHero({
       />
 
       {/* overlay mais leve */}
-      <div className="absolute inset-0 bg-black/35" />
+      <div className="absolute inset-0 bg-black/60" />
 
       <div className="absolute inset-0 flex items-center">
         <div className="container-gs">

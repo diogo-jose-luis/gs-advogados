@@ -14,7 +14,7 @@ export default async function TeamPage() {
       <HeaderTop />
 
       <PageHero
-        image="/banners/about.PNG"    // coloca em public/banners/
+        image="/banners/about.png"    // coloca em public/banners/
         title={t("heading")}
         subtitle={t("lede")}
         heightClass="h-[30vh] md:h-[38vh]" // ligeiramente baixo

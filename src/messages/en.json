@@ -4,7 +4,11 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "practices": "Practices",
+    "practices": {
+      "label": "Practices",
+      "areas": "Practice areas",
+      "sectors": "Jurisdiction sectors"
+    },
     "team": "Team",
     "podcast": "Podcast",
     "legal": {
@@ -197,5 +201,118 @@
     "title": "Page under construction",
     "subtitle": "We’re preparing this section for you.",
     "lede": "While we finalize the content, you can go back to the homepage or browse the sections already available."
+  },
+  "aboutPage": {
+    "heroTitle": "About GS ADVOGADOS",
+    "heroSubtitle": "Get to know our story.",
+    "aboutIntro": {
+      "kicker": "ABOUT GS ADVOGADOS",
+      "heading": "Our Story",
+      "p1": "<b>GS ADVOGADOS</b> is the first law firm established in Angola, structured to deliver fast and effective responses to our clients’ legal needs.",
+      "p2": "<b>GS ADVOGADOS</b> brings a seasoned team of lawyers who, practicing with vocation, devote themselves to safeguarding clients’ interests with dedication, insight, and strong professionalism.",
+      "p3": "At <b>GS ADVOGADOS</b>, we offer each client comprehensive, individualized, high-level attention. To better serve our clients, we invest in continuous training and the constant development of our legal team.",
+      "signature": "GUIMARÃES SILVA – CEO & FOUNDER",
+      "playAria": "Play presentation video",
+      "close": "Close",
+      "videoTitle": "GS Advogados Presentation"
+    },
+    "values": {
+      "kicker": "Our values",
+      "heading": "Values",
+      "lead": "GS ADVOGADOS upholds standardized business principles, innovation in quality control, promptness, confidentiality, dynamism, resilience, integrity, harmony, honesty, excellence, client orientation, and team competitiveness as a unifying factor among collaborators, aiming to maximize results and making GS ADVOGADOS the ideal partner for its clients. Among our values, we highlight:",
+      "bullets": [
+        "Integrity and transparency",
+        "Excellence and promptness",
+        "Confidentiality",
+        "Client orientation",
+        "Teamwork and competitiveness"
+      ]
+    },
+    "recogSustain": {
+      "kicker": "What sustains us",
+      "heading": "Recognition and sustainability",
+      "intro": "Over the years, GS Advogados has consolidated its reputation through clients’ trust, legal rigor and the dedication of its team. This recognition reflects the quality of our services and our commitment to effective, innovative legal solutions aligned with social and environmental responsibility.",
+      "recognition": {
+        "title": "Recognition",
+        "body": "The recognition we have achieved stems from clients’ trust, technical consistency and our team’s ethical commitment. We work to deliver results with promptness, accuracy and transparency."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "body": "We promote responsible practices that contribute to the community and the environment. We support day-to-day initiatives and projects that generate positive impact."
+      }
+    }
+  },
+  "competenciasPage": {
+    "heroTitle": "Practice areas",
+    "heroSubtitle": "Where we operate with experience and results.",
+    "practices": {
+      "grid": {
+        "fiscalAduaneiro": {
+          "title": "Tax & Customs Law",
+          "desc": "Challenges and claims before the tax authority/customs, tariff reclassification, fine reduction and cargo release."
+        },
+        "consumidor": {
+          "title": "Consumer Protection",
+          "desc": "Actions against abusive practices, invalid clauses and warranty failures, seeking refunds and damages."
+        },
+        "civilComercial": {
+          "title": "Civil & Commercial Litigation",
+          "desc": "Contract drafting and advocacy in business disputes and civil liability at all instances."
+        },
+        "cobranca": {
+          "title": "Debt Collection Litigation",
+          "desc": "Settlements, enforcement and attachments for swift, secure recovery of credits."
+        },
+        "penal": {
+          "title": "Criminal Litigation",
+          "desc": "Defense in investigations and criminal proceedings, focused on economic crimes and penal compliance."
+        },
+        "administrativo": {
+          "title": "Public Procurement, PPP & Administrative Litigation",
+          "desc": "Advisory on tenders, challenges, contract execution and PPP structuring with the Administration."
+        },
+        "recursosNaturais": {
+          "title": "Natural Resources Law",
+          "desc": "Licensing, local content, operational contracts and sectoral regulatory compliance."
+        },
+        "familia": {
+          "title": "Family Law",
+          "desc": "Agile solutions for divorce, child support, parental regulation and adoption formalization."
+        },
+        "medico": {
+          "title": "Medical Law",
+          "desc": "Expertise and advocacy in negligence claims, with civil and criminal assessment."
+        },
+
+        "desporto": {
+          "title": "Sports Law",
+          "desc": "Sports regulation, athletes’ and clubs’ agreements, publicity rights and dispute resolution before federative bodies."
+        },
+        "contenciosoAdministrativo": {
+          "title": "Administrative Litigation",
+          "desc": "Challenges to administrative acts, actions and appeals before the Administration and administrative courts."
+        },
+        "condominiarioImobiliario": {
+          "title": "Condominium & Real Estate Law",
+          "desc": "Condominiums, leases, purchase and sale, due diligence and land registry regularisation."
+        },
+        "societario": {
+          "title": "Corporate Law",
+          "desc": "Incorporation, corporate governance, shareholders’ agreements, reorganisations and M&A transactions."
+        },
+        "trabalhoSegSocial": {
+          "title": "Labour & Social Security Law",
+          "desc": "Employment contracts, internal policies, disciplinary matters and labour disputes. Social security contributions and benefits."
+        },
+        "financeiroBancario": {
+          "title": "Financial & Banking Law",
+          "desc": "Financial regulation, banking contracts, guarantees, payment instruments and compliance in the financial system."
+        },
+        "sucessorio": {
+          "title": "Succession Law",
+          "desc": "Estate planning, probate, partition and inheritance management focused on asset preservation."
+        }
+      }
+    }
   }
 }
