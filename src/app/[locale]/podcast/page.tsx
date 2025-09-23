@@ -15,8 +15,8 @@ export default async function PodcastPage() {
 
       <PageHero
         image="/banners/banner_youtube.jpg"
-        title={t("heroTitle")}
-        subtitle={t("heroSubtitle")}
+        title=""
+        subtitle=""
         heightClass="h-[30vh] md:h-[36vh]"
       />
 
