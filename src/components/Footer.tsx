@@ -11,18 +11,18 @@ export default function Footer() {
 
   const nav = [
     { href: "/", label: t("nav.home") },
-    { href: "/casos", label: t("nav.cases") },
+    { href: "#", label: t("nav.cases") },
     { href: "/quem-somos", label: t("nav.about") },
     // ✅ novo link para Contactos
     { href: "/pt/contactos", label: t("contacto") },
-    { href: "/legal", label: t("nav.legal") },
-    { href: "/politica-de-privacidade", label: t("nav.privacy") }
+    { href: "#", label: t("nav.legal") },
+    { href: "#", label: t("nav.privacy") }
   ];
 
   const practices = [
-    { href: "/casos/1", label: t("practices.items.0") },
-    { href: "/casos/2", label: t("practices.items.1") },
-    { href: "/casos/3", label: t("practices.items.2") }
+    { href: "#", label: t("practices.items.0") },
+    { href: "#", label: t("practices.items.1") },
+    { href: "#", label: t("practices.items.2") }
   ];
 
   return (

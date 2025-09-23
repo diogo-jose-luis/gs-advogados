@@ -63,7 +63,7 @@ export default function ArticlesGrid() {
               >
                 {/* Imagem */}
                 <Link
-                  href={`/informacoes-juridicas/artigos/${a.slug}`}
+                  href="#"
                   className="block relative aspect-[4/3] overflow-hidden rounded-xl shadow-[0_10px_30px_rgba(0,0,0,0.08)]"
                 >
                   <Image
@@ -80,7 +80,7 @@ export default function ArticlesGrid() {
                 <div className="mt-5">
                   <h3 className="font-heading text-xl md:text-2xl text-gs-ink leading-snug">
                     <Link
-                      href={`/informacoes-juridicas/artigos/${a.slug}`}
+                       href="#"
                       className="underline-offset-4 hover:underline"
                     >
                       {title.toLocaleUpperCase(locale)}
