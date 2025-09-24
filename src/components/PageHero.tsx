@@ -44,8 +44,17 @@ export default function PageHero({
 
   return (
     <section className={`relative ${heightClass} ${className}`}>
-      <Image src={image} alt="" fill priority className="object-cover" sizes="100vw" />
-      <div className="absolute inset-0 bg-black/60" />
+      {/* imagem + leve clareamento */}
+      <Image
+        src={image}
+        alt=""
+        fill
+        priority
+        className="object-cover brightness-110"
+        sizes="100vw"
+      />
+      {/* overlay 70% transparente (30% opacidade) */}
+      <div className="absolute inset-0 bg-black/30" />
 
       <div className="absolute inset-0 flex items-center">
         <div
