@@ -11,12 +11,25 @@ import MobileDrawer from "./MobileDrawer";
 
 function LangSwitcher() {
   const locale = useLocale();
-  const pathname = usePathname().replace(/^\/(pt|en)/, "");
+  const raw = usePathname();
+  // remove prefixo /pt|/en e garante fallback "/"
+  const pathname = raw.replace(/^\/(pt|en)(?=\/|$)/, "") || "/";
+
   return (
     <div className="flex items-center gap-3 text-sm">
-      <Link href={`/pt${pathname}`} className={`hover:underline ${locale==="pt"?"font-semibold text-gs-red":""}`}>PT</Link>
+      <Link
+        href={`/pt${pathname === "/" ? "" : pathname}`}
+        className={`hover:underline ${locale === "pt" ? "font-semibold text-gs-red" : ""}`}
+      >
+        PT
+      </Link>
       <span className="text-gray-300">|</span>
-      <Link href={`/en${pathname}`} className={`hover:underline ${locale==="en"?"font-semibold text-gs-red":""}`}>EN</Link>
+      <Link
+        href={`/en${pathname === "/" ? "" : pathname}`}
+        className={`hover:underline ${locale === "en" ? "font-semibold text-gs-red" : ""}`}
+      >
+        EN
+      </Link>
     </div>
   );
 }
@@ -28,26 +41,38 @@ export default function HeaderTop() {
   return (
     <>
       <header className="bg-white">
-        <Container className="flex items-center justify-between h-20">
+        {/* altura mais enxuta */}
+        <Container className="flex items-center justify-between min-h-[130px] md:min-h-[100px] py-4 md:py-5">
+          {/* Logo com tamanho equilibrado */}
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/logo-gs.png" alt="GS Advogados" width={120} height={44} />
+            <Image
+              src="/logo-gs.png"
+              alt="GS Advogados"
+              width={170}
+              height={62}
+              className="h-auto w-[140px] md:w-[170px]"
+              priority
+            />
             <span className="sr-only">GS Advogados</span>
           </Link>
 
           <div className="flex items-center gap-6">
             <LangSwitcher />
-            <span className="hidden md:inline text-sm text-gs-gray">{t("top.help")}</span>
+            <span className="hidden md:inline text-sm text-gs-gray">
+              {t("top.help")}
+            </span>
 
-            {/* hambúrguer agora também no desktop */}
+            {/* hambúrguer visível no desktop */}
             <button
               onClick={() => setOpen(true)}
               className="p-2 rounded-lg border border-gray-200 hover:bg-gray-50 transition"
               aria-label="Abrir menu"
             >
-              <Menu size={22}/>
+              <Menu size={24} />
             </button>
           </div>
         </Container>
+        {/* <div className="h-px bg-gray-100" /> */}
       </header>
 
       <MobileDrawer open={open} onClose={() => setOpen(false)} />
