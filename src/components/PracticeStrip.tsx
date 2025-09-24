@@ -2,21 +2,20 @@
 
 import Image from "next/image";
 import Container from "./Container";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 const CARDS = [
   { id: "empresarial", image: "/teasers/empresarial.png" },
   { id: "contencioso", image: "/teasers/contencioso.png" },
-  { id: "laboral",     image: "/teasers/laboral.png" }
+  { id: "laboral", image: "/teasers/laboral.png" }
 ] as const;
 
 export default function PracticeStrip() {
   const t = useTranslations();
 
   return (
-    <section aria-labelledby="practices" className="relative z-10">
+    <section aria-labelledby="practices" className="relative z-10 mb-10">
       <Container>
-
         {/* ===== Mobile (< md): bloco por cartão (sem overlap) ===== */}
         <div className="md:hidden space-y-6">
           {CARDS.map((card, i) => (
@@ -32,10 +31,12 @@ export default function PracticeStrip() {
                 />
               </div>
               <div className="bg-[#F3F4F6] px-4 py-5">
-                <h3 className="font-heading text-base tracking-wide">
+                {/* Título: Poppins 17px */}
+                <h3 className="font-sans text-[17px] font-semibold text-gs-ink">
                   {t(`practice.${card.id}.title`)}
                 </h3>
-                <p className="mt-2 text-sm leading-relaxed text-gs-gray">
+                {/* Descrição: Poppins 14px (sem altura fixa no mobile) */}
+                <p className="mt-2 font-sans text-[14px] leading-relaxed text-gs-gray">
                   {t(`practice.${card.id}.desc`)}
                 </p>
               </div>
@@ -66,20 +67,22 @@ export default function PracticeStrip() {
             <div className="bg-[#F3F4F6]">
               <div className="grid grid-cols-3">
                 {CARDS.map((card) => (
-                  <div key={card.id} className="px-6 py-8">
-                    <h3 className="font-heading text-base md:text-lg tracking-wide">
+                  <div key={card.id} className="px-6 py-8 flex flex-col">
+                    {/* Título: Poppins 17px */}
+                    <h3 className="font-sans text-[17px] font-semibold text-gs-ink">
                       {t(`practice.${card.id}.title`)}
                     </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-gs-gray">
+                    {/* Descrição: Poppins 14px com altura fixa para alinhar as caixas */}
+                    <p className="mt-3 font-sans text-[14px] leading-relaxed text-gs-gray min-h-[84px]">
                       {t(`practice.${card.id}.desc`)}
                     </p>
+                    {/* (Opcional) CTA ou espaço extra aqui mantém o alinhamento */}
                   </div>
                 ))}
               </div>
             </div>
           </div>
         </div>
-
       </Container>
     </section>
   );

@@ -3,16 +3,16 @@
 
 import Image from "next/image";
 import Container from "./Container";
-import {useLocale, useTranslations} from "next-intl";
-import {useEffect, useMemo, useRef, useState} from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 type StatKey = "clients" | "recovered" | "professionals" | "successRate";
 
-const STATS: Array<{key: StatKey; value: string}> = [
-  { key: "clients",        value: "1000+" },
-  { key: "recovered",      value: "10M+" }, // mostra "10M+"
-  { key: "professionals",  value: "30+"   },
-  { key: "successRate",    value: "95%"   }
+const STATS: Array<{ key: StatKey; value: string }> = [
+  { key: "clients", value: "1000+" },
+  { key: "recovered", value: "10M+" },
+  { key: "professionals", value: "30+" },
+  { key: "successRate", value: "95%" }
 ];
 
 /** Conta de 0 até ao valor; preserva sufixos (%, +, M+, etc.) */
@@ -29,18 +29,17 @@ function Counter({
   const [display, setDisplay] = useState<string>("0");
   const rafRef = useRef<number | null>(null);
 
-  // extrai a parte numérica e o sufixo (ex.: "10M+" -> num=10, suffix="M+")
-  const {target, suffix} = useMemo(() => {
+  const { target, suffix } = useMemo(() => {
     const m = value.match(/^([\d.,]+)\s*([A-Za-z%+]+)?$/);
-    const numeric = m?.[1]?.replace(/[.,](?=\d{3}\b)/g, "") ?? "0"; // remove separadores milhar comuns
+    const numeric = m?.[1]?.replace(/[.,](?=\d{3}\b)/g, "") ?? "0";
     const num = Number(numeric.replace(",", "."));
-    const sfx = (m?.[2] ?? "");
-    return {target: isFinite(num) ? num : 0, suffix: sfx};
+    const sfx = m?.[2] ?? "";
+    return { target: isFinite(num) ? num : 0, suffix: sfx };
   }, [value]);
 
   useEffect(() => {
     const start = performance.now();
-    const fmt = new Intl.NumberFormat(locale, {maximumFractionDigits: 0});
+    const fmt = new Intl.NumberFormat(locale, { maximumFractionDigits: 0 });
 
     const tick = (now: number) => {
       const p = Math.min(1, (now - start) / duration);
@@ -49,7 +48,6 @@ function Counter({
       if (p < 1) rafRef.current = requestAnimationFrame(tick);
     };
 
-    // inicial para evitar mismatch
     setDisplay(`0${suffix}`);
     rafRef.current = requestAnimationFrame(tick);
     return () => {
@@ -68,7 +66,7 @@ export default function WhyChooseUs() {
       {/* faixa de imagem */}
       <div className="relative h-[38vh] md:h-[46vh]">
         <Image
-          src="/why/hero.png" // coloque a imagem em public/why/hero.jpg
+          src="/why/hero.png"
           alt=""
           fill
           priority
@@ -80,15 +78,17 @@ export default function WhyChooseUs() {
       {/* bloco branco */}
       <div className="bg-white">
         <Container className="py-10 md:py-14">
-          <header>
-            <h2 className="font-heading text-4xl md:text-6xl lg:text-7xl leading-[0.95] tracking-tight text-gs-ink">
+          {/* Título e subtítulo com consistência */}
+          <header className="text-left">
+            <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
               {t("heading.line1")}<br className="hidden md:block" />
               {t("heading.line2")}
             </h2>
+
+            <p className="mt-4 font-sans text-[16px] md:text-[18px] text-gs-ink/80">
+              {t("kicker")}
+            </p>
           </header>
-           <p className="mt-8 text-[11px] md:text-xs tracking-widest font-semibold text-gs-ink/80 uppercase">
-            {t("kicker")}
-          </p>
 
           {/* métricas com contador */}
           <div className="mt-8 md:mt-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
@@ -104,8 +104,6 @@ export default function WhyChooseUs() {
               </div>
             ))}
           </div>
-
-         
         </Container>
       </div>
     </section>

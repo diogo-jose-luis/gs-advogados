@@ -19,7 +19,7 @@ export default function HeroSlider() {
   ]);
   const [selected, setSelected] = useState(0);
 
-  // garante que o 1º slide também anima após montar
+  // anima o 1º slide após montar
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     const id = requestAnimationFrame(() => setMounted(true));
@@ -55,44 +55,46 @@ export default function HeroSlider() {
                     alt=""
                     fill
                     priority={i === 0}
-                    className="object-cover"
+                    className="object-cover brightness-110"
                   />
-                  <div className="absolute inset-0 bg-black/55" />
+                  {/* overlay 70% transparente (30% opacidade) */}
+                  <div className="absolute inset-0 bg-black/30" />
                 </div>
 
-                {/* texto sobreposto */}
+                {/* texto sobreposto (à esquerda) */}
                 <div className="absolute inset-0 flex items-center">
                   <Container>
                     <div
                       className={[
                         "max-w-2xl will-change-transform transition-all duration-500",
-                        show
-                          ? "opacity-100 translate-y-0"
-                          : "opacity-0 translate-y-2",
+                        show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2",
                       ].join(" ")}
                     >
+                      {/* 1º texto: Poppins 18px */}
                       <p
-                        className="text-white/80 transition-all duration-500"
+                        className="font-sans text-[16px] md:text-[18px] text-white/80 transition-all duration-500"
                         style={{ transitionDelay: show ? "40ms" : "0ms" }}
                       >
                         {t("hero.welcome")}
                       </p>
 
+                      {/* Título: Times New Roman 80px */}
                       <h1
-                        className="mt-2 font-heading text-4xl md:text-6xl text-white tracking-tight transition-all duration-700"
+                        className="mt-2 font-heading text-[40px] md:text-[80px] leading-[1.05] text-white tracking-tight transition-all duration-700"
                         style={{ transitionDelay: show ? "100ms" : "0ms" }}
                       >
                         {t("hero.title")}
                       </h1>
 
+                      {/* Últimas linhas: Poppins 18px */}
                       <p
-                        className="mt-4 text-white/90 transition-all duration-700"
+                        className="mt-4 font-sans text-[16px] md:text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "160ms" : "0ms" }}
                       >
                         {t("hero.lead")}
                       </p>
                       <p
-                        className="text-white/90 transition-all duration-700"
+                        className="font-sans text-[16px] md:text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "200ms" : "0ms" }}
                       >
                         {t("hero.exp")}

@@ -1,10 +1,10 @@
 "use client";
 
-import {FormEvent, useState} from "react";
+import { FormEvent, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Container from "./Container";
-import {useTranslations, useLocale} from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 type Alert = {
   slug: string;
@@ -47,15 +47,20 @@ export default function FreeConsult() {
   const tl = useTranslations("alerts");
   const locale = useLocale();
 
+  const prefix = locale ? `/${locale}` : "";
+  const withLocale = (p: string) => `${prefix}${p === "/" ? "" : p}`;
+
   // estado simples para o form
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState<null | "ok" | "err">(null);
 
   function fmtDate(iso: string) {
     try {
-      return new Intl.DateTimeFormat(locale, {day: "2-digit", month: "long", year: "numeric"}).format(
-        new Date(iso)
-      );
+      return new Intl.DateTimeFormat(locale, {
+        day: "2-digit",
+        month: "long",
+        year: "numeric"
+      }).format(new Date(iso));
     } catch {
       return iso;
     }
@@ -65,7 +70,6 @@ export default function FreeConsult() {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
 
-    // validação mínima
     if (!fd.get("name") || !fd.get("phone") || !fd.get("email") || !fd.get("message")) {
       setSent("err");
       return;
@@ -75,11 +79,8 @@ export default function FreeConsult() {
     setSent(null);
 
     try {
-      // 👉 integra com o teu endpoint quando existir
       // await fetch("/api/consult", { method: "POST", body: fd });
-
-      // simulação
-      await new Promise((r) => setTimeout(r, 900));
+      await new Promise((r) => setTimeout(r, 900)); // simulação
       setSent("ok");
       (e.target as HTMLFormElement).reset();
     } catch {
@@ -95,8 +96,14 @@ export default function FreeConsult() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14">
           {/* COLUNA ESQUERDA — FORM */}
           <div>
-            <h2 className="font-heading text-3xl md:text-5xl tracking-tight">{t("heading")}</h2>
-            <p className="mt-2 text-gs-ink/70">{t("lede")}</p>
+            {/* Título Times 96 / mobile reduzido */}
+            <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
+              {t("heading")}
+            </h2>
+            {/* Subtítulo Poppins 18 */}
+            <p className="mt-3 max-w-2xl font-sans text-[16px] md:text-[18px] text-gs-ink/80">
+              {t("lede")}
+            </p>
 
             <form onSubmit={onSubmit} className="mt-8 space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -164,11 +171,14 @@ export default function FreeConsult() {
           <aside>
             <h3 className="font-heading text-2xl md:text-3xl">{tl("heading")}</h3>
 
-            <ul className="mt-6 space-y-6">
+            <ul className="mt-6">
               {ALERTS.map((a, i) => (
-                <li key={a.slug} className="flex gap-4">
+                <li
+                  key={a.slug}
+                  className="flex gap-4 pb-5 mb-5 border-b border-gray-200"
+                >
                   <Link
-                    href={`/artigos/${a.slug}`}
+                    href={withLocale(`/informacoes-juridicas/artigos/${a.slug}`)}
                     className="relative block aspect-[4/3] w-28 shrink-0 overflow-hidden rounded-sm"
                   >
                     <Image
@@ -183,7 +193,7 @@ export default function FreeConsult() {
 
                   <div className="min-w-0">
                     <Link
-                      href="#"
+                      href={withLocale(`/informacoes-juridicas/artigos/${a.slug}`)}
                       className="font-semibold text-gs-red hover:underline"
                     >
                       {tl(`items.${a.titleKey}`)}
@@ -205,7 +215,7 @@ export default function FreeConsult() {
 
             <div className="mt-8">
               <Link
-                href="/pt/informacoes-juridicas/artigos"
+                href={withLocale("/informacoes-juridicas/artigos")}
                 className="text-sm tracking-wide text-gs-ink/80 hover:text-gs-ink inline-flex items-center gap-2"
               >
                 {tl("all")} <span aria-hidden>→</span>
