@@ -4,10 +4,10 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 type Episode = {
-  id: string;            // YouTube video id
-  titleKey: string;      // i18n key em podcast.items.*
-  descKey: string;       // i18n key em podcast.items.*
-  thumb?: string;        // opcional: thumbnail custom; por padrão usa i.ytimg
+  id: string; // YouTube video id
+  titleKey: string; // i18n key em podcast.items.*
+  descKey: string; // i18n key em podcast.items.*
+  thumb?: string; // opcional: thumbnail custom; por padrão usa i.ytimg
 };
 
 const EPISODES: Episode[] = [
@@ -18,7 +18,9 @@ const EPISODES: Episode[] = [
 
 export default function PodcastList({
   channelUrl = "https://www.youtube.com/@NoqueTangePodcast", // <-- coloca o URL do teu canal
-}: { channelUrl?: string }) {
+}: {
+  channelUrl?: string;
+}) {
   const t = useTranslations("podcastPage");
 
   return (
@@ -28,7 +30,8 @@ export default function PodcastList({
           const title = t(`items.${ep.titleKey}`);
           const desc = t(`items.${ep.descKey}`);
           // thumb default do YouTube (não precisa configurar Next/Image)
-          const thumb = ep.thumb ?? `https://i.ytimg.com/vi/${ep.id}/hqdefault.jpg`;
+          const thumb =
+            ep.thumb ?? `https://i.ytimg.com/vi/${ep.id}/hqdefault.jpg`;
 
           return (
             <article
@@ -40,9 +43,7 @@ export default function PodcastList({
                 <h3 className="font-heading text-2xl md:text-[26px] text-gs-ink mb-3">
                   {title}
                 </h3>
-                <p className="font-sans text-gs-gray leading-relaxed">
-                  {desc}
-                </p>
+                <p className="font-sans text-gs-gray leading-relaxed">{desc}</p>
 
                 <div className="mt-4">
                   <Link
@@ -71,7 +72,12 @@ export default function PodcastList({
                   {/* play overlay */}
                   <span className="absolute inset-0 grid place-content-center">
                     <span className="grid h-14 w-14 place-content-center rounded-full bg-black/30 backdrop-blur-sm transition group-hover:bg-black/40">
-                      <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+                      <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 24 24"
+                        fill="white"
+                      >
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </span>

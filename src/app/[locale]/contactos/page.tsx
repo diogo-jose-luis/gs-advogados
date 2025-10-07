@@ -8,8 +8,7 @@ import MapBlock from "@/components/contact/MapBlock";
 import { getTranslations } from "next-intl/server";
 
 export default async function ContactosPage() {
-  const t = await getTranslations("contactPage");
-
+ 
   return (
     <>
       <StickyMenu />

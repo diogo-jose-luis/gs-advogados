@@ -1,3 +1,4 @@
+// src/app/[locale]/informacoes-juridicas/artigos/page.tsx
 import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 import StickyMenu from "@/components/StickyMenu";

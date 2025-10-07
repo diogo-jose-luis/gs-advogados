@@ -44,7 +44,7 @@ export default function RecentCases() {
               className="rounded-xl bg-white shadow-[0_10px_30px_rgba(0,0,0,0.08)] overflow-hidden transition-transform hover:-translate-y-0.5"
             >
               <Link
-                href={withLocale(`/casos/${c.slug}`)}
+                href="#"
                 className="group block focus:outline-none focus-visible:ring-2 focus-visible:ring-gs-red"
               >
                 <div className="relative h-52 md:h-56">

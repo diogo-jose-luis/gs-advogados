@@ -2,8 +2,8 @@ import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
 import StickyMenu from "@/components/StickyMenu";
 import HeaderTop from "@/components/HeaderTop";
-import PracticesGrid from "@/components/practices/PracticesGrid";
 import { getTranslations } from "next-intl/server";
+import AreasPracticesAll from "@/components/practices/AreasPracticesAll";
 
 export default async function CompetenciasPage() {
   const t = await getTranslations("competenciasPage");
@@ -18,7 +18,9 @@ export default async function CompetenciasPage() {
         subtitle={t("heroSubtitle")}
         heightClass="h-[32vh] md:h-[38vh]"
       />
-      <PracticesGrid />
+      
+      <AreasPracticesAll />
+
       <Footer />
     </>
   );

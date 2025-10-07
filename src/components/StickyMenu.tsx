@@ -28,8 +28,8 @@ const NAV = [
     key: "nav.legal.label",
     children: [
       { href: "/informacoes-juridicas/artigos", key: "nav.legal.articles" },
-      { href: "#", key: "nav.legal.guides" },
-      { href: "#", key: "nav.legal.docs" },
+      { href: "/informacoes-juridicas/orientacoes-praticas", key: "nav.legal.guides" },
+      { href: "/informacoes-juridicas/documentos", key: "nav.legal.docs" },
     ],
   },
 ];

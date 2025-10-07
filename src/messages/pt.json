@@ -316,6 +316,92 @@
           "desc": "Planeamento sucessório, inventários, partilhas e gestão de heranças com foco na preservação do património."
         }
       }
+    },
+    "more": "Saiba mais"
+  },
+  "competenciasDetails": {
+    "close": "Fechar",
+    "fiscalAduaneiro": {
+      "body": [
+        "Assessoria em contencioso tributário, processos de execução fiscal, impugnações e reclamações.",
+        "Planeamento fiscal responsável, enquadramento de operações e apoio em auditorias."
+      ]
+    },
+    "consumidor": {
+      "body": [
+        "Defesa do consumidor e do fornecedor em litígios de consumo.",
+        "Redacção e revisão de termos, garantias e políticas comerciais."
+      ]
+    },
+    "civilComercial": {
+      "body": [
+        "Contratos civis e comerciais, responsabilidade civil e cumprimento contratual.",
+        "Mediação e arbitragem em disputas empresariais."
+      ]
+    },
+    "cobranca": {
+      "body": [
+        "Cobrança judicial e extrajudicial, injunções e execuções.",
+        "Estratégias de recuperação de crédito com foco em custo-benefício."
+      ]
+    },
+    "penal": {
+      "body": [
+        "Patrocínio em inquérito e julgamento, crimes económicos e responsabilidade de gestores."
+      ]
+    },
+    "administrativo": {
+      "body": [
+        "Licenças, concursos e contratos públicos. Contencioso administrativo e regulatório."
+      ]
+    },
+    "recursosNaturais": {
+      "body": [
+        "Projectos de energia e recursos naturais, compliance regulatório e contratos setoriais."
+      ]
+    },
+    "familia": {
+      "body": [
+        "Divórcio, regulação das responsabilidades parentais, partilhas e inventário."
+      ]
+    },
+    "medico": {
+      "body": [
+        "Responsabilidade médica, consentimento informado e litígios com seguradoras/clinicas."
+      ]
+    },
+    "desporto": {
+      "body": [
+        "Contratos desportivos, transferências e resolução de litígios em federações."
+      ]
+    },
+    "contenciosoAdministrativo": {
+      "body": [
+        "Impugnação de actos administrativos, providências cautelares e execução de sentenças."
+      ]
+    },
+    "condominiarioImobiliario": {
+      "body": [
+        "Condomínios, locações, compra e venda e regularização registral."
+      ]
+    },
+    "societario": {
+      "body": [
+        "Constituição, governance, acordos de sócios e reestruturações societárias."
+      ]
+    },
+    "trabalhoSegSocial": {
+      "body": [
+        "Contratos de trabalho, despedimentos, incentivos e contencioso laboral e previdenciário."
+      ]
+    },
+    "financeiroBancario": {
+      "body": [
+        "Contratos bancários, garantias, compliance e resolução de litígios financeiros."
+      ]
+    },
+    "sucessorio": {
+      "body": ["Planeamento sucessório, testamentos, partilhas e inventário."]
     }
   },
   "competenciasSetores": {
@@ -389,23 +475,50 @@
     "heroSubtitle": "Análises técnicas e reflexões práticas sobre temas jurídicos.",
     "meta": {
       "authors": {
-        "diogo": "diogo"
+        "diogo": "diogo",
+        "Mateus": "Mateus"
       }
     },
     "items": {
       "a1": {
         "title": "Uma forma de perceber Direito, a Ciência do Direito",
-        "excerpt": "O presente Relatório trata de uma abordagem que se consubstancia como sendo um dos caminhos que leva ao crescimento académico-científico e à excelência profissional..."
+        "excerpt": "O presente Relatório apresenta uma abordagem para o crescimento académico-científico e a excelência profissional na Ciência do Direito.",
+        "body": [
+          "RESUMO",
+          "O presente Relatório trata de uma abordagem que se consubstância como sendo um dos caminhos que leva ao crescimento académico-científico e à excelência profissional no ramo da Ciência do Direito, este assunto designa-se “Investigação científica-jurídica. Uma forma de perceber direito, a ciência do direito”. O objectivo desse estudo consiste em capacitar os estudantes e professores da FDUAN ao maior interesse no conhecimento metodológico e investigativo da ciência jurídica como forma de perceberem mais e melhor sobre a amplitude do curso de direito.",
+          "Assim sendo, o presente Relatório apresenta-se estruturalmente em três Capítulos: o Primeiro, discorre num breve enquadramento teórico da metodologia de investigação científica no âmbito jurídico, isto é, a definição de Ciência, suas características e classificações, os caminhos estruturantes de uma pesquisa e o perfil da produção científica; o Segundo é uma análise concreta sobre a metodologia de investigação jurídica, ou seja, o estudo empírico, interdisciplinar e complexo da metodologia investigativa jurídica; o Terceiro e último, demonstra-se sinteticamente como é estruturado um Projecto de Pesquisa para Dissertação de Mestrado, de acordo com as normas de orientação da Faculdade de Direito da Universidade Agostinho Neto.",
+          "Palavras-chave: Metodologia de Investigação Científica; Investigação Jurídica; Projecto de Pesquisa; Ciência do Direito."
+        ]
       },
       "a2": {
         "title": "Regime Jurídico das Sociedades Unipessoais de Direito Angolano",
-        "excerpt": "Este relatório aborda o regime jurídico das sociedades unipessoais no ordenamento jurídico angolano, destacando fundamentos, características e implicações práticas..."
+        "excerpt": "Visão prática do regime aplicável às sociedades unipessoais no ordenamento jurídico angolano.",
+        "body": [
+          "RESUMO",
+          "O presente Relatório aborda o tema “Regime Jurídico das sociedades unipessoais no ordenamento jurídico angolano”. Para isso, estuda-se o substrato pessoal que caracteriza as sociedades unipessoais e as distingue das pluripessoais; a lei das sociedades unipessoais como a legislação que, no ordenamento jurídico angolano, trata das questões referentes a essas sociedades; e a demais legislação que disciplina, direta ou subsidiariamente, o seu funcionamento, organização e constituição.",
+          "A pesquisa mostra-se relevante para identificar como o ordenamento jurídico angolano trata as sociedades unipessoais em seus vários aspectos. Utilizou-se pesquisa bibliográfica e análise da lei, bem como metodologia dedutiva, para examinar os principais pontos relativos às sociedades unipessoais e à sua disciplina em Angola, em termos práticos e efetivos. O trabalho justifica-se pela novidade da unipessoalidade na legislação.",
+          "O estudo estrutura-se em três capítulos, cada um correspondente a um objetivo específico, tendo como objetivo geral o exame do regime jurídico das sociedades unipessoais no ordenamento jurídico angolano.",
+          "Palavras-chave: Sociedades unipessoais; Sócio único; Unipessoalidade; Lei das Sociedades Unipessoais."
+        ]
       },
       "a3": {
         "title": "Breves notas sobre a exclusão de sócios nas sociedades por quotas",
-        "excerpt": "Brevíssima abordagem sobre a evolução do instituto da exclusão de sócios nas sociedades comerciais, com foco especial nas sociedades por quotas..."
+        "excerpt": "Evolução do instituto da exclusão de sócios e sua aplicação no direito angolano.",
+        "body": [
+          "RESUMO",
+          "Este artigo faz uma brevíssima abordagem sobre a evolução do instituto da exclusão de sócios nas sociedades comerciais, com foco especial nas sociedades por quotas e na aplicação desse conceito no ordenamento jurídico angolano. Partindo do contexto histórico do Direito Romano, onde a dissolução da sociedade ocorria com a retirada de qualquer sócio, o artigo sucintamente descreve como o conceito evoluiu, destacando as primeiras normas europeias que introduziram a exclusão de sócios.",
+          "Em Angola, a legislação herdada do direito português fundamenta as bases desse instituto, aplicando a exclusão de sócios de forma limitada e específica para diferentes tipos de sociedades. Este estudo examina as previsões legais e contratuais que permitem a exclusão e sugere aperfeiçoamentos capazes de reforçar a segurança jurídica nas relações societárias."
+        ]
+      },
+      "a4": {
+        "title": "Responsabilidade civil médica em Angola: linhas essenciais",
+        "excerpt": "Síntese dos pressupostos da responsabilidade civil na prática médica e notas sobre consentimento informado e jurisprudência.",
+        "body": [
+          "Conteúdo em preparação. Em breve disponibilizaremos a versão completa deste artigo."
+        ]
       }
-    }
+    },
+    "more": "Ler mais"
   },
   "contactPage": {
     "heroTitle": "Contacte-nos",
@@ -430,5 +543,79 @@
       "ok": "Obrigado! A sua mensagem foi enviada.",
       "error": "Não foi possível enviar agora. Tente novamente."
     }
-  }
+  },
+  "orientacoesPraticas": {
+    "heroTitle": "Orientações Práticas",
+    "heroSubtitle": "Guias rápidos com os documentos e passos necessários para cada ato notarial ou registral.",
+    "badge": "ORIENTAÇÕES PRÁTICAS",
+    "more": "Ler mais",
+    "items": {
+      "dissolucao": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de dissolução de sociedade comercial",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de dissolução de sociedade comercial. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "habilitacao": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de habilitação de herdeiros",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de habilitação de herdeiros. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "constituicaoSC": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de constituição de sociedade comercial",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de constituição de sociedade comercial. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "constituicaoAssoc": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de constituição de uma associação",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de constituição de uma associação. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "compraVenda": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de compra e venda, doação ou dação em pagamento",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de compra e venda, doação ou dação em pagamento. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "arrendamentoCom": {
+        "title": "O que deverá reunir para celebrar uma escritura pública de arrendamento para fins comerciais",
+        "excerpt": "O que deverá reunir para celebrar uma escritura pública de arrendamento para fins comerciais. Deverá reunir os seguintes documentos: OBS: Outros que, eventualmente, a situação concreta exigir."
+      },
+      "registroNomeInsignia": {
+        "title": "O que deverá reunir para efectuar o registo de nome e insígnia de estabelecimento comercial",
+        "excerpt": "O que deverá reunir para efectuar o registo de nome e insígnia de estabelecimento comercial. OBS: Outros que, eventualmente, a situação concreta exigir. Baixar formulário:"
+      },
+      "notaInspecaoTrabalho": {
+        "title": "Breve nota sobre Inspecção de Trabalho",
+        "excerpt": "Clique este link para baixar as orientações: https://gsadvogados.co.ao/wp-content/uploads/2024/02/BREVE-NOTA-SOBRE-INSPECCAO-DE-TRABALHO.pdf"
+      },
+      "documentosLicencaIndustrial": {
+        "title": "Documentos necessários para emissão de alvará de licença industrial",
+        "excerpt": "Clique este link para baixar as orientações: https://gsadvogados.co.ao/wp-content/uploads/2024/02/DOCUMENTOS-NECESSARIOS-PARA-EMISSAO-DE-ALVARA-DE-LICENCA-INDUSTRIAL.pdf"
+      }
+    }
+  },
+  "documentos": {
+    "heroTitle": "Documentos",
+    "heroSubtitle": "Modelos e minutas úteis para atos e procedimentos jurídicos.",
+    "badge": "DOCUMENTOS",
+    "more": "Ler mais",
+    "download": "Baixar PDF",
+    "items": {
+      "estatutoMinuta": {
+        "title": "Minuta de estatuto de sociedade comercial pluripessoais por quotas",
+        "excerpt": "Modelo base para estatuto de sociedade por quotas de múltiplos sócios. Utilize como referência, adaptando às especificidades do caso.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/CONTRATO-PROMESSA-DE-CESSAO-DE-DIREITO-DE-SUPERFICIE.pdf"
+      },
+      "estatuto": {
+        "title": "Estatuto sociedade comercial pluripessoais por quotas",
+        "excerpt": "Versão de estatuto para sociedade comercial por quotas (vários sócios), com cláusulas padrão.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/ESTATUTO-SOCIEDADE-COMERCIAL-PLURIPESSOAIS-POR-QUOTAS.pdf"
+      },
+      "revogacaoMandato": {
+        "title": "Minuta carta de revogação de mandato",
+        "excerpt": "Minuta para revogação de poderes conferidos em mandato. Ajuste dados das partes e referências do instrumento.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-CARTA-DE-REVOGACAO-DE-MANDATO-.pdf"
+      },
+      "declaracaoBens": {
+        "title": "Minuta de declaração de bens",
+        "excerpt": "Modelo para declaração de bens e património. Adeque itens, datas e assinaturas conforme a finalidade.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-DE-DECLARACAO-DE-BENS.pdf"
+      }
+    }
+  },
+  "more": "Saiba mais"
 }

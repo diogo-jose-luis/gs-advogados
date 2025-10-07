@@ -134,7 +134,6 @@
       "a3": "Brief notes on the exclusion of partners in limited liability companies"
     }
   },
-
   "map": {
     "heading": "Where to find us",
     "lede": "Visit us or get directions to our office.",
@@ -147,7 +146,6 @@
     "directions": "Get directions",
     "directionsHref": "https://maps.google.com/?q=GS%20Advogados%20Luanda"
   },
-
   "footer": {
     "about": "We defend your interests with strategy, transparency and results.",
     "contact": {
@@ -190,7 +188,6 @@
     "heading": "Our Team",
     "lede": "Meet the professionals behind our results."
   },
-
   "notFound": {
     "title": "Page not found",
     "subtitle": "It looks like this address doesn’t exist.",
@@ -314,7 +311,91 @@
           "desc": "Estate planning, probate, partition and inheritance management focused on asset preservation."
         }
       }
-    }
+    },
+    "more": "See more"
+  },
+  "competenciasDetails": {
+    "close": "Close",
+    "fiscalAduaneiro": {
+      "body": [
+        "Tax litigation and enforcement, challenges and claims.",
+        "Responsible tax planning, transaction structuring and audit support."
+      ]
+    },
+    "consumidor": {
+      "body": [
+        "Consumer and supplier representation in consumer disputes.",
+        "Drafting and review of terms, warranties and commercial policies."
+      ]
+    },
+    "civilComercial": {
+      "body": [
+        "Civil and commercial contracts, tort and performance disputes.",
+        "Mediation and arbitration in business conflicts."
+      ]
+    },
+    "cobranca": {
+      "body": [
+        "Judicial and extrajudicial collection, injunctions and executions.",
+        "Credit recovery strategies focused on cost–benefit."
+      ]
+    },
+    "penal": {
+      "body": [
+        "Defense in investigations and trials, economic crimes and managers’ liability."
+      ]
+    },
+    "administrativo": {
+      "body": [
+        "Licensing, tenders and public contracts. Administrative and regulatory disputes."
+      ]
+    },
+    "recursosNaturais": {
+      "body": [
+        "Energy and natural resources projects, regulatory compliance and sector contracts."
+      ]
+    },
+    "familia": {
+      "body": [
+        "Divorce, parental responsibility, distribution of assets and probate."
+      ]
+    },
+    "medico": {
+      "body": [
+        "Medical liability, informed consent and disputes with insurers/clinics."
+      ]
+    },
+    "desporto": {
+      "body": [
+        "Sports contracts, transfers and dispute resolution before federations."
+      ]
+    },
+    "contenciosoAdministrativo": {
+      "body": [
+        "Challenges to administrative acts, interim measures and judgment enforcement."
+      ]
+    },
+    "condominiarioImobiliario": {
+      "body": [
+        "Condominium, leases, conveyancing and land registry regularisation."
+      ]
+    },
+    "societario": {
+      "body": [
+        "Incorporation, governance, shareholders’ agreements and corporate reorganisations."
+      ]
+    },
+    "trabalhoSegSocial": {
+      "body": [
+        "Employment contracts, dismissals, incentives and labour/social security disputes."
+      ]
+    },
+    "financeiroBancario": {
+      "body": [
+        "Banking contracts, guarantees, compliance and financial disputes."
+      ]
+    },
+    "sucessorio": { "body": ["Estate planning, wills, partition and probate."] }
   },
   "competenciasSetores": {
     "heroTitle": "Jurisdiction Sectors",
@@ -387,23 +468,50 @@
     "heroSubtitle": "Technical analyses and practical reflections on legal topics.",
     "meta": {
       "authors": {
-        "diogo": "diogo"
+        "diogo": "diogo",
+        "Mateus": "Mateus"
       }
     },
     "items": {
       "a1": {
         "title": "A Way to Understand Law, the Science of Law",
-        "excerpt": "This report presents an approach that contributes to academic growth and professional excellence in legal studies..."
+        "excerpt": "An approach fostering academic growth and professional excellence in Legal Science.",
+        "body": [
+          "ABSTRACT",
+          "This report presents an approach that contributes to academic and scientific growth and to professional excellence in Legal Science. Entitled “Legal-scientific research: a way to understand law, the science of law”, the study aims to encourage students and lecturers at FDUAN to deepen their methodological and investigative knowledge of legal science.",
+          "The report is structured in three chapters: (i) a brief theoretical framework on research methodology in law—definition of science, its features and classifications, core research paths and scholarly production; (ii) a concrete analysis of legal research methodology—empirical, interdisciplinary and complex; (iii) a concise guide on structuring a Master’s dissertation research project, following the Faculty of Law of Agostinho Neto University guidelines.",
+          "Keywords: Research Methods; Legal Research; Research Project; Legal Science."
+        ]
       },
       "a2": {
         "title": "Legal Regime of Single-Member Companies under Angolan Law",
-        "excerpt": "An overview of the legal framework governing single-member companies in Angola, highlighting foundations, features and practical implications..."
+        "excerpt": "A practical overview of the regime applicable to single-member companies in Angola.",
+        "body": [
+          "ABSTRACT",
+          "This report examines the legal regime of single-member companies in the Angolan legal order. It studies the personal substratum that characterises single-member companies and distinguishes them from multi-member companies; the specific statute governing single-member companies in Angola; and other legislation directly or subsidiarily applicable to their organisation, incorporation and operation.",
+          "The research is relevant to identify how the Angolan legal framework addresses single-member companies in various aspects. It relies on bibliographic and statutory sources and a deductive method to analyse the main points and their practical implications. The study is justified by the relative novelty of single-member forms in Angolan legislation.",
+          "The work is organised in three chapters aligned with specific objectives, with the general aim of examining the legal regime of single-member companies in Angola.",
+          "Keywords: Single-member companies; Sole shareholder; Single-member status; Single-Member Companies Act."
+        ]
       },
       "a3": {
         "title": "Brief Notes on the Exclusion of Partners in Limited Liability Companies",
-        "excerpt": "A short review of the evolution of partner exclusion in commercial companies, with special focus on limited liability companies..."
+        "excerpt": "Evolution of partner exclusion and its application in Angolan law.",
+        "body": [
+          "ABSTRACT",
+          "This article briefly outlines the evolution of partner exclusion in commercial companies, focusing on limited liability companies and its application within the Angolan legal system. From Roman Law—where any partner’s withdrawal dissolved the company—the text summarises later European rules that first introduced exclusion.",
+          "In Angola, Portuguese-inspired legislation grounds this institute, applying exclusion in a limited and specific way depending on the company type. The paper reviews legal and contractual provisions enabling exclusion and suggests improvements to strengthen legal certainty in corporate relations."
+        ]
+      },
+      "a4": {
+        "title": "Medical Civil Liability in Angola: Key Lines",
+        "excerpt": "Overview of liability elements in medical practice, informed consent and notes on case law.",
+        "body": [
+          "Content in preparation. The full version of this article will be available soon."
+        ]
       }
-    }
+    },
+    "more": "See more"
   },
   "contactPage": {
     "heroTitle": "Contact us",
@@ -428,5 +536,79 @@
       "ok": "Thank you! Your message has been sent.",
       "error": "We couldn’t send now. Please try again."
     }
-  }
+  },
+  "orientacoesPraticas": {
+    "heroTitle": "Practical Guidelines",
+    "heroSubtitle": "Quick guides listing the required documents and steps for each notarial or registry act.",
+    "badge": "PRACTICAL GUIDELINES",
+    "more": "Read more",
+    "items": {
+      "dissolucao": {
+        "title": "What you need to gather to execute a public deed of dissolution of a commercial company",
+        "excerpt": "What is required to execute a public deed of dissolution of a commercial company. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "habilitacao": {
+        "title": "What you need to gather to execute a public deed of heirs' habilitation",
+        "excerpt": "What is required to execute a public deed of heirs' habilitation. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "constituicaoSC": {
+        "title": "What you need to gather to execute a public deed of incorporation of a commercial company",
+        "excerpt": "What is required to execute a public deed of incorporation of a commercial company. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "constituicaoAssoc": {
+        "title": "What you need to gather to execute a public deed of incorporation of an association",
+        "excerpt": "What is required to execute a public deed of incorporation of an association. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "compraVenda": {
+        "title": "What you need to gather to execute a public deed of purchase and sale, donation, or dation in payment",
+        "excerpt": "What is required to execute a public deed of purchase and sale, donation, or dation in payment. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "arrendamentoCom": {
+        "title": "What you need to gather to execute a public deed of lease for commercial purposes",
+        "excerpt": "What is required to execute a public deed of lease for commercial purposes. Please gather the following documents: NOTE: Others may be required depending on the specific case."
+      },
+      "registroNomeInsignia": {
+        "title": "What to gather to register the trade name and sign of a commercial establishment",
+        "excerpt": "Requirements to register the trade name and sign of a commercial establishment. NOTE: Others may be required depending on the case. Download form:"
+      },
+      "notaInspecaoTrabalho": {
+        "title": "Brief note on Labour Inspection",
+        "excerpt": "Click this link to download the guidelines: https://gsadvogados.co.ao/wp-content/uploads/2024/02/BREVE-NOTA-SOBRE-INSPECCAO-DE-TRABALHO.pdf"
+      },
+      "documentosLicencaIndustrial": {
+        "title": "Required documents for issuing an industrial licence permit",
+        "excerpt": "Click this link to download the guidelines: https://gsadvogados.co.ao/wp-content/uploads/2024/02/DOCUMENTOS-NECESSARIOS-PARA-EMISSAO-DE-ALVARA-DE-LICENCA-INDUSTRIAL.pdf"
+      }
+    }
+  },
+  "documentos": {
+    "heroTitle": "Documents",
+    "heroSubtitle": "Useful templates and drafts for legal acts and procedures.",
+    "badge": "DOCUMENTS",
+    "more": "Read more",
+    "download": "Download PDF",
+    "items": {
+      "estatutoMinuta": {
+        "title": "Draft articles of association for multi-member limited liability company",
+        "excerpt": "Base template for articles of association of an LLC with multiple partners. Adapt to the specifics of each case.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/CONTRATO-PROMESSA-DE-CESSAO-DE-DIREITO-DE-SUPERFICIE.pdf"
+      },
+      "estatuto": {
+        "title": "Articles of association for multi-member limited liability company",
+        "excerpt": "Version of the articles for a commercial company by quotas (multiple partners), with standard clauses.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/ESTATUTO-SOCIEDADE-COMERCIAL-PLURIPESSOAIS-POR-QUOTAS.pdf"
+      },
+      "revogacaoMandato": {
+        "title": "Draft letter of revocation of power of attorney",
+        "excerpt": "Template to revoke powers granted by a mandate/POA. Adjust parties’ details and instrument references.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-CARTA-DE-REVOGACAO-DE-MANDATO-.pdf"
+      },
+      "declaracaoBens": {
+        "title": "Draft declaration of assets",
+        "excerpt": "Template for declaring assets and property. Adapt items, dates and signatures to the intended purpose.",
+        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-DE-DECLARACAO-DE-BENS.pdf"
+      }
+    }
+  },
+  "more": "See more"
 }

@@ -120,20 +120,29 @@ export default function MobileDrawer({
                   </Link>
                   <Link
                     onClick={onClose}
-                    href="#"
+                    href="/pt/informacoes-juridicas/orientacoes-praticas"
                     className="block rounded-lg px-3 py-2 hover:bg-gray-100"
                   >
                     {t("nav.legal.guides")}
                   </Link>
                   <Link
                     onClick={onClose}
-                    href="#"
+                    href="/pt/informacoes-juridicas/documentos"
                     className="block rounded-lg px-3 py-2 hover:bg-gray-100"
                   >
                     {t("nav.legal.docs")}
                   </Link>
                 </div>
               </details>
+            </li>
+             <li>
+              <Link
+                onClick={onClose}
+                href={withLocale("/contactos")}
+                className="block rounded-lg px-3 py-2 hover:bg-gray-100"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
 

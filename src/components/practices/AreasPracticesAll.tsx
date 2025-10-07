@@ -1,39 +1,33 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations, useLocale } from "next-intl";
-import Container from "./Container";
+import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
-import { COMPETENCIAS, type Competencia } from "@/data/competencias";
-import CompetenciaDrawer from "@/components/practices/CompetenciaDrawer";
+import { COMPETENCIAS, Competencia } from "@/data/competencias";
+import CompetenciaDrawer from "./CompetenciaDrawer";
 
-export default function AreasPractices() {
-  const t = useTranslations(); // mantém "practices.heading", "practices.subheading" e "about.cta"
+export default function AreasPracticesAll() {
   const tGrid = useTranslations("competenciasPage.practices.grid");
+  const tPage = useTranslations("competenciasPage");
   const locale = useLocale();
+
+  const prefix = locale ? `/${locale}` : "";
+  const withLocale = (p: string) => `${prefix}${p === "/" ? "" : p}`;
 
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState<Competencia | null>(null);
 
-  const items = COMPETENCIAS.slice(0, 6); // só 6 na home
+  const onOpen = (item: Competencia) => { setCurrent(item); setOpen(true); };
+  const onClose = () => setOpen(false);
 
   return (
     <section className="py-14 md:py-20">
-      <Container>
-        {/* Header alinhado à esquerda */}
-        <header className="text-left">
-          <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
-            {t("practices.heading")}
-          </h2>
-          <p className="mt-3 max-w-3xl font-sans text-[16px] md:text-[18px] text-gs-ink/80">
-            {t("practices.subheading")}
-          </p>
-        </header>
-
+      <div className="container-gs">
         <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-12">
-          {items.map((it, idx) => {
+          {COMPETENCIAS.map((it, idx) => {
             const title = tGrid(`${it.key}.title`);
-            const desc  = tGrid(`${it.key}.desc`);
+            const desc = tGrid(`${it.key}.desc`);
+
             return (
               <article key={it.key} className="text-left">
                 <div className="relative h-44 sm:h-48 w-full overflow-hidden rounded-lg">
@@ -55,30 +49,31 @@ export default function AreasPractices() {
                   {desc}
                 </p>
 
-                {/* abre o drawer com a info detalhada */}
+                {/* Abre o drawer com mais info — sem navegar */}
                 <button
-                  onClick={() => { setCurrent(it); setOpen(true); }}
+                  onClick={() => onOpen(it)}
                   className="mt-4 inline-flex btn-gs-outline"
                 >
-                  {t("about.cta")}
+                  {tPage("more")}
                 </button>
               </article>
             );
           })}
         </div>
 
+        {/* link “ver todas” (mantido) */}
         <div className="mt-8 md:mt-12 flex justify-end">
           <a
-            href={`/${locale}/competencias`}
+            href={withLocale("/competencias")}
             className="text-sm font-sans text-gs-ink/70 hover:text-gs-ink underline underline-offset-4"
           >
-            {t("practices.more")}
+            {tPage("more")}
           </a>
         </div>
-      </Container>
+      </div>
 
-      {/* Drawer reutilizado */}
-      <CompetenciaDrawer open={open} onClose={() => setOpen(false)} item={current} />
+      {/* Drawer */}
+      <CompetenciaDrawer open={open} onClose={onClose} item={current} />
     </section>
   );
 }

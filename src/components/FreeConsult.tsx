@@ -6,45 +6,13 @@ import Link from "next/link";
 import Container from "./Container";
 import { useTranslations, useLocale } from "next-intl";
 
-type Alert = {
-  slug: string;
-  image: string;
-  titleKey: string;
-  dateISO: string; // YYYY-MM-DD
-  author: string;
-  tags: string[];
-};
+import { ARTICLES } from "@/data/articles"; // <<— use a mesma fonte
 
-const ALERTS: Alert[] = [
-  {
-    slug: "uma-forma-de-perceber-direito",
-    image: "/alerts/alert1.png",
-    titleKey: "a1",
-    dateISO: "2025-09-05",
-    author: "diogo",
-    tags: []
-  },
-  {
-    slug: "regime-juridico-sociedades-unipessoais",
-    image: "/alerts/alert2.png",
-    titleKey: "a2",
-    dateISO: "2025-09-05",
-    author: "diogo",
-    tags: []
-  },
-  {
-    slug: "breves-notas-exclusao-socios-por-quotas",
-    image: "/alerts/alert3.jpeg",
-    titleKey: "a3",
-    dateISO: "2019-02-28",
-    author: "diogo",
-    tags: ["Antitrust", "Family", "Immigration"]
-  }
-];
 
 export default function FreeConsult() {
   const t = useTranslations("consult");
   const tl = useTranslations("alerts");
+  const ta = useTranslations("legalArticles"); 
   const locale = useLocale();
 
   const prefix = locale ? `/${locale}` : "";
@@ -54,12 +22,14 @@ export default function FreeConsult() {
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState<null | "ok" | "err">(null);
 
+  const LATEST = ARTICLES.slice(0, 3); // <<— apenas 3 na home
+
   function fmtDate(iso: string) {
     try {
       return new Intl.DateTimeFormat(locale, {
         day: "2-digit",
         month: "long",
-        year: "numeric"
+        year: "numeric",
       }).format(new Date(iso));
     } catch {
       return iso;
@@ -70,7 +40,12 @@ export default function FreeConsult() {
     e.preventDefault();
     const fd = new FormData(e.currentTarget);
 
-    if (!fd.get("name") || !fd.get("phone") || !fd.get("email") || !fd.get("message")) {
+    if (
+      !fd.get("name") ||
+      !fd.get("phone") ||
+      !fd.get("email") ||
+      !fd.get("message")
+    ) {
       setSent("err");
       return;
     }
@@ -169,20 +144,24 @@ export default function FreeConsult() {
 
           {/* COLUNA DIREITA — ALERTAS */}
           <aside>
-            <h3 className="font-heading text-2xl md:text-3xl">{tl("heading")}</h3>
+            <h3 className="font-heading text-2xl md:text-3xl">
+              {tl("heading")}
+            </h3>
 
             <ul className="mt-6">
-              {ALERTS.map((a, i) => (
+              {LATEST.map((a, i) => (
                 <li
                   key={a.slug}
                   className="flex gap-4 pb-5 mb-5 border-b border-gray-200"
                 >
                   <Link
-                    href={withLocale(`/informacoes-juridicas/artigos/${a.slug}`)}
+                    href={withLocale(
+                      `/informacoes-juridicas/artigos/${a.slug}`
+                    )}
                     className="relative block aspect-[4/3] w-28 shrink-0 overflow-hidden rounded-sm"
                   >
                     <Image
-                      src={a.image}
+                      src={a.img}
                       alt=""
                       fill
                       priority={i === 0}
@@ -193,20 +172,17 @@ export default function FreeConsult() {
 
                   <div className="min-w-0">
                     <Link
-                      href={withLocale(`/informacoes-juridicas/artigos/${a.slug}`)}
+                      href={withLocale(
+                        `/informacoes-juridicas/artigos/${a.slug}`
+                      )}
                       className="font-semibold text-gs-red hover:underline"
                     >
-                      {tl(`items.${a.titleKey}`)}
+                      {ta(`items.${a.titleKey}`)}
                     </Link>
 
                     <div className="mt-1 text-xs text-gs-ink/60">
-                      {fmtDate(a.dateISO)} <span className="mx-1">•</span> {a.author}
-                      {a.tags.length > 0 && (
-                        <>
-                          <span className="mx-1">•</span>
-                          <span>{a.tags.join(", ")}</span>
-                        </>
-                      )}
+                      {fmtDate(a.dateISO)} <span className="mx-1">•</span>{" "}
+                      {ta(`meta.authors.${a.authorKey}`)}
                     </div>
                   </div>
                 </li>
