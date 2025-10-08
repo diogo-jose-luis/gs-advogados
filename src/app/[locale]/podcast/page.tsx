@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import StickyMenu from "@/components/StickyMenu";
 import HeaderTop from "@/components/HeaderTop";
 import PodcastList from "@/components/podcast/PodcastList";
-import { getTranslations } from "next-intl/server";
 
 export default async function PodcastPage() {
  

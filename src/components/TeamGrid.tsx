@@ -24,7 +24,6 @@ const TEAM: Member[] = [
 ];
 
 export default function TeamGrid() {
-  const t = useTranslations("team");
 
   return (
     // Aproximar do banner: reduzimos bastante o padding-top

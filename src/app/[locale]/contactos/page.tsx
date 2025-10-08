@@ -5,9 +5,10 @@ import Footer from "@/components/Footer";
 import ContactInfo from "@/components/contact/ContactInfo";
 import ContactForm from "@/components/contact/ContactForm";
 import MapBlock from "@/components/contact/MapBlock";
-import { getTranslations } from "next-intl/server";
 
 export default async function ContactosPage() {
+
+
  
   return (
     <>
