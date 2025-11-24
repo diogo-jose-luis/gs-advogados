@@ -5,9 +5,9 @@ import Container from "./Container";
 import { useTranslations } from "next-intl";
 
 const CARDS = [
-  { id: "empresarial", image: "/teasers/empresarial.png" },
-  { id: "contencioso", image: "/teasers/contencioso.png" },
-  { id: "laboral", image: "/teasers/laboral.png" }
+  { id: "empresarial", image: "/teasers/contencioso1.png" },
+  { id: "contencioso", image: "/teasers/empresarial1.png" },
+  { id: "laboral", image: "/teasers/laboral1.png" }
 ] as const;
 
 export default function PracticeStrip() {
@@ -69,11 +69,12 @@ export default function PracticeStrip() {
                 {CARDS.map((card) => (
                   <div key={card.id} className="px-6 py-8 flex flex-col">
                     {/* Título: Poppins 17px */}
-                    <h3 className="font-sans text-[17px] font-semibold text-gs-ink">
+                   <h3 className="font-poppins text-[17px] font-semibold text-[#B41E0B]">
                       {t(`practice.${card.id}.title`)}
                     </h3>
                     {/* Descrição: Poppins 14px com altura fixa para alinhar as caixas */}
-                    <p className="mt-3 font-sans text-[14px] leading-relaxed text-gs-gray min-h-[84px]">
+                   <p className="mt-2 font-poppins font-extralight text-[14px] leading-relaxed text-[#141414]">
+
                       {t(`practice.${card.id}.desc`)}
                     </p>
                     {/* (Opcional) CTA ou espaço extra aqui mantém o alinhamento */}

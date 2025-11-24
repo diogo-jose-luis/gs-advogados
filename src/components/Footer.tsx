@@ -4,131 +4,110 @@ import Image from "next/image";
 import Link from "next/link";
 import Container from "./Container";
 import { useTranslations } from "next-intl";
-import { Facebook, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   const t = useTranslations("footer");
 
-  const nav = [
-    { href: "/", label: t("nav.home") },
-    { href: "#", label: t("nav.cases") },
-    { href: "/quem-somos", label: t("nav.about") },
-    // ✅ novo link para Contactos
-    { href: "/pt/contactos", label: t("contacto") },
-    { href: "#", label: t("nav.legal") },
-    { href: "#", label: t("nav.privacy") }
+  // navegação da barra branca inferior
+  const bottomNav = [
+    { href: "/", label: t("nav.home") }, // Início
+    { href: "/casos", label: t("nav.cases") }, // Casos
+    { href: "/quem-somos", label: t("nav.about") }, // Sobre nós
+    { href: "/legal", label: t("nav.legal") }, // Legal
   ];
 
-  const practices = [
-    { href: "#", label: t("practices.items.0") },
-    { href: "#", label: t("practices.items.1") },
-    { href: "#", label: t("practices.items.2") }
+  // links rápidos (coluna da direita, bloco escuro)
+  const quickLinks = [
+    { href: "/casos", label: t("nav.cases") }, // Casos de estudo
+    { href: "/quem-somos", label: t("nav.about") }, // Sobre nós
+    { href: "/servicos", label: t("nav.services") }, // Serviços
+    { href: "/contactos", label: t("contacto") }, // Contactos
   ];
 
   return (
-    <footer className="bg-[#151515] text-white">
-      {/* linha superior (apenas estética, como no mock) */}
-      <div className="h-px bg-white/10" />
+    <footer className="bg-transparent">
+      {/* BLOCO SUPERIOR – fundo escuro em degradé */}
+      <div className="bg-[radial-gradient(1000px_900px_at_0%_100%,#000000,#1a1a1a)] text-white">
+        <Container className="py-12 md:py-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
+            {/* COLUNA 1 – logo + texto */}
+            <div>
+              <Image
+                src="/log-footer.png"
+                width={230}
+                height={70}
+                alt="GS Advogados"
+                className="h-auto w-[230px]"
+                priority
+              />
 
-      <Container className="py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Coluna 1: logo + descrição + redes */}
-          <div>
-            <Image
-              src="/log-footer.png"
-              width={210}
-              height={60}
-              alt="GS Advogados"
-              className="h-auto w-[210px]"
-              priority
-            />
+              <p className="mt-6 max-w-md font-poppins text-[13px] md:text-[14px] leading-relaxed text-white/80">
+                {t("about")}
+              </p>
+            </div>
 
-            <p className="mt-6 text-sm leading-relaxed text-white/70 max-w-md">
-              {t("about")}
-            </p>
+            {/* COLUNA 2 – contacto info */}
+            <div>
+              <h3 className="font-poppins text-xs md:text-sm tracking-[0.25em] uppercase text-white">
+                {t("contact.title")}
+              </h3>
 
-            <div className="mt-5 flex items-center gap-4">
-              <Link
-                href="https://facebook.com"
-                aria-label="Facebook"
-                className="p-2 hover:bg-white/10 transition"
-              >
-                <Facebook size={18} />
-              </Link>
-              <Link
-                href="https://linkedin.com"
-                aria-label="LinkedIn"
-                className="p-2 hover:bg-white/10 transition"
-              >
-                <Linkedin size={18} />
-              </Link>
-              <Link
-                href="https://instagram.com"
-                aria-label="Instagram"
-                className="p-2 hover:bg-white/10 transition"
-              >
-                <Instagram size={18} />
-              </Link>
+              <div className="mt-6 space-y-2 font-poppins text-[13px] md:text-[14px] text-white/80">
+                <p>{t("contact.addr1")}</p>
+                <p>{t("contact.addr2")}</p>
+                <p>{t("contact.addr3")}</p>
+
+                <div className="pt-3">
+                  <p>{t("contact.phone")}</p>
+                  <Link
+                    href="mailto:geral@gsadvogados.ao"
+                    className="mt-1 inline-block font-poppins text-[13px] text-white/80 hover:text-white"
+                  >
+                    geral@gsadvogados.ao
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            {/* COLUNA 3 – links rápidos */}
+            <div className="md:text-right">
+              <h3 className="font-poppins text-xs md:text-sm tracking-[0.25em] uppercase text-white">
+                {t("quickLinksTitle")}
+                {/* adiciona esta key no ficheiro de traduções, ex: "Links Rápidos" */}
+              </h3>
+
+              <ul className="mt-6 space-y-2 font-poppins text-[13px] md:text-[14px] text-white/80">
+                {quickLinks.map((item) => (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      className="hover:text-white transition"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
+        </Container>
+      </div>
 
-          {/* Coluna 2: contacto */}
-          <div>
-            <h3 className="font-heading text-2xl tracking-tight">
-              {t("contact.title")}
-            </h3>
-
-            <ul className="mt-6 space-y-4 text-sm text-white/80">
-              <li>
-                <span className="block">{t("contact.addr1")}</span>
-              </li>
-              <li>
-                <span className="block">{t("contact.addr2")}</span>
-              </li>
-              <li>
-                <span className="block">{t("contact.addr3")}</span>
-              </li>
-              <li className="pt-2">
-                <span className="block">{t("contact.phone")}</span>
-                <Link
-                  href="mailto:geral@gsadvogados.ao"
-                  className="text-gs-red hover:text-gs-redDark font-semibold"
-                >
-                  geral@gsadvogados.ao
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Coluna 3: áreas de atuação */}
-          <div>
-            <h3 className="font-heading text-2xl tracking-tight">
-              {t("practices.title")}
-            </h3>
-
-            <ul className="mt-6 space-y-3 text-sm text-white/80">
-              {practices.map((p) => (
-                <li key={p.href}>
-                  <Link href={p.href} className="hover:text-white transition">
-                    {p.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </Container>
-
-      {/* barra inferior */}
-      <div className="border-t border-white/10">
-        <Container className="py-5 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/60">{t("copyright")}</p>
+      {/* BARRA INFERIOR – fundo branco */}
+      <div className="bg-white">
+        <Container className="py-4 md:py-5 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="font-poppins text-[11px] md:text-[12px] text-[#141414]">
+            {t("copyright")}
+          </p>
 
           <nav aria-label={t("footerNavAria")}>
-            <ul className="flex flex-wrap items-center gap-6 text-sm text-white/70">
-              {nav.map((item) => (
+            <ul className="flex flex-wrap items-center gap-6 font-poppins text-[12px] text-[#141414]">
+              {bottomNav.map((item) => (
                 <li key={item.href}>
-                  <Link className="hover:text-white transition" href={item.href}>
+                  <Link
+                    href={item.href}
+                    className="hover:text-[#000000] transition"
+                  >
                     {item.label}
                   </Link>
                 </li>

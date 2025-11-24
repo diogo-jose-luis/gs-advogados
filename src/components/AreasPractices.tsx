@@ -22,10 +22,11 @@ export default function AreasPractices() {
       <Container>
         {/* Header alinhado à esquerda */}
         <header className="text-left">
-          <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
+          <h2 className="font-poppins font-semibold text-[40px] leading-none tracking-tight text-gs-ink">
             {t("practices.heading")}
           </h2>
-          <p className="mt-3 max-w-3xl font-sans text-[16px] md:text-[18px] text-gs-ink/80">
+
+          <p className="mt-3 max-w-3xl font-poppins font-extralight text-[17px] text-gs-ink/80">
             {t("practices.subheading")}
           </p>
         </header>
@@ -33,9 +34,9 @@ export default function AreasPractices() {
         <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-12">
           {items.map((it, idx) => {
             const title = tGrid(`${it.key}.title`);
-            const desc  = tGrid(`${it.key}.desc`);
+            const desc = tGrid(`${it.key}.desc`);
             return (
-              <article key={it.key} className="text-left">
+              <article key={it.key} className="flex flex-col text-left">
                 <div className="relative h-44 sm:h-48 w-full overflow-hidden rounded-lg">
                   <Image
                     src={it.img}
@@ -47,30 +48,35 @@ export default function AreasPractices() {
                   />
                 </div>
 
-                <h3 className="mt-4 font-sans text-[18px] font-bold text-gs-ink">
+                <h3 className="mt-4 text-center font-poppins font-semibold text-[20px] text-[#B41E0B]">
                   {title}
                 </h3>
 
-                <p className="mt-2 font-sans text-[14px] leading-relaxed text-gs-ink/70">
+                <p className="mt-2 text-center font-poppins font-extralight text-[14px] leading-relaxed text-[#141414]">
                   {desc}
                 </p>
 
-                {/* abre o drawer com a info detalhada */}
-                <button
-                  onClick={() => { setCurrent(it); setOpen(true); }}
-                  className="mt-4 inline-flex btn-gs-outline"
-                >
-                  {t("about.cta")}
-                </button>
+                <div className="mt-auto flex justify-center pt-4">
+                  <button
+                    onClick={() => {
+                      setCurrent(it);
+                      setOpen(true);
+                    }}
+                    className="btn-gs-outline"
+                  >
+                    {t("about.cta")}
+                  </button>
+                </div>
               </article>
             );
           })}
         </div>
 
-        <div className="mt-8 md:mt-12 flex justify-end">
+        <div className="mt-8 md:mt-12 flex items-center justify-end gap-4">
+          <div className="flex-1 border-t border-[#B41E0B]" />
           <a
             href={`/${locale}/competencias`}
-            className="text-sm font-sans text-gs-ink/70 hover:text-gs-ink underline underline-offset-4"
+            className="text-sm font-poppins text-gs-ink/70 hover:text-gs-ink underline underline-offset-4"
           >
             {t("practices.more")}
           </a>
@@ -78,7 +84,11 @@ export default function AreasPractices() {
       </Container>
 
       {/* Drawer reutilizado */}
-      <CompetenciaDrawer open={open} onClose={() => setOpen(false)} item={current} />
+      <CompetenciaDrawer
+        open={open}
+        onClose={() => setOpen(false)}
+        item={current}
+      />
     </section>
   );
 }

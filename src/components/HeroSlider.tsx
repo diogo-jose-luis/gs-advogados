@@ -9,8 +9,8 @@ import Container from "./Container";
 import { useTranslations, useLocale } from "next-intl";
 
 const SLIDES = [
-  { id: "1", image: "/hero/slide1.png" },
-  { id: "2", image: "/hero/slide2.png" },
+  { id: "1", image: "/hero/banner1.png" },
+  { id: "2", image: "/hero/banner1.png" },
 ] as const;
 
 export default function HeroSlider() {
@@ -67,46 +67,50 @@ export default function HeroSlider() {
                     <div
                       className={[
                         "max-w-2xl will-change-transform transition-all duration-500",
-                        show ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2",
+                        show
+                          ? "opacity-100 translate-y-0"
+                          : "opacity-0 translate-y-2",
                       ].join(" ")}
                     >
-                      {/* 1º texto: Poppins 18px */}
+                      {/* 1º texto: 18px, Poppins light */}
                       <p
-                        className="font-sans text-[16px] md:text-[18px] text-white/80 transition-all duration-500"
+                        className="font-poppins font-light text-[18px] text-white/80 transition-all duration-500"
                         style={{ transitionDelay: show ? "40ms" : "0ms" }}
                       >
                         {t("hero.welcome")}
                       </p>
 
-                      {/* Título: Times New Roman 80px */}
+                      {/* Título: GS Advogados – Poly regular, 80px em desktop */}
                       <h1
-                        className="mt-2 font-heading text-[40px] md:text-[80px] leading-[1.05] text-white tracking-tight transition-all duration-700"
+                        className="mt-2 font-poly font-normal text-[40px] md:text-[80px] leading-[1.05] text-white tracking-tight transition-all duration-700"
                         style={{ transitionDelay: show ? "100ms" : "0ms" }}
                       >
                         {t("hero.title")}
                       </h1>
 
-                      {/* Últimas linhas: Poppins 18px */}
+                      {/* Texto: 18px, Montserrat light */}
                       <p
-                        className="mt-4 font-sans text-[16px] md:text-[18px] text-white/90 transition-all duration-700"
+                        className="mt-4 font-montserrat font-light text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "160ms" : "0ms" }}
                       >
                         {t("hero.lead")}
                       </p>
                       <p
-                        className="font-sans text-[16px] md:text-[18px] text-white/90 transition-all duration-700"
+                        className="font-montserrat font-light text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "200ms" : "0ms" }}
                       >
                         {t("hero.exp")}
                       </p>
 
+                      {/* Botão: Montserrat light, 16 / 18px */}
                       <Link
                         href={withLocale("/contactos")}
-                        className="mt-6 btn-gs transition-all duration-700"
+                        className="mt-6 btn-gs text-[16px] md:text-[18px] transition-all duration-700"
                         style={{ transitionDelay: show ? "260ms" : "0ms" }}
                       >
                         {t("hero.contact")}
                       </Link>
+
                     </div>
                   </Container>
                 </div>
@@ -142,7 +146,9 @@ export default function HeroSlider() {
                   aria-current={selected === i}
                   onClick={() => emblaApi?.scrollTo(i)}
                   className={`h-2.5 w-2.5 rounded-full transition ${
-                    selected === i ? "bg-white" : "bg-white/40 hover:bg-white/70"
+                    selected === i
+                      ? "bg-white"
+                      : "bg-white/40 hover:bg-white/70"
                   }`}
                 />
               ))}

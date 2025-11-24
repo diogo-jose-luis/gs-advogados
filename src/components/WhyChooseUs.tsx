@@ -12,14 +12,14 @@ const STATS: Array<{ key: StatKey; value: string }> = [
   { key: "clients", value: "1000+" },
   { key: "recovered", value: "10M+" },
   { key: "professionals", value: "30+" },
-  { key: "successRate", value: "95%" }
+  { key: "successRate", value: "95%" },
 ];
 
 /** Conta de 0 até ao valor; preserva sufixos (%, +, M+, etc.) */
 function Counter({
   value,
   duration = 1400,
-  className = ""
+  className = "",
 }: {
   value: string;
   duration?: number; // ms
@@ -66,7 +66,7 @@ export default function WhyChooseUs() {
       {/* faixa de imagem */}
       <div className="relative h-[38vh] md:h-[46vh]">
         <Image
-          src="/why/hero.png"
+          src="/why/hero2.png"
           alt=""
           fill
           priority
@@ -78,31 +78,54 @@ export default function WhyChooseUs() {
       {/* bloco branco */}
       <div className="bg-white">
         <Container className="py-10 md:py-14">
-          {/* Título e subtítulo com consistência */}
+          {/* Título e subtítulo à esquerda */}
           <header className="text-left">
-            <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
-              {t("heading.line1")}<br className="hidden md:block" />
+            <h2 className="font-poppins font-semibold text-[32px] md:text-[40px] leading-tight tracking-tight text-gs-ink">
+              {t("heading.line1")}
+              <br className="hidden md:block" />
               {t("heading.line2")}
             </h2>
 
-            <p className="mt-4 font-sans text-[16px] md:text-[18px] text-gs-ink/80">
+            <p className="mt-4 font-poppins font-extralight text-[16px] md:text-[17px] text-gs-ink/80">
               {t("kicker")}
             </p>
           </header>
 
-          {/* métricas com contador */}
-          <div className="mt-8 md:mt-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
+          {/* métricas em círculos */}
+          <div className="mt-10 flex flex-col items-center gap-8 md:flex-row md:justify-between">
             {STATS.map((s) => (
-              <div key={s.key}>
-                <Counter
-                  value={s.value}
-                  className="text-2xl md:text-3xl font-semibold text-gs-red"
-                />
-                <p className="mt-1 text-xs md:text-sm text-gs-ink/70 leading-relaxed">
-                  {t(`stats.${s.key}`)}
-                </p>
+              <div
+                key={s.key}
+                className="flex flex-col items-center text-center"
+              >
+                <div className="flex h-32 w-32 items-center justify-center rounded-full border-2 border-[#B41E0B]">
+                  <div className="flex flex-col items-center justify-center text-center px-2">
+                    <Counter
+                      value={s.value}
+                      className="font-poppins font-semibold text-[20px] text-[#B41E0B]"
+                    />
+                    <p className="mt-1 font-poppins font-light text-[10px] leading-snug text-[#141414]">
+                      {t(`stats.${s.key}`)}
+                    </p>
+                  </div>
+                </div>
               </div>
             ))}
+          </div>
+
+          {/* botão pill centrado */}
+          <div className="mt-10 flex justify-center">
+            <button
+              type="button"
+              className="inline-flex items-stretch overflow-hidden rounded-full border border-[#B41E0B]"
+            >
+              <span className="bg-white px-6 py-3 text-[14px] md:text-[15px] font-poppins font-light text-[#141414]">
+               Conheça os nossos Advogados
+              </span>
+              <span className="flex items-center justify-center bg-[#B41E0B] px-4">
+                <span className="text-white text-lg leading-none">→</span>
+              </span>
+            </button>
           </div>
         </Container>
       </div>

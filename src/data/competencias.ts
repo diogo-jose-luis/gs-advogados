@@ -24,12 +24,12 @@ export type Competencia = {
 };
 
 export const COMPETENCIAS: Competencia[] = [
-  { key: "fiscalAduaneiro", img: "/competencias/fiscal-aduaneiro.png", href: "/competencias/fiscal-aduaneiro" },
-  { key: "consumidor", img: "/competencias/consumidor.png", href: "/competencias/consumidor" },
-  { key: "civilComercial", img: "/competencias/civil-comercial.png", href: "/competencias/civil-comercial" },
-  { key: "cobranca", img: "/competencias/cobranca.jpeg", href: "/competencias/cobranca" },
-  { key: "penal", img: "/competencias/penal.png", href: "/competencias/penal" },
-  { key: "administrativo", img: "/competencias/administrativo.png", href: "/competencias/administrativo" },
+  { key: "fiscalAduaneiro", img: "/competencias/comp1.png", href: "/competencias/fiscal-aduaneiro" },
+  { key: "consumidor", img: "/competencias/comp2.png", href: "/competencias/consumidor" },
+  { key: "civilComercial", img: "/competencias/comp3.png", href: "/competencias/civil-comercial" },
+  { key: "cobranca", img: "/competencias/comp4.png", href: "/competencias/cobranca" },
+  { key: "penal", img: "/competencias/comp5.png", href: "/competencias/penal" },
+  { key: "administrativo", img: "/competencias/comp6.png", href: "/competencias/administrativo" },
   { key: "recursosNaturais", img: "/competencias/recursos-naturais.png", href: "/competencias/recursos-naturais" },
   { key: "familia", img: "/competencias/familia.png", href: "/competencias/familia" },
   { key: "medico", img: "/competencias/medico.png", href: "/competencias/medico" },

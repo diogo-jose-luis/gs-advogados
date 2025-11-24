@@ -18,7 +18,13 @@ module.exports = {
       },
       fontFamily: {
         heading: ['"Times New Roman"', "Times", "serif"],
-        // provisório: sem var(--font-poppins)
+
+        // NOVAS
+        poppins: ['"Poppins"', "system-ui", "sans-serif"],
+        montserrat: ['"Montserrat"', "system-ui", "sans-serif"],
+        poly: ['"Poly"', "serif"],
+
+        // mantém o sans genérico
         sans: [
           "system-ui",
           "Segoe UI",

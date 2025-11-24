@@ -10,26 +10,28 @@
 
 }
 
-/* Components */
 @layer components {
-  /* container padrão do site */
   .container-gs { @apply mx-auto max-w-container px-4 lg:px-6; }
 
   /* BOTÕES GS (cantos retos) */
   .btn-gs {
     @apply inline-flex items-center justify-center
-           bg-gs-red hover:bg-gs-redDark text-white font-semibold
+           bg-gs-red hover:bg-gs-redDark text-white
+           font-montserrat font-light
            px-5 py-2 rounded-none transition;
   }
 
   .btn-gs-sm {
     @apply inline-flex items-center justify-center
-           bg-gs-red hover:bg-gs-redDark text-white font-semibold
+           bg-gs-red hover:bg-gs-redDark text-white
+           font-montserrat font-light
            px-4 py-2 rounded-none transition;
   }
-   .btn-gs-outline {
+
+  .btn-gs-outline {
     @apply inline-flex items-center justify-center
            border border-gs-red text-gs-ink
+           font-montserrat font-light
            px-4 py-2 rounded-none text-sm transition
            hover:border-gs-redDark;
   }

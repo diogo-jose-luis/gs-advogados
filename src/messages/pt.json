@@ -3,7 +3,7 @@
 
   "nav": {
     "home": "Início",
-    "about": "Quem somos",
+    "about": "QUEM SOMOS",
     "practices": {
       "label": "Competências",
       "areas": "Áreas de atuação",
@@ -251,27 +251,27 @@
     "practices": {
       "grid": {
         "fiscalAduaneiro": {
-          "title": "Direito Fiscal e Aduaneiro",
-          "desc": "Impugnações e reclamações na AGT/Alfândegas, reclassificação pautal, redução de coimas e liberação de mercadorias."
+          "title": "DIREITO SOCIETÁRIO E COMERCIAL",
+          "desc": "Abertura de empresas, governance e operações de M&A com due diligence e contratos comerciais sólidos."
         },
         "consumidor": {
-          "title": "Defesa do Consumidor",
-          "desc": "Atuação contra práticas abusivas, cláusulas inválidas e falhas de garantia, visando restituição e indemnização."
+          "title": "DIREITO TRABALHO E SEGURANÇA SOCIAL",
+          "desc": "Apoio em licitações, concessões, conteúdo local e contratos EPC/serviços para projetos onshore e offshore. "
         },
         "civilComercial": {
-          "title": "Direito Civil, Contencioso Civil e Comercial",
-          "desc": "Elaboração de contratos e patrocínio em litígios empresariais e de responsabilidade civil em todas as instâncias."
+          "title": "DIREITO FINANCEIRO E BANCÁRIO",
+          "desc": "Contratos, disciplinares e políticas internas; vistos e mobilização de expatriados com total conformidade legal."
         },
         "cobranca": {
-          "title": "Contencioso de Cobrança",
-          "desc": "Acordos, execuções e penhoras para recuperação célere e segura de créditos."
+          "title": "DIREITO DA FAMÍLIA E SUCESSÓRIO",
+          "desc": "Estratégia processual, medidas cautelares, mediação e execução para solução célere de litígios cíveis e comerciais."
         },
         "penal": {
-          "title": "Contencioso Penal",
-          "desc": "Defesa técnica em investigações e processos criminais, com foco em crimes económicos e compliance penal."
+          "title": "DIREITO CIVIL E IMOBILIÁRIO",
+          "desc": "Aquisição e due diligence, contratos de empreitada, licenciamento e regularização de imóveis e obras."
         },
         "administrativo": {
-          "title": "Contratação Pública, PPP e Contencioso Administrativo",
+          "title": "DIREITO DA ARBITRAGEM",
           "desc": "Assessoria em concursos, impugnações, execução contratual e modelagem de PPPs perante a Administração."
         },
         "recursosNaturais": {
