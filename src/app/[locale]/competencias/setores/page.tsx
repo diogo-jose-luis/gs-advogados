@@ -1,23 +1,26 @@
 import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
-import StickyMenu from "@/components/StickyMenu";
-import HeaderTop from "@/components/HeaderTop";
 import SectorsGrid from "@/components/practices/SectorsGrid";
-import { getTranslations } from "next-intl/server";
+
+import StickyMenuGeral from "@/components/StickyMenuGeral";
+import HeaderTopGeral from "@/components/HeaderTopGeral";
 
 export default async function SetoresPage() {
-  const t = await getTranslations("competenciasSetores");
+ 
 
   return (
     <>
-      <StickyMenu />
-      <HeaderTop />
+      <StickyMenuGeral />
+      <HeaderTopGeral />
+
       <PageHero
-        image="/banners/competencias.png" // coloque em public/banners/
-        title={t("heroTitle")}
-        subtitle={t("heroSubtitle")}
-        heightClass="h-[28vh] md:h-[34vh]"
+        ns="competenciasSetores"
+        titleKey="heroTitle"
+        subtitleKey="heroSubtitle"
+        image="/banners/about.png"
+        heightClass="h-[50vh] md:h-[56vh]"
       />
+
       <SectorsGrid />
       <Footer />
     </>

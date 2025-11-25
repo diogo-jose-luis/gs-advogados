@@ -66,7 +66,8 @@ export default function HeroSlider() {
                   <Container>
                     <div
                       className={[
-                        "max-w-2xl will-change-transform transition-all duration-500",
+                        "w-full will-change-transform transition-all duration-500",
+                        "mx-0 pl-0", // 🔥 alinha REALMENTE à esquerda do Container
                         show
                           ? "opacity-100 translate-y-0"
                           : "opacity-0 translate-y-2",
@@ -110,7 +111,6 @@ export default function HeroSlider() {
                       >
                         {t("hero.contact")}
                       </Link>
-
                     </div>
                   </Container>
                 </div>

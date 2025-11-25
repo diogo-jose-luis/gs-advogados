@@ -1,25 +1,25 @@
 import PageHero from "@/components/PageHero";
 import TeamGrid from "@/components/TeamGrid";
 import Footer from "@/components/Footer";
-import StickyMenu from "@/components/StickyMenu";
-import HeaderTop from "@/components/HeaderTop";
-import {getTranslations} from "next-intl/server";
+
+import StickyMenuGeral from "@/components/StickyMenuGeral";
+import HeaderTopGeral from "@/components/HeaderTopGeral";
 
 export default async function TeamPage() {
-  const t = await getTranslations("team");
+ 
 
   return (
     <>
-      <StickyMenu />
-      <HeaderTop />
 
+      <StickyMenuGeral />
+      <HeaderTopGeral />
       <PageHero
-        image="/banners/about.png"    // coloca em public/banners/
-        title={t("heading")}
-        subtitle={t("lede")}
-        heightClass="h-[30vh] md:h-[38vh]" // ligeiramente baixo
+        ns="team"
+        titleKey="heading"
+        subtitleKey="lede"
+        image="/banners/about.png"
+        heightClass="h-[50vh] md:h-[56vh]" // se quiser ainda maior só nesta página
       />
-
 
       <TeamGrid />
       <Footer />

@@ -17,20 +17,38 @@ export default function AreasPracticesAll() {
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState<Competencia | null>(null);
 
-  const onOpen = (item: Competencia) => { setCurrent(item); setOpen(true); };
+  const onOpen = (item: Competencia) => {
+    setCurrent(item);
+    setOpen(true);
+  };
   const onClose = () => setOpen(false);
 
   return (
     <section className="py-14 md:py-20">
       <div className="container-gs">
-        <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-12">
+        {/* 🔹 Subtítulo */}
+        <p className="font-poppins text-[14px] text-gray-600 mb-2 text-center md:text-left">
+          {tPage("practices.title")}
+        </p>
+
+        {/* 🔹 Título */}
+        <h2 className="font-poppins font-semibold text-[32px] md:text-[40px] leading-tight text-black mb-10 md:mb-14 text-center md:text-left">
+          {tPage("practices.subtitle")}
+        </h2>
+
+        {/* GRID - linhas com mesma altura */}
+        <div className="grid auto-rows-fr grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-14 gap-y-12">
           {COMPETENCIAS.map((it, idx) => {
             const title = tGrid(`${it.key}.title`);
             const desc = tGrid(`${it.key}.desc`);
 
             return (
-              <article key={it.key} className="text-left">
-                <div className="relative h-44 sm:h-48 w-full overflow-hidden rounded-lg">
+              <article
+                key={it.key}
+                className="flex flex-col text-left h-full"
+              >
+                {/* Imagem */}
+                <div className="relative h-44 sm:h-48 w-full overflow-hidden">
                   <Image
                     src={it.img}
                     alt={title}
@@ -41,18 +59,20 @@ export default function AreasPracticesAll() {
                   />
                 </div>
 
-                <h3 className="mt-4 font-sans text-[18px] font-bold text-gs-ink">
+                {/* Título vermelho */}
+                <h3 className="mt-4 font-poppins font-semibold text-[18px] md:text-[20px] text-[#B21F12]">
                   {title}
                 </h3>
 
-                <p className="mt-2 font-sans text-[14px] leading-relaxed text-gs-ink/70">
+                {/* Descrição */}
+                <p className="mt-2 font-poppins font-extralight text-[14px] text-black/80 leading-relaxed">
                   {desc}
                 </p>
 
-                {/* Abre o drawer com mais info — sem navegar */}
+                {/* Botão alinhado ao fundo e ao centro */}
                 <button
                   onClick={() => onOpen(it)}
-                  className="mt-4 inline-flex btn-gs-outline"
+                  className="mt-auto pt-4 self-center btn-gs-outline"
                 >
                   {tPage("more")}
                 </button>
@@ -61,18 +81,17 @@ export default function AreasPracticesAll() {
           })}
         </div>
 
-        {/* link “ver todas” (mantido) */}
+        {/* LINK VER TODAS */}
         <div className="mt-8 md:mt-12 flex justify-end">
           <a
             href={withLocale("/competencias")}
-            className="text-sm font-sans text-gs-ink/70 hover:text-gs-ink underline underline-offset-4"
+            className="text-sm font-poppins text-black/60 hover:text-black underline underline-offset-4"
           >
             {tPage("more")}
           </a>
         </div>
       </div>
 
-      {/* Drawer */}
       <CompetenciaDrawer open={open} onClose={onClose} item={current} />
     </section>
   );

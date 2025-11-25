@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "./Container";
-import { useTranslations, useLocale } from "next-intl";
+import { useLocale } from "next-intl";
 
 type CaseItem = {
   slug: string;
@@ -58,7 +58,7 @@ const CASES: CaseItem[] = [
 ];
 
 export default function RecentCases() {
-  const t = useTranslations("cases");
+ 
   const locale = useLocale();
   const prefix = locale ? `/${locale}` : "";
   const withLocale = (p: string) => `${prefix}${p}`;

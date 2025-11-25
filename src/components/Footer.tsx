@@ -72,8 +72,7 @@ export default function Footer() {
             {/* COLUNA 3 – links rápidos */}
             <div className="md:text-right">
               <h3 className="font-poppins text-xs md:text-sm tracking-[0.25em] uppercase text-white">
-                {t("quickLinksTitle")}
-                {/* adiciona esta key no ficheiro de traduções, ex: "Links Rápidos" */}
+               Links Rápidos
               </h3>
 
               <ul className="mt-6 space-y-2 font-poppins text-[13px] md:text-[14px] text-white/80">

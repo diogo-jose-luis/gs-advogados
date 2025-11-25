@@ -1,22 +1,25 @@
 import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
-import StickyMenu from "@/components/StickyMenu";
-import HeaderTop from "@/components/HeaderTop";
 import DocumentsGrid from "@/components/legal/DocumentsGrid";
-import { getTranslations } from "next-intl/server";
+
+import StickyMenuGeral from "@/components/StickyMenuGeral";
+import HeaderTopGeral from "@/components/HeaderTopGeral";
 
 export default async function DocumentosPage() {
-  const t = await getTranslations("documentos");
+ 
   return (
     <>
-      <StickyMenu />
-      <HeaderTop />
+      <StickyMenuGeral />
+      <HeaderTopGeral />
+
       <PageHero
+        ns="documentos"
+        titleKey="heroTitle"
+        subtitleKey="heroSubtitle"
         image="/banners/competencias.png"
-        title={t("heroTitle")}
-        subtitle={t("heroSubtitle")}
-        heightClass="h-[30vh] md:h-[36vh]"
+        heightClass="h-[50vh] md:h-[56vh]"
       />
+
       <DocumentsGrid />
       <Footer />
     </>

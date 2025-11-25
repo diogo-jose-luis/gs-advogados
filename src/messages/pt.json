@@ -3,7 +3,7 @@
 
   "nav": {
     "home": "Início",
-    "about": "QUEM SOMOS",
+    "about": "Quem Somos",
     "practices": {
       "label": "Competências",
       "areas": "Áreas de atuação",
@@ -187,7 +187,6 @@
     "ok": "Recebemos a sua candidatura. Obrigado!",
     "error": "Não foi possível enviar agora. Tente novamente."
   },
-
   "team": {
     "heading": "A nossa equipa",
     "lede": "Conheça os profissionais que estão por trás dos nossos resultados."
@@ -249,6 +248,8 @@
     "heroTitle": "Áreas de atuação",
     "heroSubtitle": "Conheça onde atuamos com experiência e resultados.",
     "practices": {
+      "subtitle": "Áreas de atuação",
+      "title": "As nossas principais competências",
       "grid": {
         "fiscalAduaneiro": {
           "title": "DIREITO SOCIETÁRIO E COMERCIAL",
@@ -456,6 +457,14 @@
     "watch": "Assistir no YouTube",
     "more": "Ver mais",
     "items": {
+      "ep01": {
+        "title": "ARBITRAGEM INTERNACIONAL E DEFESA DE ESTADO: BASTIDORES E LIÇÕES PARA ANGOLA C/ DR PACOMÊ ZIEGLER",
+        "desc": "O Dr. Guimarães Silva recebe o Dr. Pacomé Ziegler para uma conversa esclarecedora sobre os desafios que os Estados enfrentam em processos arbitrais internacionais, as estratégias de defesa mais eficazes e as boas práticas que podem reforçar a posição de Angola no panorama jurídico internacional."
+      },
+      "ep02": {
+        "title": "ENTENDA COMO SE FAZ A EXECUÇÃO DE UMA SENTENÇA ARBITRAL!",
+        "desc": "Entenda como se faz a execução de uma sentença arbitral."
+      },
       "ep1": {
         "title": "Corte - Cultura no Processo Migratório Brasileiro",
         "desc": "Exploramos como a cultura se manifesta e se transforma no processo migratório brasileiro — das raízes que os migrantes trazem às adaptações no novo território."
@@ -544,6 +553,9 @@
       "error": "Não foi possível enviar agora. Tente novamente."
     }
   },
+   "casosPage": {
+    "heroTitle": "Casos de estudo",
+    "heroSubtitle": "Nossos casos"},
   "orientacoesPraticas": {
     "heroTitle": "Orientações Práticas",
     "heroSubtitle": "Guias rápidos com os documentos e passos necessários para cada ato notarial ou registral.",

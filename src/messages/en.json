@@ -244,6 +244,8 @@
     "heroTitle": "Practice areas",
     "heroSubtitle": "Where we operate with experience and results.",
     "practices": {
+      "subtitle": "Áreas de atuação",
+      "title": "As nossas principais competências",
       "grid": {
         "fiscalAduaneiro": {
           "title": "Tax & Customs Law",
@@ -449,17 +451,25 @@
     "watch": "Watch on YouTube",
     "more": "See more",
     "items": {
+      "ep01": {
+        "title": "ARBITRAGEM INTERNACIONAL E DEFESA DE ESTADO: BASTIDORES E LIÇÕES PARA ANGOLA C/ DR PACOMÊ ZIEGLER",
+        "desc": "O Dr. Guimarães Silva recebe o Dr. Pacomé Ziegler para uma conversa esclarecedora sobre os desafios que os Estados enfrentam em processos arbitrais internacionais, as estratégias de defesa mais eficazes e as boas práticas que podem reforçar a posição de Angola no panorama jurídico internacional."
+      },
+      "ep02": {
+        "title": "ENTENDA COMO SE FAZ A EXECUÇÃO DE UMA SENTENÇA ARBITRAL!",
+        "desc": "Entenda como se faz a execução de uma sentença arbitral."
+      },
       "ep1": {
-        "title": "Clip – Culture in the Brazilian Migration Process",
-        "desc": "How culture manifests and transforms in the Brazilian migration process — from migrants’ roots to adaptations in the new territory."
+        "title": "Corte - Cultura no Processo Migratório Brasileiro",
+        "desc": "Exploramos como a cultura se manifesta e se transforma no processo migratório brasileiro — das raízes que os migrantes trazem às adaptações no novo território."
       },
       "ep2": {
-        "title": "Clip – Code of Conduct vs. Reality",
-        "desc": "The gap between what is written in codes of conduct and what happens in practice, reflecting on ethics and contradictions."
+        "title": "Corte - Código de Conduta vs Realidade Factual",
+        "desc": "A distância entre o que está escrito nos códigos de conduta e o que acontece no dia a dia, refletindo sobre ética, prática e contradições."
       },
       "ep3": {
-        "title": "Coercive Measures – Guest: Dr. Sérgio Raimundo",
-        "desc": "A clear overview of coercive measures: purpose, practical application and impact on justice."
+        "title": "Medidas de Coação – Convidado: Dr. Sérgio Raimundo",
+        "desc": "Análise clara sobre medidas de coação: objetivo, aplicação prática e impacto na proteção da justiça."
       }
     }
   },
@@ -537,6 +547,10 @@
       "error": "We couldn’t send now. Please try again."
     }
   },
+   "casosPage": {
+    "heroTitle": "Study Cases",
+    "heroSubtitle": "Our cases"}
+  ,
   "orientacoesPraticas": {
     "heroTitle": "Practical Guidelines",
     "heroSubtitle": "Quick guides listing the required documents and steps for each notarial or registry act.",

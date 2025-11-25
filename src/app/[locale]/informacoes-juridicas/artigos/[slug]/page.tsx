@@ -1,9 +1,9 @@
 import PageHero from "@/components/PageHero";
 import Footer from "@/components/Footer";
-import StickyMenu from "@/components/StickyMenu";
-import HeaderTop from "@/components/HeaderTop";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import StickyMenuGeral from "@/components/StickyMenuGeral";
+import HeaderTopGeral from "@/components/HeaderTopGeral";
 
 // mapeia slug -> itemKey + imagem + data + autor (translation key)
 const MAP: Record<
@@ -63,8 +63,8 @@ export default async function SingleArticlePage({ params }: Props) {
 
   return (
     <>
-      <StickyMenu />
-      <HeaderTop />
+      <StickyMenuGeral />
+      <HeaderTopGeral />
 
       {/* Hero usa a imagem do artigo + título/descrição das traduções */}
       <PageHero

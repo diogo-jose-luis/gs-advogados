@@ -32,12 +32,12 @@ type DirectModeProps = BaseProps & {
 
 export type PageHeroProps = KeyModeProps | DirectModeProps;
 
-/** ✅ Type predicate sem `any` */
+/** Type guard */
 function hasNs(p: PageHeroProps): p is KeyModeProps {
   return "ns" in p && typeof p.ns === "string";
 }
 
-/* ---------- Wrapper sem hooks ---------- */
+/* ---------- Wrapper sem hooks misturados ---------- */
 export default function PageHero(props: PageHeroProps) {
   if (hasNs(props)) {
     const { ns, titleKey, subtitleKey, image, className, heightClass } = props;
@@ -112,7 +112,7 @@ function PageHeroWithText({
 function HeroFrame({
   image,
   className,
-  heightClass = "h-[36vh] md:h-[42vh]",
+  heightClass = "h-[42vh] md:h-[52vh]",
   title,
   subtitle,
 }: BaseProps & { title: string; subtitle?: string }) {
@@ -132,21 +132,39 @@ function HeroFrame({
         className="object-cover brightness-110"
         sizes="100vw"
       />
-      <div className="absolute inset-0 bg-black/30" />
+      {/* overlay mais forte */}
+      <div className="absolute inset-0 bg-black/70" />
+
       <div className="absolute inset-0 flex items-center">
         <div
           className={clsx(
-            "container-gs transition-all duration-500 will-change-transform",
+            "container-gs max-w-4xl mx-auto pt-10 md:pt-16",
+            "transition-all duration-500 will-change-transform",
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2"
           )}
         >
-          <h1 className="font-heading text-4xl md:text-6xl leading-none tracking-tight text-white">
+          {/* TÍTULO: Poppins 80px semibold */}
+          <h1
+            className="
+              font-poppins font-semibold
+              text-[36px] md:text-[80px]
+              leading-none tracking-tight text-white text-center
+            "
+          >
             {title}
           </h1>
+
+          {/* SUBTÍTULO: Poppins 16px semibold */}
           {subtitle && (
             <p
               className={clsx(
-                "mt-3 max-w-3xl font-sans text-base md:text-lg text-gray-200 transition-all duration-700",
+                `
+                  mt-4 md:mt-5 max-w-3xl mx-auto
+                  font-poppins font-semibold
+                  text-[16px]
+                  text-gray-200 text-center
+                `,
+                "transition-all duration-700",
                 mounted
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-2"

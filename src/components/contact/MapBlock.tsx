@@ -1,38 +1,60 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import { Mail, Facebook, Twitter } from "lucide-react";
 
 export default function MapBlock() {
   const t = useTranslations("map");
+
   return (
-    <section className="py-14 md:py-20 bg-[radial-gradient(1200px_600px_at_70%_0%,rgba(0,0,0,0.03),transparent)]">
-      <div className="container-gs">
-        <header className="mb-6">
-          <h2 className="font-heading text-3xl md:text-4xl">{t("heading")}</h2>
-          <p className="text-sm text-gs-gray mt-1">{t("lede")}</p>
-        </header>
+    <section className="bg-white">
+      {/* Mapa full width */}
+      <div className="relative w-full aspect-[16/9]">
+        <iframe
+          className="absolute inset-0 w-full h-full border-0"
+          src="https://www.google.com/maps?q=GS%20Advogados%20Luanda&output=embed"
+          title={t("iframeTitle")}
+          loading="lazy"
+        />
+      </div>
 
-        <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
-          <iframe
-            className="absolute inset-0 w-full h-full"
-            src="https://www.google.com/maps?q=GS%20Advogados%20Luanda&output=embed"
-            title={t("iframeTitle")}
-            loading="lazy"
-          />
-        </div>
-
-        <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
-          <div className="font-sans text-sm">
-            <div className="text-gs-ink font-medium">{t("address.label")}</div>
-            <div className="text-gs-gray">{t("address.line1")}</div>
-            <div className="text-gs-gray">{t("address.line2")}</div>
-          </div>
+      {/* Barra de ícones em fundo branco */}
+      <div className="py-10 flex items-center justify-center">
+        <div className="flex gap-8 md:gap-12">
+          {/* E-mail */}
           <a
-            href={t("directionsHref")}
-            target="_blank"
-            className="btn-gs"
+            href="mailto:geral@gsadvogados.ao"
+            aria-label="E-mail"
+            className="w-11 h-11 rounded-full border border-black flex items-center justify-center text-black hover:bg-black hover:text-white transition-colors"
           >
-            {t("directions")}
+            <Mail className="w-5 h-5" />
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="#"
+            aria-label="Facebook"
+            className="w-11 h-11 rounded-full border border-black flex items-center justify-center text-black hover:bg-black hover:text-white transition-colors"
+          >
+            <Facebook className="w-5 h-5" />
+          </a>
+
+          {/* Skype (ícone simples custom) */}
+          <a
+            href="#"
+            aria-label="Skype"
+            className="w-11 h-11 rounded-full border border-black flex items-center justify-center text-black hover:bg-black hover:text-white transition-colors"
+          >
+            <span className="font-poppins text-sm font-semibold">S</span>
+          </a>
+
+          {/* Twitter */}
+          <a
+            href="#"
+            aria-label="Twitter"
+            className="w-11 h-11 rounded-full border border-black flex items-center justify-center text-black hover:bg-black hover:text-white transition-colors"
+          >
+            <Twitter className="w-5 h-5" />
           </a>
         </div>
       </div>

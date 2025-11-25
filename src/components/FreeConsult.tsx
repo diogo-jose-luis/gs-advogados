@@ -72,11 +72,11 @@ export default function FreeConsult() {
           {/* COLUNA ESQUERDA — FORM */}
           <div>
             {/* Título Times 96 / mobile reduzido */}
-            <h2 className="font-heading text-[44px] md:text-[96px] leading-none tracking-tight text-gs-ink">
+           <h2 className="font-poppins font-semibold text-[32px] md:text-[40px] leading-tight tracking-tight text-gs-ink">
               {t("heading")}
             </h2>
-            {/* Subtítulo Poppins 18 */}
-            <p className="mt-3 max-w-2xl font-sans text-[16px] md:text-[18px] text-gs-ink/80">
+
+            <p className="mt-4 font-poppins font-extralight text-[16px] md:text-[17px] text-gs-ink/80">
               {t("lede")}
             </p>
 
