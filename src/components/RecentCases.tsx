@@ -69,7 +69,7 @@ export default function RecentCases() {
         {/* HEADER */}
         <header className="mb-10 text-left">
           <h2 className="font-poppins font-semibold text-[40px] leading-tight text-gs-ink">
-            Nossos Casos de Estudo
+            NOSSOS CASOS DE ESTUDO
           </h2>
 
           <p className="mt-3 max-w-3xl font-poppins font-extralight text-[17px] text-gs-ink/80">
@@ -93,7 +93,7 @@ export default function RecentCases() {
                     alt={c.title}
                     fill
                     className="object-cover"
-                    priority={i === 0}
+                    priority={i == 0}
                   />
                 </div>
 

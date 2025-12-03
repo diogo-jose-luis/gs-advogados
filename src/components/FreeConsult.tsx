@@ -8,15 +8,14 @@ import { useTranslations, useLocale } from "next-intl";
 
 import { ARTICLES } from "@/data/articles"; // <<— use a mesma fonte
 
-
 export default function FreeConsult() {
   const t = useTranslations("consult");
   const tl = useTranslations("alerts");
-  const ta = useTranslations("legalArticles"); 
+  const ta = useTranslations("legalArticles");
   const locale = useLocale();
 
   const prefix = locale ? `/${locale}` : "";
-  const withLocale = (p: string) => `${prefix}${p === "/" ? "" : p}`;
+  const withLocale = (p: string) => `${prefix}${p == "/" ? "" : p}`;
 
   // estado simples para o form
   const [loading, setLoading] = useState(false);
@@ -72,7 +71,7 @@ export default function FreeConsult() {
           {/* COLUNA ESQUERDA — FORM */}
           <div>
             {/* Título Times 96 / mobile reduzido */}
-           <h2 className="font-poppins font-semibold text-[32px] md:text-[40px] leading-tight tracking-tight text-gs-ink">
+            <h2 className="font-poppins font-semibold text-[32px] md:text-[40px] leading-tight tracking-tight text-gs-ink">
               {t("heading")}
             </h2>
 
@@ -103,12 +102,22 @@ export default function FreeConsult() {
                   <option value="" disabled>
                     {t("fields.topic")}
                   </option>
-                  <option value="corporate">{t("topics.corporate")}</option>
-                  <option value="litigation">{t("topics.litigation")}</option>
-                  <option value="labour">{t("topics.labour")}</option>
-                  <option value="migration">{t("topics.migration")}</option>
-                  <option value="tax">{t("topics.tax")}</option>
-                  <option value="other">{t("topics.other")}</option>
+                  <option value="corporate">{t("topics.item1")}</option>
+                  <option value="litigation">{t("topics.item2")}</option>
+                  <option value="labour">{t("topics.item3")}</option>
+                  <option value="migration">{t("topics.item4")}</option>
+                  <option value="tax">{t("topics.item5")}</option>
+                  <option value="other">{t("topics.item6")}</option>
+                  <option value="other">{t("topics.item7")}</option>
+                  <option value="other">{t("topics.item8")}</option>
+                  <option value="other">{t("topics.item9")}</option>
+                  <option value="other">{t("topics.item10")}</option>
+                  <option value="other">{t("topics.item11")}</option>
+                  <option value="other">{t("topics.item12")}</option>
+                  <option value="other">{t("topics.item13")}</option>
+                  <option value="other">{t("topics.item14")}</option>
+                  <option value="other">{t("topics.item15")}</option>
+                  <option value="other">{t("topics.item16")}</option>
                 </select>
 
                 <input
@@ -121,7 +130,7 @@ export default function FreeConsult() {
 
               <textarea
                 name="message"
-                placeholder={t("fields.message")}
+                placeholder="O Primeiro Contacto permite compreender o enquadramento jurídico do seu caso e indicar a melhor via de acompanhamento."
                 rows={6}
                 className="w-full rounded-none border border-gray-200 bg-gray-50 px-4 py-3 text-[15px] outline-none focus:border-gs-red"
               />
@@ -133,10 +142,10 @@ export default function FreeConsult() {
                 {loading ? t("sending") : t("submit")}
               </button>
 
-              {sent === "ok" && (
+              {sent == "ok" && (
                 <p className="text-sm text-green-700">{t("success")}</p>
               )}
-              {sent === "err" && (
+              {sent == "err" && (
                 <p className="text-sm text-red-700">{t("error")}</p>
               )}
             </form>
@@ -164,7 +173,7 @@ export default function FreeConsult() {
                       src={a.img}
                       alt=""
                       fill
-                      priority={i === 0}
+                      priority={i == 0}
                       sizes="112px"
                       className="object-cover"
                     />

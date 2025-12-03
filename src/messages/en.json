@@ -113,12 +113,22 @@
       "message": "Message*"
     },
     "topics": {
-      "corporate": "Corporate law",
-      "litigation": "Litigation",
-      "labour": "Employment",
-      "migration": "Migration",
-      "tax": "Tax",
-      "other": "Other"
+      "item1": "DIREITO SOCIETÁRIO E COMERCIAL",
+      "item2": "DIREITO DO TRABALHO E SEGURANÇA SOCIAL",
+      "item3": "DIREITO FINANCEIRO E BANCÁRIO",
+      "item4": "DIREITO DA FAMÍLIA E SUCESSÓRIO",
+      "item5": "DIREITO CIVIL E IMOBILIRÁRIO",
+      "item6": "DIREITO ADMINISTRATIVO E PPP",
+      "item7": "DIREITO FISCAL E ADUANEIRO",
+      "item8": "DIREITO DA ARBITRAGEM",
+      "item9": "DIREITO PENAL E ECONÓMICO",
+      "item10": "DIREITO DO CONSUMIDOR",
+      "item11": "DIREITO MÉDICO",
+      "item12": "DIREITO DO INVESTIMENTO PRIVADO E ESTRANGEIRO",
+      "item13": "DIREITO DOS RECURSOS NATURAIS",
+      "item14": "DIREITO DO DESPORTO",
+      "item15": "PROPIEDADE INTELCTUAL",
+      "item16": "OUTROS ASSUNTOS JURÍDICOS"
     },
     "submit": "Submit now",
     "sending": "Sending…",
@@ -547,10 +557,10 @@
       "error": "We couldn’t send now. Please try again."
     }
   },
-   "casosPage": {
+  "casosPage": {
     "heroTitle": "Study Cases",
-    "heroSubtitle": "Our cases"}
-  ,
+    "heroSubtitle": "Our cases"
+  },
   "orientacoesPraticas": {
     "heroTitle": "Practical Guidelines",
     "heroSubtitle": "Quick guides listing the required documents and steps for each notarial or registry act.",

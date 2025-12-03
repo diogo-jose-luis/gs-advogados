@@ -72,21 +72,15 @@ export default function Footer() {
             {/* COLUNA 3 – links rápidos */}
             <div className="md:text-right">
               <h3 className="font-poppins text-xs md:text-sm tracking-[0.25em] uppercase text-white">
-               Links Rápidos
+                Avisos Legais e Deontológicos
               </h3>
 
-              <ul className="mt-6 space-y-2 font-poppins text-[13px] md:text-[14px] text-white/80">
-                {quickLinks.map((item) => (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      className="hover:text-white transition"
-                    >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <p className="mt-6 max-w-md font-poppins text-[13px] md:text-[14px] leading-relaxed text-white/80">
+                A informação constante neste site é de carácter geral e não
+                constitui aconselhamento jurídico. O contacto através deste site
+                não estabelece relação advogado-cliente. Mantém conformidade com
+                o Estatuto da OAA e boas práticas internacionais.
+              </p>
             </div>
           </div>
         </Container>

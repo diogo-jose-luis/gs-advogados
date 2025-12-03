@@ -25,32 +25,32 @@
   "hero": {
     "welcome": "Bem-vindo a",
     "title": "GS ADVOGADOS",
-    "lead": "Lideramos a advocacia nos setores financeiro e empresarial.",
-    "exp": "Temos mais de 20 anos de experiência.",
+    "lead": "O que é importante para os nossos constituintes, é vital para a GS.",
+    "exp": "Temos mais de 15 anos de Experiência.",
     "contact": "Contacte-nos"
   },
   "practice": {
     "empresarial": {
       "title": "EMPRESARIAL & CONTRATOS",
-      "desc": "Constituição de sociedades, revisão/negociação de contratos e governação. Atuamos do arranque à expansão, reduzindo riscos e acelerando decisões."
+      "desc": "Apoiamos empresas desde a constituição até à expansão, oferecendo uma assessoria completa em matérias societárias e contratuais. Asseguramos estruturas empresariais sólidas, contratos equilibrados e modelos de governação eficientes. Actuamos também na gestão de crises jurídicas, com respostas rápidas e estratégicas que protegem os negócios, reduzem riscos e fortalecem a confiança institucional."
     },
     "contencioso": {
       "title": "CONTENCIOSO & ARBITRAGEM",
-      "desc": "Planeamento processual, medidas cautelares e execução. Experiência em litígios cíveis e comerciais e em arbitragens nacionais, com foco em solução rápida e eficaz."
+      "desc": "Actuamos em contencioso judicial e arbitral com enfoque estratégico, combinando rigor técnico e eficiência processual. Prestamos assessoria em todas as fases do litígio — do planeamento e adopção de medidas cautelares à execução e cumprimento de decisões. Possuímos ampla experiência em disputas cíveis e comerciais, fazemos defesas em arbitragens nacionais e internacionais, privilegiando sempre soluções rápidas, eficazes e orientadas para os resultados do constituinte e temos advogados que actuam como árbitros."
     },
     "laboral": {
       "title": "LABORAR E MIGRAÇÃO",
-      "desc": "Políticas internas, contratos, disciplinares e cessação. Vistos e mobilização de expatriados, garantindo conformidade com a legislação laboral angolana."
+      "desc": "Apoiamos empresas e particulares na gestão de pessoas e património, oferecendo assessoria jurídica integrada em direito laboral e imobiliário. No domínio laboral, acompanhamos contencioso laboral e todas as fases da relação de trabalho, assegurando conformidade legal e prevenção de litígios. Na vertente imobiliária, intervimos em operações de legalização de imóveis, compra e venda, arrendamento,promoção e investimento e contencioso com foco em segurança jurídica e eficiência patrimonial."
     }
   },
   "about": {
-    "title": "Quem Somos",
+    "title": "QUEM SOMOS",
     "lead": "A GS ADVOGADOS é a primeira sociedade de advogados constituída em Angola, e está organizada de forma a dar resposta rápida e eficaz às necessidades de assistência jurídica dos seus constituintes.",
     "cta": "Saiba mais"
   },
 
   "practices": {
-    "heading": "Áreas Práticas Legais",
+    "heading": "ÁREAS DE PRÁTICA LEGAL",
     "subheading": "NO QUE SOMOS ESPECIALISTAS",
     "more": "Ver mais",
     "items": {
@@ -83,8 +83,8 @@
 
   "why": {
     "heading": {
-      "line1": "Porque Nossos Clientes",
-      "line2": "Nos Escolhem"
+      "line1": "PORQUE NOSSOS CLIENTES",
+      "line2": "NOS ESCOLHEM"
     },
     "stats": {
       "clients": "Consultado por clientes",
@@ -92,11 +92,11 @@
       "professionals": "Profissionais da GS Advogados",
       "successRate": "Casos de sucesso"
     },
-    "kicker": "NO QUE SOMOS EXPERTS"
+    "kicker": ""
   },
   "cases": {
     "kicker": "Casos mais recentes",
-    "heading": "Nossos Casos de Estudo",
+    "heading": "NOSSOS CASOS DE ESTUDO",
     "more": "Ver todos",
     "items": {
       "case1": "Redução de Multa Aduaneira e Liberação de Carga",
@@ -105,8 +105,8 @@
     }
   },
   "consult": {
-    "heading": "Consulta grátis",
-    "lede": "A lei é um assunto complexo. Pode causar-lhe sérios problemas. Deixa-nos ajudar!",
+    "heading": "PRIMEIRO CONTACTO",
+    "lede": "A lei é complexa. Damos-lhe o primeiro passo certo — com escuta, rigor e orientação jurídica segura.",
     "fields": {
       "name": "Nome*",
       "phone": "Telefone*",
@@ -115,12 +115,22 @@
       "message": "Mensagem*"
     },
     "topics": {
-      "corporate": "Lei corporativa",
-      "litigation": "Contencioso",
-      "labour": "Laboral",
-      "migration": "Migração",
-      "tax": "Fiscal",
-      "other": "Outro"
+      "item1": "DIREITO SOCIETÁRIO E COMERCIAL",
+      "item2": "DIREITO DO TRABALHO E SEGURANÇA SOCIAL",
+      "item3":"DIREITO FINANCEIRO E BANCÁRIO",
+      "item4":"DIREITO DA FAMÍLIA E SUCESSÓRIO",
+      "item5":"DIREITO CIVIL E IMOBILIRÁRIO",
+      "item6":"DIREITO ADMINISTRATIVO E PPP",
+      "item7":"DIREITO FISCAL E ADUANEIRO",
+      "item8":"DIREITO DA ARBITRAGEM",
+      "item9":"DIREITO PENAL E ECONÓMICO",
+      "item10":"DIREITO DO CONSUMIDOR",
+      "item11":"DIREITO MÉDICO",
+      "item12":"DIREITO DO INVESTIMENTO PRIVADO E ESTRANGEIRO",
+      "item13":"DIREITO DOS RECURSOS NATURAIS",
+      "item14":"DIREITO DO DESPORTO",
+      "item15":"PROPIEDADE INTELCTUAL",
+      "item16":"OUTROS ASSUNTOS JURÍDICOS"
     },
     "submit": "Submeter agora",
     "sending": "A enviar…",
@@ -128,8 +138,8 @@
     "error": "Preencha os campos obrigatórios ou tente novamente."
   },
   "alerts": {
-    "heading": "Alertas legais",
-    "all": "Ler todos os artigos",
+    "heading": "PUBLICAÇÕES",
+    "all": "Ler mais",
     "items": {
       "a1": "Uma forma de perceber Direito, a ciência do Direito",
       "a2": "Regime jurídico das sociedades unipessoais de direito angolano",
@@ -150,7 +160,7 @@
   },
 
   "footer": {
-    "about": "Defendemos os seus interesses com estratégia, transparência e resultados.",
+    "about": "O que é importante para os nossos constituintes, é vital para a GS.",
     "contact": {
       "title": "Contacto Info",
       "addr1": "1. Luanda – Rua Amílcar Cabral nº 29/ RC",

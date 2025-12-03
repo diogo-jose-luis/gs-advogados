@@ -80,26 +80,22 @@ export default function AboutStory() {
 
             <div className="mt-4 space-y-4 text-[14px] leading-relaxed">
               <p>
-                A GS Advogados é a primeira sociedade de advogados constituída em Angola, pioneira
-                na afirmação de um modelo de advocacia moderna, independente e orientada para a
-                excelência.
+               A GS Advogados é a primeira sociedade de advogados constituída em Angola, pioneira na afirmação de um modelo de advocacia moderna, independente e orientada para a excelência.
               </p>
               <p>
-                Desde a sua fundação, tem-se destacado pela capacidade de dar resposta às dinâmicas
-                próprias do direito angolano e de uma visão global, acompanhando o crescimento
-                substantivo dos negócios nacionais e internacionais.
+               Desde a sua fundação, tem-se destacado pela capacidade de aliar o domínio profundo do Direito angolano a uma visão global, acompanhando a crescente sofisticação das relações económicas e institucionais do país.
               </p>
               <p>
-                Com uma equipa de advogados experientes, tecnicamente sólidos e comprometidos com os
-                mais elevados padrões de ética profissional, a GS Advogados presta assessoria
-                jurídica integrada a clientes nacionais e internacionais, em operações complexas,
-                projetos estruturantes e litígios de grande relevância.
+               Com uma equipa de advogados experientes, tecnicamente sólidos e comprometidos com os mais elevados padrões de ética profissional, a GS Advogados presta assessoria jurídica de excelência a constituintes nacionais e internacionais, em operações complexas, projectos estruturantes e contencioso de elevada exigência técnica.
               </p>
               <p>
-                Guiada pelo princípio de que o Direito é um instrumento de integração, reforço
-                institucional e desenvolvimento, a sociedade pauta-se por uma prática assente na
-                independência, na proximidade com o cliente e na solução jurídica rigorosa,
-                humanizada e responsável.
+                Guiada pela convicção de que o Direito é um instrumento de rigor, confiança e desenvolvimento, a sociedade pauta-se por uma prática centrada na integridade, no profissionalismo e na procura constante de soluções jurídicas seguras, inovadoras e sustentáveis.
+              </p>
+              <p>
+                Cada cliente é acompanhado com atenção personalizada e dedicação integral, refletindo o compromisso da GS Advogados em transformar desafios jurídicos em resultados concretos e duradouros.
+              </p>
+              <p>
+                Com uma trajectória marcada pela inovação, consistência e visão estratégica, a GS Advogados consolidou-se como referência de qualidade, confiança e liderança no panorama jurídico angolano, mantendo-se fiel à sua missão essencial: defender com integridade, aconselhar com sabedoria e servir com visão de futuro.
               </p>
             </div>
           </section>
@@ -119,21 +115,14 @@ export default function AboutStory() {
               <div>
                 <h3 className="text-[15px] font-semibold text-[#111]">Reconhecimento</h3>
                 <p className="mt-1">
-                  A GS Advogados construiu uma reputação consolidada pela confiança dos clientes,
-                  rigor técnico e compromisso ético da sua equipa. Este reconhecimento reflete a
-                  qualidade dos serviços prestados, a consistência na atuação e a capacidade de
-                  antecipar desafios complexos com precisão e transparência.
+                  A GS Advogados conquistou uma reputação consolidada pela confiança dos clientes, rigor técnico e compromisso ético da sua equipa.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-[15px] font-semibold text-[#111]">Sustentabilidade</h3>
                 <p className="mt-1">
-                  Promovemos práticas responsáveis que contribuem para a comunidade e para o meio
-                  ambiente, integrando iniciativas sustentáveis na atuação diária e em projetos com
-                  impacto social positivo. A responsabilidade social e a ética profissional fazem
-                  parte integrante da nossa visão de advocacia moderna, focada no equilíbrio e na
-                  inclusão.
+                 Este reconhecimento reflete a qualidade dos serviços prestados, a consistência técnica e a capacidade de antecipar desafios complexos com precisão e transparência.
                 </p>
               </div>
             </div>
@@ -154,17 +143,14 @@ export default function AboutStory() {
               <div>
                 <h3 className="text-[15px] font-semibold text-[#111]">Missão</h3>
                 <p className="mt-1">
-                  Oferecer soluções jurídicas de excelência, com ética, rigor e dedicação,
-                  protegendo os interesses dos nossos clientes e antevendo riscos de forma
-                  estratégica.
+                  Oferecer soluções jurídicas de excelência, com ética, rigor e dedicação, protegendo os interesses dos nossos constituintes e antecipando riscos de forma estratégica.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-[15px] font-semibold text-[#111]">Visão</h3>
                 <p className="mt-1">
-                  Ser referência em advocacia de negócios em Angola, reconhecida nacional e
-                  internacionalmente pela qualidade, integridade e inovação.
+                  Ser referência em advocacia de negócios em Angola, reconhecida nacional e internacionalmente pela qualidade, integridade e inovação.
                 </p>
               </div>
 
@@ -201,16 +187,14 @@ export default function AboutStory() {
 
             <div className="mt-4 space-y-4">
               <p>
-                A GS Advogados mantém uma política de compliance rigorosa, assegurando conformidade
-                legal, integridade e transparência em todas as esferas de atuação.
+               A GS Advogados mantém uma política de compliance rigorosa, assegurando conformidade legal, integridade e transparência em todos os serviços prestados.
               </p>
               <p>
-                A sociedade implementa sistemas internos de prevenção de conflitos de interesse,
-                controlo de riscos e monitorização de integridade institucional, alinhados às melhores
-                práticas internacionais.
+               Inclui procedimentos internos, prevenção de conflitos de interesse, controlo de riscos e monitorização contínua da legislação aplicável, garantindo práticas de advocacia responsáveis e éticas.
               </p>
             </div>
           </section>
+
 
           {/* PROTEÇÃO DE DADOS E CONFIDENCIALIDADE */}
           <section>

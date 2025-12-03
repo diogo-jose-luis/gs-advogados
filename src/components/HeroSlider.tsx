@@ -9,8 +9,8 @@ import Container from "./Container";
 import { useTranslations, useLocale } from "next-intl";
 
 const SLIDES = [
-  { id: "1", image: "/hero/banner1.png" },
-  { id: "2", image: "/hero/banner1.png" },
+  { id: "1", image: "/hero/banner1.png",lead:"O que é importante para os nossos constituintes, é vital para a GS",exp:"Temos mais de 15 anos de Experiência" },
+  { id: "2", image: "/hero/banner1.png",lead:"Combinamos excelência jurídica, visão estratégica e profundo conhecimento do contexto angolano",exp:"para oferecer soluções que ultrapassam fronteiras." },
 ] as const;
 
 export default function HeroSlider() {
@@ -29,7 +29,7 @@ export default function HeroSlider() {
   const t = useTranslations();
   const locale = useLocale();
   const prefix = locale ? `/${locale}` : "";
-  const withLocale = (p: string) => `${prefix}${p === "/" ? "" : p}`;
+  const withLocale = (p: string) => `${prefix}${p == "/" ? "" : p}`;
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -43,7 +43,7 @@ export default function HeroSlider() {
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
           {SLIDES.map((s, i) => {
-            const active = selected === i;
+            const active = selected == i;
             const show = active && mounted;
 
             return (
@@ -54,7 +54,7 @@ export default function HeroSlider() {
                     src={s.image}
                     alt=""
                     fill
-                    priority={i === 0}
+                    priority={i == 0}
                     className="object-cover brightness-110"
                   />
                   {/* overlay 70% transparente (30% opacidade) */}
@@ -94,13 +94,13 @@ export default function HeroSlider() {
                         className="mt-4 font-montserrat font-light text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "160ms" : "0ms" }}
                       >
-                        {t("hero.lead")}
+                        {s.lead}
                       </p>
                       <p
                         className="font-montserrat font-light text-[18px] text-white/90 transition-all duration-700"
                         style={{ transitionDelay: show ? "200ms" : "0ms" }}
                       >
-                        {t("hero.exp")}
+                         {s.exp}
                       </p>
 
                       {/* Botão: Montserrat light, 16 / 18px */}
@@ -128,10 +128,10 @@ export default function HeroSlider() {
               <button
                 key={`m-${i}`}
                 aria-label={`Ir para slide ${i + 1}`}
-                aria-current={selected === i}
+                aria-current={selected == i}
                 onClick={() => emblaApi?.scrollTo(i)}
                 className={`h-2.5 w-2.5 rounded-full transition ${
-                  selected === i ? "bg-white" : "bg-white/50 hover:bg-white/70"
+                  selected == i ? "bg-white" : "bg-white/50 hover:bg-white/70"
                 }`}
               />
             ))}
@@ -143,10 +143,10 @@ export default function HeroSlider() {
                 <button
                   key={`d-${i}`}
                   aria-label={`Ir para slide ${i + 1}`}
-                  aria-current={selected === i}
+                  aria-current={selected == i}
                   onClick={() => emblaApi?.scrollTo(i)}
                   className={`h-2.5 w-2.5 rounded-full transition ${
-                    selected === i
+                    selected == i
                       ? "bg-white"
                       : "bg-white/40 hover:bg-white/70"
                   }`}
