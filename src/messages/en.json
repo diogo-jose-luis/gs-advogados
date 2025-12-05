@@ -103,7 +103,7 @@
     }
   },
   "consult": {
-    "heading": "Free consultation",
+    "heading": "First Contact",
     "lede": "Law is complex and can cause serious problems. Let us help.",
     "fields": {
       "name": "Name*",
@@ -174,11 +174,12 @@
       ]
     },
     "nav": {
-      "home": "Home",
-      "cases": "Cases",
-      "about": "About us",
-      "legal": "Legal",
-      "privacy": "Privacy policy"
+      "home": "Início",
+      "cases": "Casos de estudo",
+      "about": "Quem somos",
+      "services": "Serviços",
+      "legal": "Informações legais",
+      "privacy": "Política de privacidade"
     },
     "footerNavAria": "Footer links",
     "copyright": "Copyright 2025 GS ADVOGADOS, All rights reserved."
@@ -251,207 +252,231 @@
     }
   },
   "competenciasPage": {
-    "heroTitle": "Practice areas",
-    "heroSubtitle": "Where we operate with experience and results.",
+    "heroTitle": "Practice Areas",
+    "heroSubtitle": "Discover the areas where we operate with expertise and proven results.",
     "practices": {
-      "subtitle": "Áreas de atuação",
-      "title": "As nossas principais competências",
+      "subtitle": "Practice Areas",
+      "title": "Our Core Competencies",
       "grid": {
+        "societarioComercial": {
+          "title": "Corporate and Commercial Law",
+          "desc": "Incorporation and reorganization of companies, corporate governance, M&A transactions and commercial contracts, with a strong focus on risk prevention and dispute resolution."
+        },
+        "trabalhoSegurancaSocial": {
+          "title": "Labour Law and Social Security",
+          "desc": "Comprehensive support in individual and collective labour relations, union negotiations, disciplinary proceedings, internal policies and compliance with social security obligations."
+        },
+        "financeiroBancario": {
+          "title": "Financial and Banking Law",
+          "desc": "Advising on financial regulation, credit and financing operations, guarantees, capital markets and compliance with financial system requirements."
+        },
+        "familiaSucessorio": {
+          "title": "Family and Succession Law",
+          "desc": "Succession planning, management of family assets, divorce proceedings, inheritance distribution and resolution of family disputes with legal security and discretion."
+        },
+        "civilImobiliario": {
+          "title": "Civil and Real Estate Law",
+          "desc": "Acquisition and due diligence of properties, construction and engineering contracts, lease, purchase and sale, licensing and regularization of urban and rural properties."
+        },
+        "administrativoPPP": {
+          "title": "Administrative Law and Public-Private Partnerships (PPP)",
+          "desc": "Advising on public tenders, administrative contracts, concessions, PPPs and challenge of administrative acts before public authorities and administrative courts."
+        },
         "fiscalAduaneiro": {
-          "title": "Tax & Customs Law",
-          "desc": "Challenges and claims before the tax authority/customs, tariff reclassification, fine reduction and cargo release."
+          "title": "Tax and Customs Law",
+          "desc": "Tax planning, legal framing of operations, tax litigation and assistance in customs matters related to the import and export of goods."
+        },
+        "arbitragem": {
+          "title": "Arbitration",
+          "desc": "Design of alternative dispute resolution strategies, representation in domestic and international arbitration proceedings and enforcement of arbitral awards."
+        },
+        "penalEconomico": {
+          "title": "Economic and Corporate Criminal Law",
+          "desc": "Legal defence and support in criminal proceedings linked to economic and corporate activity, including the liability of managers and legal persons."
         },
         "consumidor": {
-          "title": "Consumer Protection",
-          "desc": "Actions against abusive practices, invalid clauses and warranty failures, seeking refunds and damages."
-        },
-        "civilComercial": {
-          "title": "Civil & Commercial Litigation",
-          "desc": "Contract drafting and advocacy in business disputes and civil liability at all instances."
-        },
-        "cobranca": {
-          "title": "Debt Collection Litigation",
-          "desc": "Settlements, enforcement and attachments for swift, secure recovery of credits."
-        },
-        "penal": {
-          "title": "Criminal Litigation",
-          "desc": "Defense in investigations and criminal proceedings, focused on economic crimes and penal compliance."
-        },
-        "administrativo": {
-          "title": "Public Procurement, PPP & Administrative Litigation",
-          "desc": "Advisory on tenders, challenges, contract execution and PPP structuring with the Administration."
-        },
-        "recursosNaturais": {
-          "title": "Natural Resources Law",
-          "desc": "Licensing, local content, operational contracts and sectoral regulatory compliance."
-        },
-        "familia": {
-          "title": "Family Law",
-          "desc": "Agile solutions for divorce, child support, parental regulation and adoption formalization."
+          "title": "Consumer Law",
+          "desc": "Support in consumer protection policies, consumer contracts, advertising compliance, product liability and resolution of disputes with consumers."
         },
         "medico": {
           "title": "Medical Law",
-          "desc": "Expertise and advocacy in negligence claims, with civil and criminal assessment."
+          "desc": "Advising clinics, hospitals and healthcare professionals on civil and criminal liability, regulatory compliance and risk management in medical and health services."
         },
-
+        "investimentoPrivadoEstrangeiro": {
+          "title": "Private and Foreign Investment Law",
+          "desc": "Structuring investment projects, legal framing of foreign investors, incentives, registration and interaction with the competent authorities."
+        },
+        "recursosNaturais": {
+          "title": "Natural Resources Law",
+          "desc": "Licensing, contracts and regulation in the oil, gas, mining and energy sectors, including local content compliance and sector-specific regulatory obligations."
+        },
         "desporto": {
           "title": "Sports Law",
-          "desc": "Sports regulation, athletes’ and clubs’ agreements, publicity rights and dispute resolution before federative bodies."
+          "desc": "Sports contracts, image rights, relations between athletes, clubs and federations, and dispute resolution before disciplinary bodies and arbitration panels."
         },
-        "contenciosoAdministrativo": {
-          "title": "Administrative Litigation",
-          "desc": "Challenges to administrative acts, actions and appeals before the Administration and administrative courts."
-        },
-        "condominiarioImobiliario": {
-          "title": "Condominium & Real Estate Law",
-          "desc": "Condominiums, leases, purchase and sale, due diligence and land registry regularisation."
-        },
-        "societario": {
-          "title": "Corporate Law",
-          "desc": "Incorporation, corporate governance, shareholders’ agreements, reorganisations and M&A transactions."
-        },
-        "trabalhoSegSocial": {
-          "title": "Labour & Social Security Law",
-          "desc": "Employment contracts, internal policies, disciplinary matters and labour disputes. Social security contributions and benefits."
-        },
-        "financeiroBancario": {
-          "title": "Financial & Banking Law",
-          "desc": "Financial regulation, banking contracts, guarantees, payment instruments and compliance in the financial system."
-        },
-        "sucessorio": {
-          "title": "Succession Law",
-          "desc": "Estate planning, probate, partition and inheritance management focused on asset preservation."
+        "propriedadeIntelectual": {
+          "title": "Intellectual Property",
+          "desc": "Registration and protection of trademarks, patents, copyrights, trade secrets and drafting of licensing, franchising and technology transfer agreements."
         }
       }
     },
-    "more": "See more"
+    "more": "Learn more"
   },
   "competenciasDetails": {
     "close": "Close",
-    "fiscalAduaneiro": {
+
+    "societarioComercial": {
       "body": [
-        "Tax litigation and enforcement, challenges and claims.",
-        "Responsible tax planning, transaction structuring and audit support."
+        "We assist with the incorporation of companies, drafting of shareholders’ agreements, corporate reorganisations and governance structures, with a strong focus on legal certainty and efficiency.",
+        "We act in merger, demerger, acquisition and other M&A transactions, from due diligence through to negotiation and execution of the relevant contracts."
       ]
     },
-    "consumidor": {
+
+    "trabalhoSegurancaSocial": {
       "body": [
-        "Consumer and supplier representation in consumer disputes.",
-        "Drafting and review of terms, warranties and commercial policies."
+        "We provide advice throughout the employment relationship, including hiring, internal regulations, disciplinary procedures and termination of employment.",
+        "We assist companies and employees with social security matters, contributions and benefits, as well as labour and social security disputes."
       ]
     },
-    "civilComercial": {
-      "body": [
-        "Civil and commercial contracts, tort and performance disputes.",
-        "Mediation and arbitration in business conflicts."
-      ]
-    },
-    "cobranca": {
-      "body": [
-        "Judicial and extrajudicial collection, injunctions and executions.",
-        "Credit recovery strategies focused on cost–benefit."
-      ]
-    },
-    "penal": {
-      "body": [
-        "Defense in investigations and trials, economic crimes and managers’ liability."
-      ]
-    },
-    "administrativo": {
-      "body": [
-        "Licensing, tenders and public contracts. Administrative and regulatory disputes."
-      ]
-    },
-    "recursosNaturais": {
-      "body": [
-        "Energy and natural resources projects, regulatory compliance and sector contracts."
-      ]
-    },
-    "familia": {
-      "body": [
-        "Divorce, parental responsibility, distribution of assets and probate."
-      ]
-    },
-    "medico": {
-      "body": [
-        "Medical liability, informed consent and disputes with insurers/clinics."
-      ]
-    },
-    "desporto": {
-      "body": [
-        "Sports contracts, transfers and dispute resolution before federations."
-      ]
-    },
-    "contenciosoAdministrativo": {
-      "body": [
-        "Challenges to administrative acts, interim measures and judgment enforcement."
-      ]
-    },
-    "condominiarioImobiliario": {
-      "body": [
-        "Condominium, leases, conveyancing and land registry regularisation."
-      ]
-    },
-    "societario": {
-      "body": [
-        "Incorporation, governance, shareholders’ agreements and corporate reorganisations."
-      ]
-    },
-    "trabalhoSegSocial": {
-      "body": [
-        "Employment contracts, dismissals, incentives and labour/social security disputes."
-      ]
-    },
+
     "financeiroBancario": {
       "body": [
-        "Banking contracts, guarantees, compliance and financial disputes."
+        "We advise financial institutions and corporates on credit and financing agreements, guarantees, factoring and other financial instruments.",
+        "We act in banking and financial regulation, compliance and anti–money laundering, as well as in disputes arising from financial transactions."
       ]
     },
-    "sucessorio": { "body": ["Estate planning, wills, partition and probate."] }
+
+    "familiaSucessorio": {
+      "body": [
+        "We assist families with succession planning, wills, donations and asset protection structures, helping to prevent future disputes.",
+        "We represent clients in divorce, inheritance, partition and other succession proceedings, with special attention to confidentiality and preservation of family relationships."
+      ]
+    },
+
+    "civilImobiliario": {
+      "body": [
+        "We act in the purchase and sale, lease, construction and financing of urban and rural properties, as well as in land and registry regularisation.",
+        "We conduct real estate due diligence and draft and review construction contracts, development agreements and real estate asset management arrangements."
+      ]
+    },
+
+    "administrativoPPP": {
+      "body": [
+        "We advise on public procurement procedures, from the preparation of bids to the performance of administrative contracts and concessions.",
+        "We support Public–Private Partnership (PPP) projects, including contractual structuring, risk allocation and interaction with public authorities."
+      ]
+    },
+
+    "fiscalAduaneiro": {
+      "body": [
+        "We assist in responsible tax planning for domestic and cross–border operations and in the interpretation and application of tax legislation.",
+        "We act in tax and customs disputes, including challenges, claims, tax enforcement and issues related to the import and export of goods."
+      ]
+    },
+
+    "arbitragem": {
+      "body": [
+        "We represent clients in domestic and international arbitration proceedings, from the drafting of arbitration clauses to the full conduct of the case.",
+        "We design dispute resolution strategies using arbitration, mediation and other ADR mechanisms, and assist with the recognition and enforcement of arbitral awards."
+      ]
+    },
+
+    "penalEconomico": {
+      "body": [
+        "We act in criminal proceedings related to business and economic activity, including economic, tax and corporate offences.",
+        "We provide preventive advice to managers and companies on criminal liability, implementation of compliance programmes and risk management."
+      ]
+    },
+
+    "consumidor": {
+      "body": [
+        "We assist companies in designing consumer–facing policies, terms and conditions, guarantees and commercial practices that comply with consumer protection legislation.",
+        "We represent consumers and suppliers in disputes concerning defective products and services, advertising, billing and consumer contracts."
+      ]
+    },
+
+    "medico": {
+      "body": [
+        "We advise hospitals, clinics, insurers and healthcare professionals on civil and criminal medical liability.",
+        "We act in disputes arising from alleged negligence, medical error, informed consent and the relationship between patients, providers and insurers."
+      ]
+    },
+
+    "investimentoPrivadoEstrangeiro": {
+      "body": [
+        "We assist domestic and foreign investors in structuring investment projects, including the choice of legal vehicle, local partners and contractual model.",
+        "We support investment registration procedures, access to incentives and interaction with competent authorities through to the implementation of the project."
+      ]
+    },
+
+    "recursosNaturais": {
+      "body": [
+        "We act in projects in the oil, gas, mining and energy sectors, ensuring compliance with regulatory and local content requirements.",
+        "We draft and negotiate operational, service and joint venture agreements and other contracts specific to the natural resources industry."
+      ]
+    },
+
+    "desporto": {
+      "body": [
+        "We advise athletes, clubs, federations and agents on sports contracts, image rights and disciplinary matters.",
+        "We represent clients in disputes before federations, leagues, sports arbitration courts and other specialised bodies."
+      ]
+    },
+
+    "propriedadeIntelectual": {
+      "body": [
+        "We assist with the registration, protection and management of trademarks, patents, industrial designs, copyrights and trade secrets.",
+        "We draft licensing, franchising, assignment and technology transfer agreements and act in disputes involving infringement of intellectual property rights."
+      ]
+    }
   },
   "competenciasSetores": {
     "heroTitle": "Jurisdiction Sectors",
-    "heroSubtitle": "Sectors where we operate with deep expertise and industry insight.",
+    "heroSubtitle": "Sectors where we operate with deep technical expertise and strategic insight.",
     "grid": {
-      "comercialSocietario": {
-        "title": "Commercial & Corporate Law",
-        "desc": "Company incorporation, mergers & acquisitions, commercial contracts."
+      "empresarialComercial": {
+        "title": "Business and Commercial Sector",
+        "desc": "We act for private companies of all sizes, including large corporations, SMEs and startups, in commercial, corporate and complex transactional matters."
       },
-      "laboralSegSocial": {
-        "title": "Employment & Social Security Law",
-        "desc": "Employment relations, contracts, labour disputes and social security."
+      "financeiroBancario": {
+        "title": "Financial and Banking Sector",
+        "desc": "We advise commercial and investment banks, microfinance institutions, insurers and investment funds, ensuring regulatory compliance and legal certainty in sophisticated financial operations."
       },
-      "fiscalAduaneiro": {
-        "title": "Tax & Customs Law",
-        "desc": "Tax planning, tax litigation and customs matters."
+      "publicoAdministracao": {
+        "title": "Public Sector and Administration",
+        "desc": "We provide legal advice and representation to ministries, public bodies and regulators, as well as in concession projects and public–private partnerships (PPP)."
       },
-      "civilContratos": {
-        "title": "Civil Law & Contracts",
-        "desc": "Obligations, civil liability, leases, purchase and sale."
+      "imobiliarioConstrucao": {
+        "title": "Real Estate and Construction Sector",
+        "desc": "We support developers, construction companies and public or private entities in development, incorporation, leasing, transactions and regularisation of real estate assets."
       },
-      "penalContraordenacional": {
-        "title": "Criminal & Administrative Offences",
-        "desc": "Criminal defence and sanctioning proceedings."
+      "industrialEnergetico": {
+        "title": "Industrial and Energy Sector",
+        "desc": "We assist companies in industrial and energy sectors, including oil, gas, mining and renewables, in complex contracts, regulatory compliance and large–scale projects."
       },
-      "administrativoRegulatorio": {
-        "title": "Administrative & Regulatory Law",
-        "desc": "Licensing, public procurement and sectoral regulation."
+      "saudeFarmaceutico": {
+        "title": "Health and Pharmaceutical Sector",
+        "desc": "We advise hospitals, clinics, laboratories, pharmaceutical companies, healthcare professionals and patients, safeguarding rights, regulatory compliance and mitigating legal risks."
       },
-      "imobiliarioUrbanistico": {
-        "title": "Real Estate & Urban Planning",
-        "desc": "Real estate transactions, land registry, land development."
+      "desportivoCultural": {
+        "title": "Sports and Cultural Sector",
+        "desc": "We act for clubs, federations, athletes, coaches and entertainment or cultural companies, in contracts, sponsorships, sports regulation and dispute resolution."
       },
-      "familiaSucessoes": {
-        "title": "Family & Succession Law",
-        "desc": "Marriage, divorce, inheritance and partition."
+      "tecnologicoPropriedadeIntelectual": {
+        "title": "Technology and Intellectual Property Sector",
+        "desc": "We assist technology companies, innovative startups and creators in the protection, valuation and strategic management of intellectual property and other intangible assets."
       },
-      "arbitragemRal": {
-        "title": "Arbitration & ADR",
-        "desc": "Mediation and arbitration, domestic and international."
+      "consumoServicos": {
+        "title": "Consumer and Services Sector",
+        "desc": "We work with retailers, distributors, service providers and franchising networks, ensuring compliance with consumer law and sound management of commercial risks."
       },
-      "propriedadeIntelectualTec": {
-        "title": "Intellectual Property & Technology",
-        "desc": "Trademarks, patents, copyright and data protection."
+      "internacionalInvestimentoEstrangeiro": {
+        "title": "International and Foreign Investment Sector",
+        "desc": "We advise foreign investors, multinationals and joint venture projects at all stages of investment and entry into the Angolan market."
+      },
+      "penalEconomico": {
+        "title": "Criminal and Economic Sector",
+        "desc": "We represent directors, officers and companies in economic and financial crime investigations and litigation, focusing on prevention, corporate compliance and strategic defence."
       }
     }
   },
@@ -486,6 +511,7 @@
   "legalArticles": {
     "heroTitle": "Articles & Reports",
     "heroSubtitle": "Technical analyses and practical reflections on legal topics.",
+    "intro": "Welcome to our articles section, where we provide valuable insights on key legal issues. Our articles are designed to simplify legal complexity and keep you informed on relevant topics. Explore now and deepen your legal understanding with clear, reliable content.",
     "meta": {
       "authors": {
         "diogo": "diogo",
@@ -608,6 +634,7 @@
   "documentos": {
     "heroTitle": "Documents",
     "heroSubtitle": "Useful templates and drafts for legal acts and procedures.",
+    "intro": "Explore our documents section, a reliable source of practical guides, simple contract templates and legal forms. Please remember that access to these documents does not replace the importance of consulting a lawyer to ensure that your legal matters are handled properly and in a tailored way. Always seek advice from a qualified professional.",
     "badge": "DOCUMENTS",
     "more": "Read more",
     "download": "Download PDF",

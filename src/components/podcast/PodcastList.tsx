@@ -81,7 +81,7 @@ export default function PodcastList({
         {/* Texto à direita */}
         <div className="space-y-3">
           <p className="text-xs md:text-sm font-poppins tracking-[0.18em] uppercase text-gray-500">
-            {t("kicker") ?? "No Que Tange Podcast"}
+            {"No Que Tange Podcast"}
           </p>
 
           <h2 className="font-poppins font-semibold text-[20px] md:text-[24px] leading-snug text-black">
@@ -93,7 +93,7 @@ export default function PodcastList({
           </p>
 
           <p className="pt-2 text-sm font-semibold text-[#B21F12]">
-            {t("newEpisode") || "Novo episódio"}
+            {"Novo episódio"}
           </p>
         </div>
       </article>

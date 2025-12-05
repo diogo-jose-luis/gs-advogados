@@ -23,6 +23,12 @@ export default function DocumentsGrid() {
   return (
     <section className="py-16 md:py-20">
       <div className="container-gs">
+
+         {/* INTRO */}
+        <p className="mb-10 max-w-3xl font-sans text-[15px] leading-relaxed text-gs-gray">
+          {t("intro")}
+        </p>
+        
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {ITEMS.map(({ slug, key }) => {
             const title   = t(`items.${key}.title`);

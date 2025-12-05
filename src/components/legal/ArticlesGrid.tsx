@@ -7,7 +7,6 @@ import { useLocale, useTranslations } from "next-intl";
 
 import { ARTICLES as ITEMS } from "@/data/articles"; // <<— AQUI
 
-
 export default function ArticlesGrid() {
   const t = useTranslations("legalArticles");
   const locale = useLocale();
@@ -28,6 +27,11 @@ export default function ArticlesGrid() {
   return (
     <section className="py-16 md:py-20">
       <div className="container-gs">
+        {/* INTRO */}
+        <p className="mb-10 max-w-3xl font-sans text-[15px] leading-relaxed text-gs-gray">
+          {t("intro")}
+        </p>
+
         {/* FEATURED */}
         {featured && (
           <article className="group relative mb-12 grid overflow-hidden rounded-2xl bg-black/5 shadow-[0_10px_30px_rgba(0,0,0,0.08)] ring-1 ring-black/5 md:grid-cols-5">

@@ -20,7 +20,7 @@ export default async function PodcastPage() {
             heightClass="h-[50vh] md:h-[56vh]"
           />
 
-      <PodcastList channelUrl="https://www.youtube.com/@SEU_CANAL" />
+      <PodcastList channelUrl="https://www.youtube.com/@NoqueTangePodcast" />
       <Footer />
     </>
   );

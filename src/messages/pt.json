@@ -117,20 +117,20 @@
     "topics": {
       "item1": "DIREITO SOCIETÁRIO E COMERCIAL",
       "item2": "DIREITO DO TRABALHO E SEGURANÇA SOCIAL",
-      "item3":"DIREITO FINANCEIRO E BANCÁRIO",
-      "item4":"DIREITO DA FAMÍLIA E SUCESSÓRIO",
-      "item5":"DIREITO CIVIL E IMOBILIRÁRIO",
-      "item6":"DIREITO ADMINISTRATIVO E PPP",
-      "item7":"DIREITO FISCAL E ADUANEIRO",
-      "item8":"DIREITO DA ARBITRAGEM",
-      "item9":"DIREITO PENAL E ECONÓMICO",
-      "item10":"DIREITO DO CONSUMIDOR",
-      "item11":"DIREITO MÉDICO",
-      "item12":"DIREITO DO INVESTIMENTO PRIVADO E ESTRANGEIRO",
-      "item13":"DIREITO DOS RECURSOS NATURAIS",
-      "item14":"DIREITO DO DESPORTO",
-      "item15":"PROPIEDADE INTELCTUAL",
-      "item16":"OUTROS ASSUNTOS JURÍDICOS"
+      "item3": "DIREITO FINANCEIRO E BANCÁRIO",
+      "item4": "DIREITO DA FAMÍLIA E SUCESSÓRIO",
+      "item5": "DIREITO CIVIL E IMOBILIRÁRIO",
+      "item6": "DIREITO ADMINISTRATIVO E PPP",
+      "item7": "DIREITO FISCAL E ADUANEIRO",
+      "item8": "DIREITO DA ARBITRAGEM",
+      "item9": "DIREITO PENAL E ECONÓMICO",
+      "item10": "DIREITO DO CONSUMIDOR",
+      "item11": "DIREITO MÉDICO",
+      "item12": "DIREITO DO INVESTIMENTO PRIVADO E ESTRANGEIRO",
+      "item13": "DIREITO DOS RECURSOS NATURAIS",
+      "item14": "DIREITO DO DESPORTO",
+      "item15": "PROPIEDADE INTELCTUAL",
+      "item16": "OUTROS ASSUNTOS JURÍDICOS"
     },
     "submit": "Submeter agora",
     "sending": "A enviar…",
@@ -178,9 +178,10 @@
     },
     "nav": {
       "home": "Início",
-      "cases": "Casos",
-      "about": "Sobre nós",
-      "legal": "Legal",
+      "cases": "Casos de estudo",
+      "about": "Quem somos",
+      "services": "Serviços",
+      "legal": "Informações legais",
       "privacy": "Política de privacidade"
     },
     "footerNavAria": "Links do rodapé",
@@ -261,70 +262,65 @@
       "subtitle": "Áreas de atuação",
       "title": "As nossas principais competências",
       "grid": {
-        "fiscalAduaneiro": {
-          "title": "DIREITO SOCIETÁRIO E COMERCIAL",
-          "desc": "Abertura de empresas, governance e operações de M&A com due diligence e contratos comerciais sólidos."
+        "societarioComercial": {
+          "title": "Direito Societário e Comercial",
+          "desc": "Constituição e reorganização de sociedades, governance corporativa, operações de M&A e contratos comerciais, com enfoque na prevenção de riscos e na resolução de conflitos."
         },
-        "consumidor": {
-          "title": "DIREITO TRABALHO E SEGURANÇA SOCIAL",
-          "desc": "Apoio em licitações, concessões, conteúdo local e contratos EPC/serviços para projetos onshore e offshore. "
-        },
-        "civilComercial": {
-          "title": "DIREITO FINANCEIRO E BANCÁRIO",
-          "desc": "Contratos, disciplinares e políticas internas; vistos e mobilização de expatriados com total conformidade legal."
-        },
-        "cobranca": {
-          "title": "DIREITO DA FAMÍLIA E SUCESSÓRIO",
-          "desc": "Estratégia processual, medidas cautelares, mediação e execução para solução célere de litígios cíveis e comerciais."
-        },
-        "penal": {
-          "title": "DIREITO CIVIL E IMOBILIÁRIO",
-          "desc": "Aquisição e due diligence, contratos de empreitada, licenciamento e regularização de imóveis e obras."
-        },
-        "administrativo": {
-          "title": "DIREITO DA ARBITRAGEM",
-          "desc": "Assessoria em concursos, impugnações, execução contratual e modelagem de PPPs perante a Administração."
-        },
-        "recursosNaturais": {
-          "title": "Direito dos Recursos Naturais",
-          "desc": "Licenciamento, conteúdo local, contratos operacionais e compliance regulatório setorial."
-        },
-        "familia": {
-          "title": "Direito da Família",
-          "desc": "Soluções céleres em divórcio, alimentos, regulação parental e formalização de adoções."
-        },
-        "medico": {
-          "title": "Direito Médico",
-          "desc": "Perícia e patrocínio em ações por negligência, com apuração cível e penal."
-        },
-
-        "desporto": {
-          "title": "Direito do Desporto",
-          "desc": "Regulamentação desportiva, contratos de atletas e clubes, publicity rights e resolução de litígios em órgãos federativos."
-        },
-        "contenciosoAdministrativo": {
-          "title": "Contencioso Administrativo",
-          "desc": "Impugnação de atos administrativos, ações e recursos perante a Administração e tribunais administrativos."
-        },
-        "condominiarioImobiliario": {
-          "title": "Direito Condominial e Imobiliário",
-          "desc": "Condomínios, arrendamento, compra e venda, due diligence e regularização registral de imóveis."
-        },
-        "societario": {
-          "title": "Direito Societário",
-          "desc": "Constituição, governo societário, acordos de sócios, reorganizações e operações de M&A."
-        },
-        "trabalhoSegSocial": {
+        "trabalhoSegurancaSocial": {
           "title": "Direito do Trabalho e Segurança Social",
-          "desc": "Contratos, políticas internas, disciplinares e contencioso laboral. Atuação em contribuições e benefícios da segurança social."
+          "desc": "Apoio completo em relações individuais e colectivas de trabalho, negociações sindicais, processos disciplinares, políticas internas e enquadramento perante a segurança social."
         },
         "financeiroBancario": {
           "title": "Direito Financeiro e Bancário",
-          "desc": "Regulação financeira, contratos bancários, garantias, meios de pagamento e compliance do sistema financeiro."
+          "desc": "Assessoria em regulação financeira, operações de crédito e financiamento, garantias, mercado de capitais e compliance com as exigências do sistema financeiro."
         },
-        "sucessorio": {
-          "title": "Direito Sucessório",
-          "desc": "Planeamento sucessório, inventários, partilhas e gestão de heranças com foco na preservação do património."
+        "familiaSucessorio": {
+          "title": "Direito da Família e Sucessório",
+          "desc": "Planeamento sucessório, administração de patrimónios familiares, divórcios, partilhas e resolução de conflitos familiares com segurança jurídica e discrição."
+        },
+        "civilImobiliario": {
+          "title": "Direito Civil e Imobiliário",
+          "desc": "Aquisição e due diligence de imóveis, contratos de empreitada, arrendamento, compra e venda, licenciamento e regularização de propriedades urbanas e rústicas."
+        },
+        "administrativoPPP": {
+          "title": "Direito Administrativo e Parcerias Público-Privadas (PPP)",
+          "desc": "Assessoria em concursos públicos, contratos administrativos, concessões, PPPs e impugnação de actos da Administração perante entidades públicas e tribunais."
+        },
+        "fiscalAduaneiro": {
+          "title": "Direito Fiscal e Aduaneiro",
+          "desc": "Planeamento fiscal, enquadramento tributário de operações, contencioso fiscal e apoio em matérias aduaneiras relacionadas com importação e exportação de bens."
+        },
+        "arbitragem": {
+          "title": "Direito da Arbitragem",
+          "desc": "Definição de estratégias de resolução alternativa de litígios, representação em arbitragens nacionais e internacionais e execução de sentenças arbitrais."
+        },
+        "penalEconomico": {
+          "title": "Direito Penal Económico e das Empresas",
+          "desc": "Defesa e acompanhamento em processos penais ligados à actividade económica e empresarial, incluindo responsabilidade de gestores e pessoas colectivas."
+        },
+        "consumidor": {
+          "title": "Direito do Consumidor",
+          "desc": "Apoio em políticas de proteção do consumidor, contratos de consumo, publicidade, responsabilidade por produtos e resolução de litígios com consumidores."
+        },
+        "medico": {
+          "title": "Direito Médico",
+          "desc": "Assessoria a clínicas, hospitais e profissionais de saúde em responsabilidade civil e penal, compliance regulatório e gestão de riscos em serviços de saúde."
+        },
+        "investimentoPrivadoEstrangeiro": {
+          "title": "Direito do Investimento Privado e Estrangeiro",
+          "desc": "Estruturação de projectos de investimento, enquadramento legal de investidores estrangeiros, incentivos, registo e relacionamento com as autoridades competentes."
+        },
+        "recursosNaturais": {
+          "title": "Direito dos Recursos Naturais",
+          "desc": "Licenciamento, contratos e regulação nos sectores de petróleo, gás, mineração e energia, incluindo conteúdo local e cumprimento das normas sectoriais."
+        },
+        "desporto": {
+          "title": "Direito do Desporto",
+          "desc": "Contratos desportivos, direitos de imagem, relações entre atletas, clubes e federações, bem como resolução de litígios em órgãos disciplinares e arbitrais."
+        },
+        "propriedadeIntelectual": {
+          "title": "Propriedade Intelectual",
+          "desc": "Registo e proteção de marcas, patentes, direitos de autor, segredos comerciais e contratos de licenciamento, franchising e transferência de tecnologia."
         }
       }
     },
@@ -332,132 +328,159 @@
   },
   "competenciasDetails": {
     "close": "Fechar",
-    "fiscalAduaneiro": {
+
+    "societarioComercial": {
       "body": [
-        "Assessoria em contencioso tributário, processos de execução fiscal, impugnações e reclamações.",
-        "Planeamento fiscal responsável, enquadramento de operações e apoio em auditorias."
+        "Apoiamos na constituição de sociedades, elaboração de pactos sociais, acordos de sócios e reorganizações societárias, com foco na segurança jurídica e na eficiência da estrutura corporativa.",
+        "Atuamos em operações de fusão, cisão, incorporação e aquisição (M&A), desde a due diligence até à negociação e formalização contratual."
       ]
     },
-    "consumidor": {
+
+    "trabalhoSegurancaSocial": {
       "body": [
-        "Defesa do consumidor e do fornecedor em litígios de consumo.",
-        "Redacção e revisão de termos, garantias e políticas comerciais."
+        "Prestamos assessoria em todas as fases da relação laboral, incluindo contratação, elaboração de regulamentos internos, processos disciplinares e cessação do vínculo de trabalho.",
+        "Apoiamos empresas e trabalhadores em matérias de contribuições, benefícios e enquadramento perante os regimes de segurança social, bem como em litígios laborais."
       ]
     },
-    "civilComercial": {
-      "body": [
-        "Contratos civis e comerciais, responsabilidade civil e cumprimento contratual.",
-        "Mediação e arbitragem em disputas empresariais."
-      ]
-    },
-    "cobranca": {
-      "body": [
-        "Cobrança judicial e extrajudicial, injunções e execuções.",
-        "Estratégias de recuperação de crédito com foco em custo-benefício."
-      ]
-    },
-    "penal": {
-      "body": [
-        "Patrocínio em inquérito e julgamento, crimes económicos e responsabilidade de gestores."
-      ]
-    },
-    "administrativo": {
-      "body": [
-        "Licenças, concursos e contratos públicos. Contencioso administrativo e regulatório."
-      ]
-    },
-    "recursosNaturais": {
-      "body": [
-        "Projectos de energia e recursos naturais, compliance regulatório e contratos setoriais."
-      ]
-    },
-    "familia": {
-      "body": [
-        "Divórcio, regulação das responsabilidades parentais, partilhas e inventário."
-      ]
-    },
-    "medico": {
-      "body": [
-        "Responsabilidade médica, consentimento informado e litígios com seguradoras/clinicas."
-      ]
-    },
-    "desporto": {
-      "body": [
-        "Contratos desportivos, transferências e resolução de litígios em federações."
-      ]
-    },
-    "contenciosoAdministrativo": {
-      "body": [
-        "Impugnação de actos administrativos, providências cautelares e execução de sentenças."
-      ]
-    },
-    "condominiarioImobiliario": {
-      "body": [
-        "Condomínios, locações, compra e venda e regularização registral."
-      ]
-    },
-    "societario": {
-      "body": [
-        "Constituição, governance, acordos de sócios e reestruturações societárias."
-      ]
-    },
-    "trabalhoSegSocial": {
-      "body": [
-        "Contratos de trabalho, despedimentos, incentivos e contencioso laboral e previdenciário."
-      ]
-    },
+
     "financeiroBancario": {
       "body": [
-        "Contratos bancários, garantias, compliance e resolução de litígios financeiros."
+        "Assistimos instituições financeiras e empresas em contratos de crédito, financiamento, garantias, factoring e outros instrumentos financeiros.",
+        "Atuamos em questões de regulação bancária, compliance e prevenção de branqueamento de capitais, bem como em litígios decorrentes de operações financeiras."
       ]
     },
-    "sucessorio": {
-      "body": ["Planeamento sucessório, testamentos, partilhas e inventário."]
+
+    "familiaSucessorio": {
+      "body": [
+        "Apoiamos famílias no planeamento sucessório, elaboração de testamentos, doações e estruturas de proteção patrimonial, evitando conflitos futuros.",
+        "Representamos clientes em divórcios, inventários, partilhas e demais procedimentos sucessórios, com especial atenção à confidencialidade e à preservação das relações familiares."
+      ]
+    },
+
+    "civilImobiliario": {
+      "body": [
+        "Atuamos na compra e venda, arrendamento, construção e financiamento de imóveis urbanos e rurais, bem como na regularização registral de propriedades.",
+        "Realizamos due diligence imobiliária, elaboração e revisão de contratos de empreitada, promoção imobiliária e gestão de ativos imobiliários."
+      ]
+    },
+
+    "administrativoPPP": {
+      "body": [
+        "Prestamos assessoria em procedimentos de contratação pública, desde a preparação de propostas até à execução de contratos administrativos e concessões.",
+        "Acompanhamos projectos de Parceria Público-Privada (PPP), incluindo modelagem contratual, repartição de riscos e relacionamento com entidades públicas."
+      ]
+    },
+
+    "fiscalAduaneiro": {
+      "body": [
+        "Apoiamos no planeamento fiscal responsável de operações nacionais e internacionais, bem como na interpretação e aplicação da legislação tributária.",
+        "Atuamos em contencioso fiscal e aduaneiro, incluindo impugnações, reclamações, execuções fiscais e questões relacionadas a importação e exportação de bens."
+      ]
+    },
+
+    "arbitragem": {
+      "body": [
+        "Representamos clientes em arbitragens nacionais e internacionais, desde a redação de cláusulas compromissórias até à condução integral do processo arbitral.",
+        "Elaboramos estratégias de resolução de litígios por via arbitral, mediação e outros meios alternativos, bem como na execução de sentenças arbitrais."
+      ]
+    },
+
+    "penalEconomico": {
+      "body": [
+        "Atuamos em processos penais relacionados com a atividade económica e empresarial, incluindo crimes económicos, fiscais e societários.",
+        "Prestamos assessoria preventiva a gestores e empresas quanto à responsabilidade penal, implementação de programas de compliance e gestão de riscos."
+      ]
+    },
+
+    "consumidor": {
+      "body": [
+        "Apoiamos empresas na definição de políticas de atendimento, termos e condições, garantias e práticas comerciais em conformidade com a legislação de defesa do consumidor.",
+        "Representamos consumidores e fornecedores em litígios decorrentes de vícios de produtos e serviços, publicidade, cobranças e contratos de consumo."
+      ]
+    },
+
+    "medico": {
+      "body": [
+        "Prestamos assessoria a hospitais, clínicas, seguradoras e profissionais de saúde em temas de responsabilidade civil e penal médica.",
+        "Atuamos em litígios decorrentes de alegada negligência, erro médico, consentimento informado e relações entre pacientes, prestadores de serviços e seguradoras."
+      ]
+    },
+
+    "investimentoPrivadoEstrangeiro": {
+      "body": [
+        "Apoiamos investidores nacionais e estrangeiros na estruturação de projectos de investimento, incluindo escolha do veículo jurídico, parceiros locais e modelo contratual.",
+        "Acompanhamos processos de registo de investimento, acesso a incentivos e relacionamento com as autoridades competentes até à implementação do projecto."
+      ]
+    },
+
+    "recursosNaturais": {
+      "body": [
+        "Atuamos em projetos dos sectores de petróleo, gás, mineração e energia, garantindo o cumprimento das normas regulatórias e de conteúdo local.",
+        "Elaboramos e negociamos contratos operacionais, de prestação de serviços, joint ventures e outros instrumentos próprios da indústria de recursos naturais."
+      ]
+    },
+
+    "desporto": {
+      "body": [
+        "Prestamos assessoria a atletas, clubes, federações e agentes em contratos desportivos, direitos de imagem e questões disciplinares.",
+        "Atuamos na resolução de litígios perante federações, ligas, tribunais arbitrais desportivos e demais instâncias especializadas."
+      ]
+    },
+
+    "propriedadeIntelectual": {
+      "body": [
+        "Apoiamos no registo, proteção e gestão de marcas, patentes, desenhos industriais, direitos de autor e segredos comerciais.",
+        "Elaboramos contratos de licenciamento, franchising, cessão de direitos e transferência de tecnologia, bem como atuamos em litígios de violação de direitos de propriedade intelectual."
+      ]
     }
   },
   "competenciasSetores": {
     "heroTitle": "Setores de jurisdição",
-    "heroSubtitle": "As áreas onde atuamos com profundidade técnica e visão setorial.",
+    "heroSubtitle": "Os setores onde atuamos com profundidade técnica e visão estratégica.",
     "grid": {
-      "comercialSocietario": {
-        "title": "Direito Comercial & Societário",
-        "desc": "Constituição de empresas, fusões e aquisições, contratos comerciais."
+      "empresarialComercial": {
+        "title": "Sector Empresarial e Comercial",
+        "desc": "Atuamos com empresas privadas de todos os portes, incluindo grandes corporações, PME e startups, em operações comerciais, societárias e transações complexas."
       },
-      "laboralSegSocial": {
-        "title": "Direito Laboral & Segurança Social",
-        "desc": "Relações de trabalho, contratos, litígios laborais e previdência."
+      "financeiroBancario": {
+        "title": "Sector Financeiro e Bancário",
+        "desc": "Assessoramos bancos, microfinanças, seguradoras e fundos de investimento, garantindo conformidade regulatória e segurança jurídica em operações financeiras sofisticadas."
       },
-      "fiscalAduaneiro": {
-        "title": "Direito Fiscal & Aduaneiro",
-        "desc": "Planeamento fiscal, contencioso tributário e questões alfandegárias."
+      "publicoAdministracao": {
+        "title": "Sector Público e Administração",
+        "desc": "Prestamos consultoria e representação jurídica a ministérios, órgãos públicos e reguladores, bem como em concessões e parcerias público-privadas (PPP)."
       },
-      "civilContratos": {
-        "title": "Direito Civil & Contratos",
-        "desc": "Obrigações, responsabilidade civil, arrendamento, compra e venda."
+      "imobiliarioConstrucao": {
+        "title": "Sector Imobiliário e Construção",
+        "desc": "Apoiamos promotores, construtoras e entidades públicas ou privadas em desenvolvimento, incorporação, arrendamento, transações e regularização de ativos imobiliários."
       },
-      "penalContraordenacional": {
-        "title": "Direito Penal & Contraordenacional",
-        "desc": "Defesa criminal e processos sancionatórios."
+      "industrialEnergetico": {
+        "title": "Sector Industrial e Energético",
+        "desc": "Assistimos empresas dos sectores industrial e de energia, incluindo petróleo, gás, mineração e renováveis, em contratos complexos, compliance e grandes projectos."
       },
-      "administrativoRegulatorio": {
-        "title": "Direito Administrativo & Regulatório",
-        "desc": "Licenciamento, contratação pública e regulação setorial."
+      "saudeFarmaceutico": {
+        "title": "Sector de Saúde e Farmacêutico",
+        "desc": "Prestamos consultoria a hospitais, clínicas, laboratórios, farmacêuticas, profissionais de saúde e pacientes, protegendo direitos, cumprindo a regulação e mitigando riscos legais."
       },
-      "imobiliarioUrbanistico": {
-        "title": "Direito Imobiliário & Urbanístico",
-        "desc": "Transações imobiliárias, registo predial, loteamentos."
+      "desportivoCultural": {
+        "title": "Sector Desportivo e Cultural",
+        "desc": "Atuamos com clubes, federações, atletas, treinadores e empresas de entretenimento e cultura, em contratos, patrocínios, regulamentação desportiva e mediação de conflitos."
       },
-      "familiaSucessoes": {
-        "title": "Direito da Família & Sucessões",
-        "desc": "Casamento, divórcio, heranças e partilhas."
+      "tecnologicoPropriedadeIntelectual": {
+        "title": "Sector Tecnológico e de Propriedade Intelectual",
+        "desc": "Assistimos empresas de tecnologia, startups e criadores na proteção, valorização e gestão estratégica de ativos de propriedade intelectual e outros intangíveis."
       },
-      "arbitragemRal": {
-        "title": "Arbitragem & Resolução Alternativa de Litígios",
-        "desc": "Mediação e arbitragem nacional/internacional."
+      "consumoServicos": {
+        "title": "Sector de Consumo e Serviços",
+        "desc": "Atuamos com retalhistas, distribuidores, prestadores de serviços e redes de franchising, assegurando conformidade com a legislação do consumidor e boa gestão de riscos comerciais."
       },
-      "propriedadeIntelectualTec": {
-        "title": "Propriedade Intelectual & Tecnologias",
-        "desc": "Marcas, patentes, direitos de autor e proteção de dados."
+      "internacionalInvestimentoEstrangeiro": {
+        "title": "Sector Internacional e Investimento Estrangeiro",
+        "desc": "Prestamos assessoria a investidores estrangeiros, multinacionais e joint ventures, em todas as fases de investimento e entrada no mercado angolano."
+      },
+      "penalEconomico": {
+        "title": "Sector Penal e Económico",
+        "desc": "Representamos gestores, administradores e empresas em investigações e litígios criminais económicos, com foco em prevenção, compliance corporativo e defesa estratégica."
       }
     }
   },
@@ -492,6 +515,7 @@
   "legalArticles": {
     "heroTitle": "Artigos & Relatórios",
     "heroSubtitle": "Análises técnicas e reflexões práticas sobre temas jurídicos.",
+     "intro": "Bem-vindo à nossa secção de artigos, onde oferecemos informações valiosas sobre questões legais essenciais. Nossos artigos são criados para simplificar complexidades jurídicas, mantendo você informado sobre temas relevantes. Explore agora e aprimore seu entendimento jurídico com conteúdo confiável e acessível",
     "meta": {
       "authors": {
         "diogo": "diogo",
@@ -563,9 +587,10 @@
       "error": "Não foi possível enviar agora. Tente novamente."
     }
   },
-   "casosPage": {
+  "casosPage": {
     "heroTitle": "Casos de estudo",
-    "heroSubtitle": "Nossos casos"},
+    "heroSubtitle": "Nossos casos"
+  },
   "orientacoesPraticas": {
     "heroTitle": "Orientações Práticas",
     "heroSubtitle": "Guias rápidos com os documentos e passos necessários para cada ato notarial ou registral.",
@@ -602,17 +627,18 @@
       },
       "notaInspecaoTrabalho": {
         "title": "Breve nota sobre Inspecção de Trabalho",
-        "excerpt": "Clique este link para baixar as orientações: https://gsadvogados.co.ao/wp-content/uploads/2024/02/BREVE-NOTA-SOBRE-INSPECCAO-DE-TRABALHO.pdf"
+        "excerpt": "Clique este link para baixar as orientações: "
       },
       "documentosLicencaIndustrial": {
         "title": "Documentos necessários para emissão de alvará de licença industrial",
-        "excerpt": "Clique este link para baixar as orientações: https://gsadvogados.co.ao/wp-content/uploads/2024/02/DOCUMENTOS-NECESSARIOS-PARA-EMISSAO-DE-ALVARA-DE-LICENCA-INDUSTRIAL.pdf"
+        "excerpt": "Clique este link para baixar as orientações: "
       }
     }
   },
   "documentos": {
     "heroTitle": "Documentos",
     "heroSubtitle": "Modelos e minutas úteis para atos e procedimentos jurídicos.",
+     "intro": "Explore nossa secção de documentos, uma fonte confiável de guias práticos, minutas de contratos simples e formulários jurídicos. Lembre-se, a disponibilidade desses documentos não substitui a importância de consultar um advogado para garantir que suas questões legais sejam tratadas de maneira adequada e personalizada. Busque sempre orientação de um profissional.",
     "badge": "DOCUMENTOS",
     "more": "Ler mais",
     "download": "Baixar PDF",
@@ -620,22 +646,22 @@
       "estatutoMinuta": {
         "title": "Minuta de estatuto de sociedade comercial pluripessoais por quotas",
         "excerpt": "Modelo base para estatuto de sociedade por quotas de múltiplos sócios. Utilize como referência, adaptando às especificidades do caso.",
-        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/CONTRATO-PROMESSA-DE-CESSAO-DE-DIREITO-DE-SUPERFICIE.pdf"
+        "pdfUrl":  "/#"
       },
       "estatuto": {
         "title": "Estatuto sociedade comercial pluripessoais por quotas",
         "excerpt": "Versão de estatuto para sociedade comercial por quotas (vários sócios), com cláusulas padrão.",
-        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/ESTATUTO-SOCIEDADE-COMERCIAL-PLURIPESSOAIS-POR-QUOTAS.pdf"
+        "pdfUrl":  "/#"
       },
       "revogacaoMandato": {
         "title": "Minuta carta de revogação de mandato",
         "excerpt": "Minuta para revogação de poderes conferidos em mandato. Ajuste dados das partes e referências do instrumento.",
-        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-CARTA-DE-REVOGACAO-DE-MANDATO-.pdf"
+        "pdfUrl": "/#"
       },
       "declaracaoBens": {
         "title": "Minuta de declaração de bens",
         "excerpt": "Modelo para declaração de bens e património. Adeque itens, datas e assinaturas conforme a finalidade.",
-        "pdfUrl": "https://gsadvogados.co.ao/wp-content/uploads/2024/02/MINUTA-DE-DECLARACAO-DE-BENS.pdf"
+        "pdfUrl": "/#"
       }
     }
   },

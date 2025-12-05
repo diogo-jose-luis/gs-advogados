@@ -1,16 +1,20 @@
 // src/app/layout.tsx
 import "./globals.css";
-import { Poppins } from "next/font/google";
+import type { Metadata } from "next";
+import { poppins } from "./fonts";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  variable: "--font-poppins",
-  weight: ["300","400","500","600","700"]
-});
+export const metadata: Metadata = {
+  title: "GS Advogados",
+  description: "Sociedade de Advogados",
+};
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html className={`${poppins.variable}`} suppressHydrationWarning>
+    <html lang="pt" className={poppins.variable}>
       <body className="font-sans">{children}</body>
     </html>
   );

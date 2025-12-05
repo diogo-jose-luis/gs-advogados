@@ -1,4 +1,4 @@
-import "../globals.css";
+// src/app/[locale]/layout.tsx
 import type { Metadata } from "next";
 import ProvidersLoader from "./ProvidersLoader";
 
@@ -19,17 +19,10 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  // Next 15 pode entregar params como Promise em layouts
   params: Promise<{ locale: string }>;
 }) {
-  const { locale: raw } = await params; // ✅ aguarda o params
-  const locale: Locale = raw === "pt" || raw === "en" ? (raw as Locale) : "pt";
+  const { locale: raw } = await params;
+  const locale: Locale = raw === "en" || raw === "pt" ? (raw as Locale) : "pt";
 
-  return (
-    <html lang={locale}>
-      <body>
-        <ProvidersLoader locale={locale}>{children}</ProvidersLoader>
-      </body>
-    </html>
-  );
+  return <ProvidersLoader locale={locale}>{children}</ProvidersLoader>;
 }

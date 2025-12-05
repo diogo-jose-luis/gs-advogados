@@ -3,28 +3,30 @@
 import { useTranslations } from "next-intl";
 
 type SectorKey =
-  | "comercialSocietario"
-  | "laboralSegSocial"
-  | "fiscalAduaneiro"
-  | "civilContratos"
-  | "penalContraordenacional"
-  | "administrativoRegulatorio"
-  | "imobiliarioUrbanistico"
-  | "familiaSucessoes"
-  | "arbitragemRal"
-  | "propriedadeIntelectualTec";
+  | "empresarialComercial"
+  | "financeiroBancario"
+  | "publicoAdministracao"
+  | "imobiliarioConstrucao"
+  | "industrialEnergetico"
+  | "saudeFarmaceutico"
+  | "desportivoCultural"
+  | "tecnologicoPropriedadeIntelectual"
+  | "consumoServicos"
+  | "internacionalInvestimentoEstrangeiro"
+  | "penalEconomico";
 
 const KEYS: SectorKey[] = [
-  "comercialSocietario",
-  "laboralSegSocial",
-  "fiscalAduaneiro",
-  "civilContratos",
-  "penalContraordenacional",
-  "administrativoRegulatorio",
-  "imobiliarioUrbanistico",
-  "familiaSucessoes",
-  "arbitragemRal",
-  "propriedadeIntelectualTec",
+  "empresarialComercial",
+  "financeiroBancario",
+  "publicoAdministracao",
+  "imobiliarioConstrucao",
+  "industrialEnergetico",
+  "saudeFarmaceutico",
+  "desportivoCultural",
+  "tecnologicoPropriedadeIntelectual",
+  "consumoServicos",
+  "internacionalInvestimentoEstrangeiro",
+  "penalEconomico",
 ];
 
 export default function SectorsGrid() {
@@ -44,7 +46,6 @@ export default function SectorsGrid() {
                 focus-within:-translate-y-0.5
               "
             >
-              {/* barra vermelha fina no topo */}
               <div className="absolute inset-x-0 top-0 h-1 bg-gs-red" />
 
               <div className="p-6">

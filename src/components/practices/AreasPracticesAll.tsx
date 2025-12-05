@@ -12,7 +12,7 @@ export default function AreasPracticesAll() {
   const locale = useLocale();
 
   const prefix = locale ? `/${locale}` : "";
-  const withLocale = (p: string) => `${prefix}${p === "/" ? "" : p}`;
+  const withLocale = (p: string) => `${prefix}${p == "/" ? "" : p}`;
 
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState<Competencia | null>(null);
@@ -55,7 +55,7 @@ export default function AreasPracticesAll() {
                     fill
                     className="object-cover"
                     sizes="(min-width:1024px) 28vw, (min-width:640px) 45vw, 100vw"
-                    priority={idx === 0}
+                    priority={idx == 0}
                   />
                 </div>
 

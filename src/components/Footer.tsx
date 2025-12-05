@@ -11,18 +11,11 @@ export default function Footer() {
   // navegação da barra branca inferior
   const bottomNav = [
     { href: "/", label: t("nav.home") }, // Início
-    { href: "/casos", label: t("nav.cases") }, // Casos
-    { href: "/quem-somos", label: t("nav.about") }, // Sobre nós
-    { href: "/legal", label: t("nav.legal") }, // Legal
+    { href: "/", label: t("nav.cases") }, // Casos
+    { href: "/", label: t("nav.about") }, // Sobre nós
+    { href: "/", label: t("nav.legal") }, // Legal
   ];
 
-  // links rápidos (coluna da direita, bloco escuro)
-  const quickLinks = [
-    { href: "/casos", label: t("nav.cases") }, // Casos de estudo
-    { href: "/quem-somos", label: t("nav.about") }, // Sobre nós
-    { href: "/servicos", label: t("nav.services") }, // Serviços
-    { href: "/contactos", label: t("contacto") }, // Contactos
-  ];
 
   return (
     <footer className="bg-transparent">
